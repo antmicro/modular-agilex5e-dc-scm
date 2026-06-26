@@ -495,7 +495,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -506,10 +506,65 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.125,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "name": "100Ohm-diff",
+        "pcb_color": "rgb(204, 102, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(204, 102, 0)",
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "50Ohm-se",
+        "pcb_color": "rgb(0, 132, 132)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.18,
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.187,
+        "diff_pair_width": 0.202,
+        "line_style": 0,
+        "name": "85Ohm-diff",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 0,
+        "schematic_color": "rgb(132, 0, 132)",
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "diff_pair_gap": 0.195,
+        "diff_pair_width": 0.185,
+        "line_style": 0,
+        "name": "90Ohm-diff",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": "",
+        "via_diameter": 0.45,
+        "via_drill": 0.1,
         "wire_width": 6
       }
     ],
@@ -533,7 +588,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -607,7 +662,179 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DP": [
+        "TXD0-",
+        "TXD0+",
+        "TXD1-",
+        "TXD1+",
+        "TXD2-",
+        "TXD2+",
+        "TXD3-",
+        "TXD3+",
+        "HPD",
+        "AUX-",
+        "AUX+"
+      ],
+      "DSI": [
+        "D0+",
+        "D0-",
+        "D1+",
+        "D1-",
+        "D2+",
+        "D2-",
+        "D3+",
+        "D3-",
+        "CLK+",
+        "CLK-"
+      ],
+      "ETHERNET": [
+        "MDI0-",
+        "MDI0+",
+        "MDI1-",
+        "MDI1+",
+        "MDI2-",
+        "MDI2+",
+        "MDI3-",
+        "MDI3+"
+      ],
+      "I2C": [
+        "SCL",
+        "SDA"
+      ],
+      "I3C": [
+        "SCL",
+        "SDA"
+      ],
+      "JTAG": [
+        "TCK",
+        "TDI",
+        "TDO",
+        "TMS",
+        "TRST"
+      ],
+      "LTPI": [
+        "RXD-",
+        "RXD+",
+        "TXD-",
+        "TXD+",
+        "RXCK+",
+        "RXCK-",
+        "TXCK+",
+        "TXCK-"
+      ],
+      "NC-SI": [
+        "REF_CLK",
+        "CRS_DV",
+        "RXD[0..1]",
+        "TX_EN",
+        "TXD[0..1]"
+      ],
+      "PCIE": [
+        "RX0+",
+        "RX0-",
+        "TX0+",
+        "TX0-",
+        "RX1+",
+        "RX1-",
+        "TX1+",
+        "TX1-",
+        "RX2+",
+        "RX2-",
+        "TX2+",
+        "TX2-",
+        "RX3+",
+        "RX3-",
+        "TX3+",
+        "TX3-"
+      ],
+      "PCIeREFCLK": [
+        "CLK+",
+        "CLK-"
+      ],
+      "QSPI": [
+        "IO0",
+        "IO1",
+        "IO2",
+        "IO3",
+        "SCK",
+        "~{CS0}",
+        "~{CS1}"
+      ],
+      "RGMII": [
+        "TXD0",
+        "TXD1",
+        "TXD2",
+        "TXD3",
+        "RXD0",
+        "RXD1",
+        "RXD2",
+        "RXD3",
+        "TX_CLK",
+        "TX_CTL",
+        "RX_CTL",
+        "RX_CLK",
+        "MDIO",
+        "MDC"
+      ],
+      "SDIO": [
+        "DAT[0..7]",
+        "CMD",
+        "CLK",
+        "~{CD}",
+        "IOPWR",
+        "PWR_EN",
+        "WP",
+        "DS"
+      ],
+      "SGMII": [
+        "TX+",
+        "TX-",
+        "RX+",
+        "RX-"
+      ],
+      "SPI": [
+        "DO",
+        "DI",
+        "SCK",
+        "~{CS0}",
+        "~{CS1}"
+      ],
+      "STBY_1V8": [
+        "RDY",
+        "EN",
+        "~{RST_N}"
+      ],
+      "STBY_3V3": [
+        "RDY",
+        "EN",
+        "~{RST_N}"
+      ],
+      "UART": [
+        "RX",
+        "TX"
+      ],
+      "USB": [
+        "D+",
+        "D-"
+      ],
+      "USBSS": [
+        "RX+",
+        "RX-",
+        "TX+",
+        "TX-"
+      ],
+      "eSPI": [
+        "IO0",
+        "IO1",
+        "IO2",
+        "IO3",
+        "SCK",
+        "~{CS0}",
+        "~{ALERT0}",
+        "~{RESET}"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -648,7 +875,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "J1-2,U1",
+    "used_designators": "R501-526,C501-524,Y501,FB501-502,#PWR501-535,#FLG501-502,J1-2,J501,U1,U501,U1301",
     "variants": []
   },
   "sheets": [
