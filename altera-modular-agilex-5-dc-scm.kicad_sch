@@ -11,9 +11,25 @@
 		(company "Altera")
 	)
 	(lib_symbols)
+	(no_connect
+		(at 342.9 55.88)
+		(uuid "251e7ba6-8822-4825-9046-62ed9484ec10")
+	)
+	(no_connect
+		(at 342.9 60.96)
+		(uuid "2577a17c-c2cf-4a53-9441-f2a9a1d332ce")
+	)
+	(no_connect
+		(at 342.9 53.34)
+		(uuid "2d82db70-80bc-4622-b3ad-58096e666127")
+	)
+	(no_connect
+		(at 342.9 58.42)
+		(uuid "8120de05-6081-4916-b6a0-9ef927ec0bc3")
+	)
 	(bus
 		(pts
-			(xy 76.2 48.26) (xy 292.1 48.26)
+			(xy 76.2 48.26) (xy 304.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +39,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 57.15) (xy 284.48 57.15)
+			(xy 76.2 57.15) (xy 273.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -43,6 +59,16 @@
 	)
 	(bus
 		(pts
+			(xy 300.99 69.85) (xy 303.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b97248d-57ed-444a-ab45-230c24cbe951")
+	)
+	(bus
+		(pts
 			(xy 342.9 73.66) (xy 355.6 73.66)
 		)
 		(stroke
@@ -50,6 +76,16 @@
 			(type default)
 		)
 		(uuid "0f9a45ba-0fbb-4fb6-ab5f-b5de84655634")
+	)
+	(bus
+		(pts
+			(xy 345.44 91.44) (xy 345.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10919c86-6295-4969-b265-61c50ce1b456")
 	)
 	(bus
 		(pts
@@ -83,6 +119,16 @@
 	)
 	(bus
 		(pts
+			(xy 266.7 95.25) (xy 279.4 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1feb57f8-af97-4350-950a-f943d7950e3b")
+	)
+	(bus
+		(pts
 			(xy 349.25 48.26) (xy 349.25 27.94)
 		)
 		(stroke
@@ -90,6 +136,16 @@
 			(type default)
 		)
 		(uuid "26b8110f-6bd2-4cbb-81f4-aac76e990815")
+	)
+	(bus
+		(pts
+			(xy 273.05 83.82) (xy 273.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27113b86-1eb7-46d7-b6ac-9239173ac4ca")
 	)
 	(wire
 		(pts
@@ -113,13 +169,23 @@
 	)
 	(bus
 		(pts
-			(xy 346.71 88.9) (xy 346.71 81.28)
+			(xy 266.7 80.01) (xy 303.53 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "392cfa52-29a8-4a36-ac48-cc1b280c1d5c")
+		(uuid "34c35a10-64fa-408d-8d92-23737666bda7")
+	)
+	(bus
+		(pts
+			(xy 266.7 69.85) (xy 279.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ee5f0f-a67f-4b34-8880-bbd42d140eb5")
 	)
 	(bus
 		(pts
@@ -133,7 +199,7 @@
 	)
 	(bus
 		(pts
-			(xy 292.1 45.72) (xy 76.2 45.72)
+			(xy 304.8 45.72) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -143,7 +209,7 @@
 	)
 	(bus
 		(pts
-			(xy 342.9 88.9) (xy 346.71 88.9)
+			(xy 342.9 91.44) (xy 345.44 91.44)
 		)
 		(stroke
 			(width 0)
@@ -160,6 +226,16 @@
 			(type default)
 		)
 		(uuid "5d8615d7-1eae-4208-98f2-fe64fa51d7f5")
+	)
+	(bus
+		(pts
+			(xy 303.53 73.66) (xy 303.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ff1ee5-201c-48d7-972d-e8e5be14ec38")
 	)
 	(bus
 		(pts
@@ -191,6 +267,26 @@
 		)
 		(uuid "7c686edb-cddc-4c2d-9373-d0c490e1d74a")
 	)
+	(bus
+		(pts
+			(xy 304.8 71.12) (xy 303.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ee8d68-2fdb-4845-a745-2e13ca57e4bd")
+	)
+	(bus
+		(pts
+			(xy 300.99 95.25) (xy 304.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f5e1e9-0156-49ec-ba1f-1381a75b7b4e")
+	)
 	(wire
 		(pts
 			(xy 342.9 96.52) (xy 355.6 96.52)
@@ -221,9 +317,19 @@
 		)
 		(uuid "a74321e1-3a58-4dcd-8935-47d0dee9f0c7")
 	)
+	(bus
+		(pts
+			(xy 345.44 83.82) (xy 273.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa2542b0-6f65-4f89-bfac-6430ad9a551a")
+	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 292.1 40.64)
+			(xy 76.2 40.64) (xy 304.8 40.64)
 		)
 		(stroke
 			(width 0)
@@ -241,35 +347,15 @@
 		)
 		(uuid "c4aa2e85-d188-478c-9e69-1165fd15a78a")
 	)
-	(bus
-		(pts
-			(xy 284.48 81.28) (xy 346.71 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c82c3ab9-77aa-42ed-a2e5-cba837974869")
-	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 292.1 43.18)
+			(xy 76.2 43.18) (xy 304.8 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c929d267-2b43-45c5-862b-990292c9f367")
-	)
-	(bus
-		(pts
-			(xy 284.48 81.28) (xy 284.48 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca7861cb-4fa5-43a4-8094-2137d585bef4")
 	)
 	(wire
 		(pts
@@ -293,6 +379,26 @@
 	)
 	(bus
 		(pts
+			(xy 304.8 73.66) (xy 303.53 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e008d997-4d54-4d2d-8c12-1f95213af14a")
+	)
+	(bus
+		(pts
+			(xy 303.53 71.12) (xy 303.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93b9ba5-a3dd-42fc-9c8f-2de21f08c8ad")
+	)
+	(bus
+		(pts
 			(xy 342.9 152.4) (xy 355.6 152.4)
 		)
 		(stroke
@@ -312,8 +418,8 @@
 		(uuid "ffdc06be-4ce6-4a6e-bb05-92afeb906dfe")
 	)
 	(sheet
-		(at 304.8 86.36)
-		(size 38.1 15.24)
+		(at 304.8 88.9)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -328,7 +434,7 @@
 		)
 		(uuid "2bc967bd-811d-4dc1-a0ec-b60c8334579a")
 		(property "Sheetname" "USB Hub"
-			(at 304.8 85.6484 0)
+			(at 304.8 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -350,7 +456,7 @@
 			)
 		)
 		(pin "USB1{USB}" bidirectional
-			(at 342.9 88.9 0)
+			(at 342.9 91.44 0)
 			(uuid "860b86bd-0f7a-4013-9d7d-8fe1e266ad94")
 			(effects
 				(font
@@ -370,7 +476,7 @@
 			)
 		)
 		(pin "USB_HOST{USB}" bidirectional
-			(at 304.8 93.98 180)
+			(at 304.8 95.25 180)
 			(uuid "3d7ed199-7e71-46a7-be01-557fb54557bf")
 			(effects
 				(font
@@ -484,8 +590,8 @@
 		)
 	)
 	(sheet
-		(at 292.1 38.1)
-		(size 50.8 38.1)
+		(at 304.8 38.1)
+		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -500,7 +606,7 @@
 		)
 		(uuid "438e9c44-46ce-4859-a53d-b917b2709c50")
 		(property "Sheetname" "USB Controller"
-			(at 292.1 37.3884 0)
+			(at 304.8 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -511,7 +617,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-controller.kicad_sch"
-			(at 292.1 76.7846 0)
+			(at 304.8 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -522,7 +628,7 @@
 			)
 		)
 		(pin "PCIe_CLK{PCIeREFCLK}" input
-			(at 292.1 45.72 180)
+			(at 304.8 45.72 180)
 			(uuid "4ca8cf21-0fb0-4408-b893-7448335e6d04")
 			(effects
 				(font
@@ -532,7 +638,7 @@
 			)
 		)
 		(pin "PCIE{PCIE}" bidirectional
-			(at 292.1 48.26 180)
+			(at 304.8 48.26 180)
 			(uuid "6eddefef-8a60-411c-9c7a-8fb6343bcf5b")
 			(effects
 				(font
@@ -572,7 +678,7 @@
 			)
 		)
 		(pin "USB4{USB}" bidirectional
-			(at 292.1 71.12 180)
+			(at 304.8 71.12 180)
 			(uuid "8cd9a0fe-72b1-4184-8e18-39aa1019e4d3")
 			(effects
 				(font
@@ -612,7 +718,7 @@
 			)
 		)
 		(pin "USBCTRL_PPON4" output
-			(at 292.1 68.58 180)
+			(at 304.8 68.58 180)
 			(uuid "a48b1473-c0f8-4ef4-b4be-5f76d4f663d4")
 			(effects
 				(font
@@ -652,7 +758,7 @@
 			)
 		)
 		(pin "USBSS4{USBSS}" bidirectional
-			(at 292.1 73.66 180)
+			(at 304.8 73.66 180)
 			(uuid "295474d7-6a2c-4341-8d6f-4685a3ab8119")
 			(effects
 				(font
@@ -662,7 +768,7 @@
 			)
 		)
 		(pin "~{PCIE_PERSTB}" input
-			(at 292.1 43.18 180)
+			(at 304.8 43.18 180)
 			(uuid "91b687ff-517b-4182-81b8-f2b122695757")
 			(effects
 				(font
@@ -672,7 +778,7 @@
 			)
 		)
 		(pin "~{PCIE_WAKEB}" bidirectional
-			(at 292.1 40.64 180)
+			(at 304.8 40.64 180)
 			(uuid "544132a1-7931-466b-af26-ee5b694c242b")
 			(effects
 				(font
@@ -712,7 +818,7 @@
 			)
 		)
 		(pin "~{USBCTRL_OCI4B}" input
-			(at 292.1 66.04 180)
+			(at 304.8 66.04 180)
 			(uuid "acc4caab-9a1c-4d30-b79f-4a0b338d0bab")
 			(effects
 				(font
@@ -725,6 +831,52 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
 					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 63.5)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4780f80e-34ad-4c1b-88e5-3aab07a56d6f")
+		(property "Sheetname" "ULPI PHY 0"
+			(at 279.4 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ulpi-phy.kicad_sch"
+			(at 279.4 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "16")
 				)
 			)
 		)
@@ -1191,6 +1343,52 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 279.4 88.9)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b3cbd59d-9ece-44ce-ba0a-b3871e1e246e")
+		(property "Sheetname" "ULPI PHY 1"
+			(at 279.4 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ulpi-phy.kicad_sch"
+			(at 279.4 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "15")
 				)
 			)
 		)
