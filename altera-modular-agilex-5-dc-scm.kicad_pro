@@ -572,7 +572,41 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Front panel USB/FTDI/USB.D+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/FTDI/USB.D-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/FTDI/USB_DBG.D+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/FTDI/USB_DBG.D-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/FTDI/USB_DBG{USB}": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB1.D+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB1.D-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB1{USB}": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB_DBG.D+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB_DBG.D-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USB_DBG{USB}": [
+        "90Ohm-diff"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -589,7 +623,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 1,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -875,7 +909,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "R501-526,C501-524,Y501,FB501-502,#PWR501-535,#FLG501-502,J1-2,J501,U1,U501,U1301",
+    "used_designators": "#PWR1404,D1401",
     "variants": []
   },
   "sheets": [
@@ -930,6 +964,10 @@
     [
       "438e9c44-46ce-4859-a53d-b917b2709c50",
       "USB Controller"
+    ],
+    [
+      "9b6dca03-b771-45e5-8c6e-4e623e5273f4",
+      "FTDI"
     ]
   ],
   "text_variables": {},
