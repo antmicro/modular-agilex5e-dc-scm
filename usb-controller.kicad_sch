@@ -5610,6 +5610,16 @@
 		)
 		(uuid "4eee2b12-7036-43b0-9cef-9f96ce1dc4fb")
 	)
+	(bus
+		(pts
+			(xy 63.6524 83.9724) (xy 63.6524 75.0824)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f440601-1c61-4c7f-9b72-45546b1b7626")
+	)
 	(wire
 		(pts
 			(xy 238.76 156.21) (xy 254 156.21)
@@ -5749,6 +5759,16 @@
 			(type default)
 		)
 		(uuid "615382db-4c1f-4333-bba9-3cd7f4821444")
+	)
+	(bus
+		(pts
+			(xy 0.1524 75.0824) (xy 0.1524 0.1524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624356c2-1a1e-4863-8332-1bee012a384d")
 	)
 	(wire
 		(pts
@@ -6800,6 +6820,16 @@
 		)
 		(uuid "c5d9f84f-5b23-48b4-8760-6ade601fa7f2")
 	)
+	(bus
+		(pts
+			(xy 63.6524 75.0824) (xy 0.1524 75.0824)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e94166-5705-48a6-b172-4bcb6e216828")
+	)
 	(wire
 		(pts
 			(xy 308.61 92.71) (xy 318.77 92.71)
@@ -7731,7 +7761,7 @@
 		(uuid "fedfdafb-1258-4be5-ac92-9983ec3a33f0")
 	)
 	(hierarchical_label "USBSS4{USBSS}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 175.26 0)
 		(effects
 			(font
@@ -7742,7 +7772,7 @@
 		(uuid "0e95a4df-cf1a-40a8-9345-9582672dac4b")
 	)
 	(hierarchical_label "USBSS3{USBSS}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 152.4 0)
 		(effects
 			(font
@@ -7808,7 +7838,7 @@
 		(uuid "5eaf1dd2-14c9-4438-92eb-e2fa0150042a")
 	)
 	(hierarchical_label "USBSS2{USBSS}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 129.54 0)
 		(effects
 			(font
@@ -7819,7 +7849,7 @@
 		(uuid "69179a5f-9ff3-4a52-a02a-da394286dc27")
 	)
 	(hierarchical_label "USB4{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 185.42 0)
 		(effects
 			(font
@@ -7830,7 +7860,7 @@
 		(uuid "84a7f894-4fe4-4e95-8f74-22e21a44d800")
 	)
 	(hierarchical_label "USBSS1{USBSS}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 106.68 0)
 		(effects
 			(font
@@ -7885,7 +7915,7 @@
 		(uuid "b937179c-a49f-456c-bc9c-57a35c6cbcb9")
 	)
 	(hierarchical_label "USB3{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 162.56 0)
 		(effects
 			(font
@@ -7907,7 +7937,7 @@
 		(uuid "ce499621-0072-414c-b8b7-e5fa760a6ccf")
 	)
 	(hierarchical_label "USB2{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 139.7 0)
 		(effects
 			(font
@@ -7918,7 +7948,7 @@
 		(uuid "e12ff7e6-d570-400b-8054-b315b66e0e85")
 	)
 	(hierarchical_label "USB1{USB}"
-		(shape input)
+		(shape bidirectional)
 		(at 259.08 116.84 0)
 		(effects
 			(font
