@@ -3491,7 +3491,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResonators:Resonator_24MHz_ECX-2236Q"
+		(symbol "antmicroResonators:Resonator_24MHz_ECX-1247"
 			(pin_names
 				(hide yes)
 			)
@@ -3512,7 +3512,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Resonator_24MHz_ECX-2236Q"
+			(property "Value" "Resonator_24MHz_ECX-1247"
 				(at 15.24 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3525,7 +3525,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:Resonator_SMD_ECS_ECX-2236Q_2.5x2x0.5mm"
+			(property "Footprint" "antmicro-footprints:Resonator_SMD_ECS_ECX-1247_1.6x1.2x0.3mm"
 				(at 15.24 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3538,7 +3538,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236Q.pdf"
+			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-1247.pdf"
 				(at 15.24 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3551,7 +3551,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Crystal, AEC-Q200, 24 MHz, SMD, 2.5mm x 2mm, 50 ppm, 10 pF, 25 ppm, ECX-2236Q Series"
+			(property "Description" "Crystal, 24 MHz, SMD, 1.6mm x 1.2mm, 10 ppm, 10 pF, 10 ppm, ECX-1247 Series"
 				(at 15.24 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3563,7 +3563,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "ECS-240-10-36Q-AES-TR"
+			(property "MPN" "ECS-240-10-47-CKM-TR"
 				(at 15.24 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3626,7 +3626,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "SMT, CERAMIC, OSCILLATOR"
+			(property "ki_keywords" "SMT, CERAMIC, OSCILLATOR, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3637,7 +3637,7 @@
 					)
 				)
 			)
-			(symbol "Resonator_24MHz_ECX-2236Q_1_1"
+			(symbol "Resonator_24MHz_ECX-1247_1_1"
 				(polyline
 					(pts
 						(xy 1.905 1.905) (xy 1.905 2.54) (xy 5.715 2.54) (xy 5.715 1.905)
@@ -8086,7 +8086,7 @@
 			(justify right bottom)
 		)
 		(uuid "5f36a8e7-3573-4681-b1b0-b6e75b40b0f2")
-		(property "Netclass" "90Ohm-diff"
+		(property "Net Class" "90Ohm-diff"
 			(at 278.8285 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8121,7 +8121,7 @@
 			(justify right bottom)
 		)
 		(uuid "6ceef447-ad4e-4eb2-bb07-38c5837ec562")
-		(property "Netclass" "85Ohm-diff"
+		(property "Net Class" "85Ohm-diff"
 			(at 150.5585 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8156,7 +8156,7 @@
 			(justify right bottom)
 		)
 		(uuid "755f5586-1ed8-4172-aece-c0f40f5c22b2")
-		(property "Netclass" "90Ohm-diff"
+		(property "Net Class" "90Ohm-diff"
 			(at 278.8285 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8191,7 @@
 			(justify right bottom)
 		)
 		(uuid "79e2141e-ed30-4119-b6be-c85211b5692e")
-		(property "Netclass" "90Ohm-diff"
+		(property "Net Class" "90Ohm-diff"
 			(at 278.8285 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8226,7 @@
 			(justify right bottom)
 		)
 		(uuid "a78c8881-fe73-4019-8585-4bcc25480889")
-		(property "Netclass" "90Ohm-diff"
+		(property "Net Class" "90Ohm-diff"
 			(at 278.8285 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,6 +8409,162 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
 					(reference "R1302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResonators:Resonator_24MHz_ECX-1247")
+		(at 140.97 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ad97f2-de4f-4499-8050-a35931fa0d8b")
+		(property "Reference" "Y1402"
+			(at 144.78 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Resonator_24MHz_ECX-1247"
+			(at 156.21 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Resonator_SMD_ECS_ECX-1247_1.6x1.2x0.3mm"
+			(at 156.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-1247.pdf"
+			(at 156.21 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Crystal, 24 MHz, SMD, 1.6mm x 1.2mm, 10 ppm, 10 pF, 10 ppm, ECX-1247 Series"
+			(at 156.21 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "ECS-240-10-47-CKM-TR"
+			(at 144.78 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ECS Inc. International"
+			(at 156.21 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 156.21 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 156.21 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "24 MHz"
+			(at 144.78 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4431588b-a6c4-4713-b42f-a979543c3149")
+		)
+		(pin "4"
+			(uuid "ec9c8a72-bc51-4a5c-8212-778b325d4d03")
+		)
+		(pin "3"
+			(uuid "72c3a547-aa5b-43a8-80c4-25c3e4b59c7c")
+		)
+		(pin "2"
+			(uuid "41804f77-d8b2-4cf7-b037-9aa399779371")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
+					(reference "Y1402")
 					(unit 1)
 				)
 			)
@@ -10856,162 +11012,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResonators:Resonator_24MHz_ECX-2236Q")
-		(at 140.97 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36ca7ae2-a4d5-4bb9-8a61-1457244424d7")
-		(property "Reference" "Y1"
-			(at 144.78 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Resonator_24MHz_ECX-2236Q"
-			(at 156.21 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Resonator_SMD_ECS_ECX-2236Q_2.5x2x0.5mm"
-			(at 156.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236Q.pdf"
-			(at 156.21 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Crystal, AEC-Q200, 24 MHz, SMD, 2.5mm x 2mm, 50 ppm, 10 pF, 25 ppm, ECX-2236Q Series"
-			(at 156.21 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "ECS-240-10-36Q-AES-TR"
-			(at 144.78 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ECS Inc. International"
-			(at 156.21 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 156.21 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 156.21 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "24 MHz"
-			(at 144.78 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "da8fffbb-5c95-4bd7-971c-b8499c7c1396")
-		)
-		(pin "3"
-			(uuid "b2c665ff-909f-48af-9b72-aa259ab83cd2")
-		)
-		(pin "2"
-			(uuid "b773eaeb-282d-45ea-85a6-57a34f632f93")
-		)
-		(pin "1"
-			(uuid "dc787ed9-f75c-4186-93d5-85267d7a9944")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
