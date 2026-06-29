@@ -2112,7 +2112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L"
+		(symbol "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L"
 			(pin_names
 				(hide yes)
 			)
@@ -2133,7 +2133,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Choke_DLW21SN900SQ2L"
+			(property "Value" "Choke_DLW21SN900HQ2L"
 				(at 15.24 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
+			(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
 				(at 15.24 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2172,7 +2172,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
 				(at 15.24 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2197,7 +2197,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "DLW21SN900SQ2L"
+			(property "MPN" "DLW21SN900HQ2L"
 				(at 15.24 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2209,7 +2209,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "IMax" "0.33 A"
+			(property "IMax" "0.28 A"
 				(at 15.24 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2270,7 +2270,7 @@
 					)
 				)
 			)
-			(symbol "Choke_DLW21SN900SQ2L_1_1"
+			(symbol "Choke_DLW21SN900HQ2L_1_1"
 				(circle
 					(center 2.032 -1.016)
 					(radius 0.254)
@@ -5592,17 +5592,6 @@
 		)
 		(uuid "0279a1aa-de6e-4b35-a2c4-bb76c6590bc7")
 	)
-	(text "TODO: Replace with DLW21SN900HQ2\n(same symbol and footprint)"
-		(exclude_from_sim no)
-		(at 262.382 87.122 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "15ffafad-4e7d-40e6-a535-949ad5bbfd8d")
-	)
 	(junction
 		(at 303.53 152.4)
 		(diameter 0)
@@ -5670,10 +5659,22 @@
 		(uuid "63c8b0ec-e8ae-4d50-ac1d-aa35dc612171")
 	)
 	(junction
+		(at 260.35 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75de92dd-4edb-4d40-99a0-b2c53e6c3748")
+	)
+	(junction
 		(at 139.7 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99c872d4-f618-442b-a20f-2b3501d1b765")
+	)
+	(junction
+		(at 257.81 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a85b5624-d374-4df7-b31d-bbb73589d132")
 	)
 	(junction
 		(at 129.54 104.14)
@@ -5935,7 +5936,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 137.16) (xy 257.81 139.7)
+			(xy 260.35 137.16) (xy 260.35 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6385,6 +6386,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 138.43) (xy 257.81 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4add36a2-0e20-446a-b80c-5890349fe30b")
+	)
+	(wire
+		(pts
 			(xy 233.68 116.84) (xy 238.76 116.84)
 		)
 		(stroke
@@ -6645,7 +6656,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 138.43) (xy 267.97 138.43)
+			(xy 250.19 138.43) (xy 260.35 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7555,6 +7566,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 138.43) (xy 267.97 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9de6a00-4f3b-49d4-8274-44ab161f3225")
+	)
+	(wire
+		(pts
 			(xy 300.99 143.51) (xy 306.07 143.51)
 		)
 		(stroke
@@ -8242,163 +8263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L")
-		(at 238.76 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "097920ff-e733-43e2-b08e-d857f53d7cc3")
-		(property "Reference" "T1102"
-			(at 236.22 100.584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Choke_DLW21SN900SQ2L"
-			(at 254 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
-			(at 254 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
-			(at 254 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
-			(at 254 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 254 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "DLW21SN900SQ2L"
-			(at 257.302 100.584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IMax" "0.33 A"
-			(at 254 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 254 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "45b635bd-2c4f-4025-ae57-881c48a5dea9")
-		)
-		(pin "2"
-			(uuid "92be2951-6e2c-4c53-b981-14df9bdf5fdb")
-		)
-		(pin "3"
-			(uuid "177ce257-2872-4a39-9b0f-1e0f448a92b7")
-		)
-		(pin "4"
-			(uuid "3e34965d-a05f-4dda-aa19-1ed2d8852b65")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "T1102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_10n_0402")
 		(at 257.81 144.78 90)
 		(unit 1)
@@ -9058,6 +8922,163 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L")
+		(at 238.76 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3299f13e-390d-47ff-986f-e31a7de7910b")
+		(property "Reference" "T1101"
+			(at 236.982 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Choke_DLW21SN900HQ2L"
+			(at 254 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
+			(at 254 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
+			(at 254 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(at 254 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DLW21SN900HQ2L"
+			(at 257.302 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IMax" "0.28 A"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "a879f8f6-efca-4816-a9aa-1dfc086c14d9")
+		)
+		(pin "4"
+			(uuid "1d1cd61c-d4da-41e2-ae9c-66f0152b767d")
+		)
+		(pin "1"
+			(uuid "ffcc3d0f-b5a5-47e4-9884-0fc0d3a1089a")
+		)
+		(pin "2"
+			(uuid "24c3aac8-8a0c-4111-bddf-7f9e0f96bc67")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
+					(reference "T1101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_10n_0402")
 		(at 129.54 102.87 90)
 		(unit 1)
@@ -9507,163 +9528,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
 					(reference "R1108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L")
-		(at 238.76 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "418f5aa0-5535-4c42-9ffa-c991e55055d3")
-		(property "Reference" "T1103"
-			(at 236.22 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Choke_DLW21SN900SQ2L"
-			(at 254 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
-			(at 254 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
-			(at 254 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
-			(at 254 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "DLW21SN900SQ2L"
-			(at 257.302 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IMax" "0.33 A"
-			(at 254 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 254 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "b45d8cf9-0070-49b4-a91d-d042df6e6e92")
-		)
-		(pin "2"
-			(uuid "92744cc0-3bf1-44ef-b0cf-f6d70f09821d")
-		)
-		(pin "3"
-			(uuid "a4047e5e-0df7-44de-999f-53e172edcd40")
-		)
-		(pin "4"
-			(uuid "f2f819f7-beb7-4fb7-aa0f-6b2f8ff62c16")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "T1103")
 					(unit 1)
 				)
 			)
@@ -11514,163 +11378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L")
-		(at 238.76 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79272925-bc0e-4d5c-8dd1-16127f39dbe0")
-		(property "Reference" "T1104"
-			(at 236.22 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Choke_DLW21SN900SQ2L"
-			(at 254 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
-			(at 254 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
-			(at 254 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
-			(at 254 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 254 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "DLW21SN900SQ2L"
-			(at 257.302 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IMax" "0.33 A"
-			(at 254 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 254 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f456a5c4-8155-4306-9b6d-83eaf76c68e5")
-		)
-		(pin "2"
-			(uuid "3110a0ac-804d-4901-89e9-15bdabbc68e8")
-		)
-		(pin "3"
-			(uuid "0f0d4afe-4fa3-4d08-bdb7-071af1bf9c9d")
-		)
-		(pin "4"
-			(uuid "09b56217-5b89-42a2-982a-2f968f1b2b46")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "T1104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
 		(at 342.9 114.3 0)
 		(unit 1)
@@ -13189,6 +12896,163 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L")
+		(at 238.76 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a11eac4f-8285-4a22-b6b6-4019b7e5a2ff")
+		(property "Reference" "T1104"
+			(at 236.982 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Choke_DLW21SN900HQ2L"
+			(at 254 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
+			(at 254 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(at 254 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DLW21SN900HQ2L"
+			(at 257.302 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IMax" "0.28 A"
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "e845055e-a2ab-4889-8b3b-4df290c12945")
+		)
+		(pin "4"
+			(uuid "951e5be0-572a-42bd-82e7-c5b886eda1a3")
+		)
+		(pin "1"
+			(uuid "5517fbd3-d08b-4131-93f1-b5cb10195b15")
+		)
+		(pin "2"
+			(uuid "313e68a2-77a1-40d3-9863-78caaa4c83df")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
+					(reference "T1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
 		(at 149.86 167.64 90)
 		(unit 1)
@@ -13797,163 +13661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L")
-		(at 238.76 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c47510fc-f624-4bcb-ba0d-4920518e4c5e")
-		(property "Reference" "T1101"
-			(at 236.22 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Choke_DLW21SN900SQ2L"
-			(at 254 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
-			(at 254 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
-			(at 254 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
-			(at 254 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 254 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "DLW21SN900SQ2L"
-			(at 257.302 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IMax" "0.33 A"
-			(at 254 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 254 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "6ef9606b-1490-4ef5-95a2-bf6b82bc91e9")
-		)
-		(pin "2"
-			(uuid "692e9dc7-12e6-4907-b462-6adb5c7eaf16")
-		)
-		(pin "3"
-			(uuid "852479a5-dfbc-423c-b311-22b3b216726f")
-		)
-		(pin "4"
-			(uuid "04b5424b-586b-4ed1-9571-f009ae7bf22b")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "T1101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:+3V3")
 		(at 139.7 88.9 0)
 		(unit 1)
@@ -14400,6 +14107,320 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
 					(reference "U1103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L")
+		(at 238.76 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1dd8151-ffb2-4e7e-a290-fab2f835857a")
+		(property "Reference" "T1105"
+			(at 236.982 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Choke_DLW21SN900HQ2L"
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
+			(at 254 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(at 254 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DLW21SN900HQ2L"
+			(at 257.302 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IMax" "0.28 A"
+			(at 254 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "28ded5c4-8022-491f-8574-5e9f33fd8080")
+		)
+		(pin "4"
+			(uuid "6a663671-ad94-4bc7-a7ac-6dfb95288610")
+		)
+		(pin "1"
+			(uuid "2ce0c6dd-c2d6-4df4-9f98-9c98ca8942d6")
+		)
+		(pin "2"
+			(uuid "f5dce757-65c6-400d-bcc8-65036bc11259")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
+					(reference "T1105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L")
+		(at 238.76 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbf0a39c-2ac3-4b81-be93-51554507d36d")
+		(property "Reference" "T1102"
+			(at 236.982 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Choke_DLW21SN900HQ2L"
+			(at 254 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
+			(at 254 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
+			(at 254 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DLW21SN900HQ2L"
+			(at 257.302 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IMax" "0.28 A"
+			(at 254 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "e7d54ade-8c68-4b81-83e4-c080bd2f42ea")
+		)
+		(pin "4"
+			(uuid "6070cd56-e286-4b14-a486-451418137673")
+		)
+		(pin "1"
+			(uuid "99126f2e-55d3-4da5-ab9e-d8af626247ba")
+		)
+		(pin "2"
+			(uuid "46cba6b7-6bcb-478f-8d00-edbe4fc4ffaf")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
+					(reference "T1102")
 					(unit 1)
 				)
 			)
@@ -15115,8 +15136,165 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900HQ2L")
+		(at 238.76 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f04fab1d-590c-44af-a657-f4b9daab8f05")
+		(property "Reference" "T1103"
+			(at 236.982 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Choke_DLW21SN900HQ2L"
+			(at 254 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
+			(at 254 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/en-global/pim/details/?partNum=DLW21SN900HQ2L"
+			(at 254 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 280 mA, 0805, 2mm x 1.2mm x 1.2mm"
+			(at 254 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 254 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "DLW21SN900HQ2L"
+			(at 257.302 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "IMax" "0.28 A"
+			(at 254 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 254 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "86ca340e-fe08-41a3-be2f-89e27c7f8d4f")
+		)
+		(pin "4"
+			(uuid "7e0f69ec-126b-449e-8dba-c8c24aa99ee7")
+		)
+		(pin "1"
+			(uuid "11c92f7f-cac3-4ec4-8b1d-ea53fc321384")
+		)
+		(pin "2"
+			(uuid "c1d45523-bcca-408d-9d10-416c14d67cb0")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
+					(reference "T1103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
-		(at 257.81 137.16 0)
+		(at 260.35 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15126,7 +15304,7 @@
 		(dnp no)
 		(uuid "f30d629c-fdc1-44a8-98ca-e721fb5a3fc3")
 		(property "Reference" "#FLG01101"
-			(at 257.81 135.255 0)
+			(at 260.35 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15137,7 +15315,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 257.81 133.096 0)
+			(at 260.35 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15147,7 +15325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 137.16 0)
+			(at 260.35 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15158,7 +15336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 137.16 0)
+			(at 260.35 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15169,7 +15347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 137.16 0)
+			(at 260.35 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15186,163 +15364,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
 					(reference "#FLG01101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroCommonModeChokes:Choke_DLW21SN900SQ2L")
-		(at 238.76 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f51a2561-78e6-4b9c-9cd2-b99161b644ee")
-		(property "Reference" "T1105"
-			(at 236.22 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Choke_DLW21SN900SQ2L"
-			(at 254 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Choke_Murata-DLW21"
-			(at 254 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=DLW21SN900SQ2%23"
-			(at 254 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Choke, Common Mode, DLW21S Series, 90 ohm, 330 mA, 0805, 2mm x 1.2mm x 1.2mm"
-			(at 254 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 254 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "DLW21SN900SQ2L"
-			(at 257.302 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "IMax" "0.33 A"
-			(at 254 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 254 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 254 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "5a66c169-02fc-4183-a7a3-f4a93b5fc6fb")
-		)
-		(pin "2"
-			(uuid "10663b23-7baa-46fe-bc77-3b1a493d6d2a")
-		)
-		(pin "3"
-			(uuid "78bf2511-0554-422a-8b06-4e545c41453d")
-		)
-		(pin "4"
-			(uuid "d8e7db72-51ef-42a9-a154-2c1c46aeb81a")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "T1105")
 					(unit 1)
 				)
 			)
