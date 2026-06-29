@@ -239,6 +239,16 @@
 	)
 	(bus
 		(pts
+			(xy 270.51 175.26) (xy 270.51 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63383fc7-f851-49b7-bc92-3815a97063d1")
+	)
+	(bus
+		(pts
 			(xy 342.9 45.72) (xy 346.71 45.72)
 		)
 		(stroke
@@ -279,6 +289,16 @@
 	)
 	(bus
 		(pts
+			(xy 279.4 196.85) (xy 355.6 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8417b800-3e66-4946-9861-fc0e1300c1f9")
+	)
+	(bus
+		(pts
 			(xy 300.99 95.25) (xy 304.8 95.25)
 		)
 		(stroke
@@ -296,6 +316,16 @@
 			(type default)
 		)
 		(uuid "93d0dcc9-69cb-46b8-9ed9-61165b077966")
+	)
+	(bus
+		(pts
+			(xy 266.7 168.91) (xy 279.4 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96aa6a37-a5d9-4782-ae92-21a69687c390")
 	)
 	(wire
 		(pts
@@ -339,6 +369,16 @@
 	)
 	(bus
 		(pts
+			(xy 270.51 228.6) (xy 355.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c977e9-ee92-4d38-ba3d-38002cb54b7c")
+	)
+	(bus
+		(pts
 			(xy 342.9 99.06) (xy 355.6 99.06)
 		)
 		(stroke
@@ -366,6 +406,16 @@
 			(type default)
 		)
 		(uuid "cc1c46d9-30a7-4c7b-b680-5cdbcf688cd6")
+	)
+	(bus
+		(pts
+			(xy 266.7 175.26) (xy 270.51 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8c72b9-c1d5-456c-88d0-73f2de3cd66b")
 	)
 	(wire
 		(pts
@@ -396,6 +446,16 @@
 			(type default)
 		)
 		(uuid "e93b9ba5-a3dd-42fc-9c8f-2de21f08c8ad")
+	)
+	(bus
+		(pts
+			(xy 279.4 168.91) (xy 279.4 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5877dc-4ade-4410-9b2b-d58a4f514d8c")
 	)
 	(bus
 		(pts
@@ -927,6 +987,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GbE{RGMII}" bidirectional
+			(at 266.7 152.4 0)
+			(uuid "9467aa57-ef86-4e5f-9894-40ac0d0a1eff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ULPI{ULPI}" input
+			(at 266.7 69.85 0)
+			(uuid "c1c0b85e-e36a-4500-bd9d-56c700c48a61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "uSD{SDIO}" bidirectional
+			(at 266.7 175.26 0)
+			(uuid "a14f3013-bf08-4189-88e2-8cc760a5cc53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DP{DP}" input
+			(at 266.7 168.91 0)
+			(uuid "9faa0480-879e-4728-8376-c55cb2555dd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
