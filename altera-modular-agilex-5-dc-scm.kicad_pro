@@ -770,6 +770,15 @@
       "/Front panel USB/USB_DBG{USB}": [
         "90Ohm-diff"
       ],
+      "/PCIe CLK/USB_CLK.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/PCIe CLK/USB_CLK.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/PCIe CLK/USB_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
       "/TPM/TPM_SPI.DI": [
         "50Ohm-se"
       ],
@@ -1301,7 +1310,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "Y701,R202-207",
+    "used_designators": "C1701,U101,U1701,#PWR1701-1703,Y701,R202-207",
     "variants": []
   },
   "sheets": [
@@ -1368,6 +1377,10 @@
     [
       "4780f80e-34ad-4c1b-88e5-3aab07a56d6f",
       "ULPI PHY 0"
+    ],
+    [
+      "f9d49440-6457-44a6-96ad-733c78ac7b04",
+      "PCIe CLK"
     ]
   ],
   "text_variables": {},
