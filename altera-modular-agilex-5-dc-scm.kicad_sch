@@ -1029,6 +1029,26 @@
 				(justify right)
 			)
 		)
+		(pin "GbE{MDIO}" bidirectional
+			(at 266.7 149.86 0)
+			(uuid "dabb3ee8-10d9-469e-b7d9-9def120022e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDM{JTAG}" input
+			(at 266.7 124.46 0)
+			(uuid "3dcde1c7-b253-482a-be5f-6ac78cc162c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
