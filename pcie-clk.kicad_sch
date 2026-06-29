@@ -1216,7 +1216,7 @@
 		(uuid "31e2470d-f7c7-45a5-bac4-3ce04cc3e0f1")
 	)
 	(hierarchical_label "USB_CLK{PCIeREFCLK}"
-		(shape input)
+		(shape output)
 		(at 252.73 144.78 0)
 		(effects
 			(font
@@ -1227,7 +1227,7 @@
 		(uuid "5fa66928-66bc-4e15-ba42-6d3eee8e58f1")
 	)
 	(hierarchical_label "SOM_CLK{PCIeREFCLK}"
-		(shape input)
+		(shape output)
 		(at 252.73 162.56 0)
 		(effects
 			(font
@@ -1236,6 +1236,114 @@
 			(justify left)
 		)
 		(uuid "ef4cd9cc-c492-4046-ad4e-21ad4ef30eb8")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 185.42 149.86) (xy 182.88 149.86) (xy 182.88 156.21) (xy 185.42 156.21)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "204475a9-7f03-4b41-991d-aba9e52100c9")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 226.06 147.32) (xy 228.6 147.32) (xy 228.6 160.02) (xy 226.06 160.02)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "ddae60a6-8533-410b-8a0b-633ac514d945")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 185.42 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5293ec95-d15d-4423-8482-92f34acf2d08")
+		(property "Net Class" "85Ohm-diff"
+			(at 184.7215 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 332.74 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 226.06 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8397dc2b-b043-4655-b13a-e212aca44e53")
+		(property "Net Class" "85Ohm-diff"
+			(at 226.7585 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 78.74 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "antmicropower:GND")

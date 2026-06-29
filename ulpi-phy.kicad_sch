@@ -4191,16 +4191,6 @@
 		)
 		(uuid "57ad4169-4b5f-468e-ae85-2959767d93fa")
 	)
-	(bus
-		(pts
-			(xy 173.99 132.08) (xy 173.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5adeca73-3be0-4cd6-a6cc-676964cfd0ff")
-	)
 	(wire
 		(pts
 			(xy 176.53 170.18) (xy 191.77 170.18)
@@ -4660,6 +4650,16 @@
 			(type default)
 		)
 		(uuid "c884b2d4-9344-4f2c-8cf1-e3379d4e1dac")
+	)
+	(bus
+		(pts
+			(xy 173.99 132.08) (xy 173.99 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe86c58-438d-4cd1-aaca-afee4b1ba3e1")
 	)
 	(wire
 		(pts
@@ -5147,6 +5147,41 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 173.99 179.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af81a910-a781-4ded-ba46-a35d39351bbd")
+		(property "Net Class" "50Ohm-se"
+			(at 170.18 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at -25.4 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 			)
 		)
 	)
