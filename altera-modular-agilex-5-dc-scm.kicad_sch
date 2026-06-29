@@ -1423,6 +1423,46 @@
 				(justify left top)
 			)
 		)
+		(pin "TPM_MUX_SEL" input
+			(at 139.7 247.65 0)
+			(uuid "28abd767-f825-4f6a-bcf3-fc35a7f23fcd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RST}" input
+			(at 139.7 245.11 0)
+			(uuid "97eff0fb-d922-4acc-a990-6c93c9d3bdfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SOM_SPI{SPI}" bidirectional
+			(at 139.7 241.3 0)
+			(uuid "8862b9f7-8529-458c-8051-146f835fae70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_SPI{SPI}" bidirectional
+			(at 101.6 241.3 180)
+			(uuid "1626ad3a-2e4b-424f-a025-10a34b8d4d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
