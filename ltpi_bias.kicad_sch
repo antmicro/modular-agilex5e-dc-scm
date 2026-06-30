@@ -11,7 +11,7 @@
 		(company "Altera")
 	)
 	(lib_symbols
-		(symbol "antmicroCapacitors0402:C_100n_16V_X7R_0402"
+		(symbol "C_100n_16V_X7R_0402_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -74,8 +74,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
-				(at 0 0 0)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 16V, 0402, ±5%, X7R"
+				(at 15.24 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -83,6 +83,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "C0402C104J4RAC7411"
@@ -175,7 +176,249 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE"
+			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n_16V_X7R_0402_1_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n_16V_X7R_0402_1_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitors0402:C_100n_16V_X7R_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_100n_16V_X7R_0402"
+				(at 15.24 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 15.24 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C0402C104J4RAC7411.html"
+				(at 15.24 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 16V, 0402, ±5%, X7R"
+				(at 15.24 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "C0402C104J4RAC7411"
+				(at 15.24 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "100n"
+				(at 15.24 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 15.24 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 15.24 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "KEMET"
+				(at 15.24 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "SMT, CAPACITOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2360,7 +2603,7 @@
 			(justify left bottom)
 		)
 		(uuid "6c7d3dc1-d890-49f1-ba3e-4879293d2ba8")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 149.098 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2395,7 +2638,7 @@
 			(justify right bottom)
 		)
 		(uuid "c61da201-d0fe-41a7-b4a9-709d33f00dd7")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 273.812 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,6 +5564,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_100n_16V_X7R_0402_1")
 		(lib_id "antmicroCapacitors0402:C_100n_16V_X7R_0402")
 		(at 195.58 111.76 90)
 		(unit 1)
@@ -5383,7 +5627,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 16V, 0402, ±5%, X7R"
 			(at 195.58 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5562,7 +5806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 50V, 0402, ±5%, X7R"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 100nF, 16V, 0402, ±5%, X7R"
 			(at 236.22 111.76 0)
 			(hide yes)
 			(show_name no)
