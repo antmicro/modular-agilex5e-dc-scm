@@ -699,6 +699,16 @@
 		)
 		(uuid "8aa6b771-6505-40c5-8537-f74069753ce7")
 	)
+	(bus
+		(pts
+			(xy 139.7 158.75) (xy 165.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b47dc0b-3ff2-4e1b-bafe-f5c5cb00c539")
+	)
 	(wire
 		(pts
 			(xy 342.9 96.52) (xy 355.6 96.52)
@@ -1771,6 +1781,72 @@
 		)
 	)
 	(sheet
+		(at 101.6 152.4)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "65eda2d2-086a-48f2-af4e-47077a805913")
+		(property "Sheetname" "LTPI bias"
+			(at 101.6 151.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ltpi_bias.kicad_sch"
+			(at 101.6 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_SCM_LTPI{LTPI}" bidirectional
+			(at 101.6 158.75 180)
+			(uuid "e0f7759f-e311-483b-b220-941d4fa76354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOM_LTPI{LTPI}" bidirectional
+			(at 139.7 158.75 0)
+			(uuid "3ba151fa-0e1e-41cc-8d04-9dc8ac810bd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 165.1 63.5)
 		(size 101.6 114.3)
 		(exclude_from_sim no)
@@ -1876,6 +1952,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "LTPI{LTPI}" bidirectional
+			(at 165.1 158.75 180)
+			(uuid "5b002a84-d5e8-465e-b31f-bdc7429a84e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
