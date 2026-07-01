@@ -341,6 +341,12 @@
 		)
 		(uuid "f4707a9a-941e-4f77-b69a-d50c5c2f2426")
 	)
+	(junction
+		(at 96.52 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6ebce4-6917-4a84-ba56-b2882ae95b0e")
+	)
 	(no_connect
 		(at 342.9 68.58)
 		(uuid "3aa2b928-f48e-4b62-b73a-15dc27ab380b")
@@ -398,6 +404,16 @@
 			(type default)
 		)
 		(uuid "0b97248d-57ed-444a-ab45-230c24cbe951")
+	)
+	(bus
+		(pts
+			(xy 158.75 170.18) (xy 158.75 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df75269-a385-4715-841a-31f8ccc27e0c")
 	)
 	(wire
 		(pts
@@ -531,6 +547,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 172.72) (xy 165.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43cea58c-52db-437e-b96a-43b7a4d83c41")
+	)
+	(wire
+		(pts
 			(xy 302.26 91.44) (xy 299.72 91.44)
 		)
 		(stroke
@@ -541,6 +567,36 @@
 	)
 	(bus
 		(pts
+			(xy 76.2 246.38) (xy 101.6 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46143348-8c07-4320-ac88-f4e275c331dc")
+	)
+	(bus
+		(pts
+			(xy 76.2 243.84) (xy 96.52 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ece0ce-fd16-48e2-b47b-1240d41a6224")
+	)
+	(wire
+		(pts
+			(xy 161.29 172.72) (xy 161.29 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af29b08-2505-468d-bdc0-eadc1ee5d32a")
+	)
+	(bus
+		(pts
 			(xy 139.7 68.58) (xy 165.1 68.58)
 		)
 		(stroke
@@ -548,6 +604,16 @@
 			(type default)
 		)
 		(uuid "557f97d6-7e3f-450e-8ecf-dc8dcd87a002")
+	)
+	(bus
+		(pts
+			(xy 96.52 233.68) (xy 96.52 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dcc07c-660d-42b6-a432-a7c2a743b20e")
 	)
 	(bus
 		(pts
@@ -629,6 +695,16 @@
 		)
 		(uuid "70388c20-1782-4c31-85f3-dca983703dd2")
 	)
+	(bus
+		(pts
+			(xy 96.52 233.68) (xy 158.75 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71168650-402d-4da3-b2cd-aa3f399105b3")
+	)
 	(wire
 		(pts
 			(xy 342.9 147.32) (xy 355.6 147.32)
@@ -709,6 +785,16 @@
 		)
 		(uuid "8aa6b771-6505-40c5-8537-f74069753ce7")
 	)
+	(wire
+		(pts
+			(xy 101.6 248.92) (xy 99.06 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aaad3e9-dccb-40d0-a1fb-1654bd5bc5dd")
+	)
 	(bus
 		(pts
 			(xy 139.7 158.75) (xy 165.1 158.75)
@@ -751,6 +837,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 236.22) (xy 99.06 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0205c4-dae9-4112-8b6e-30020f21ca70")
+	)
+	(wire
+		(pts
 			(xy 266.7 114.3) (xy 355.6 114.3)
 		)
 		(stroke
@@ -761,6 +857,26 @@
 	)
 	(bus
 		(pts
+			(xy 158.75 170.18) (xy 165.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2baee4b-9a83-457a-ac9a-37b58e964003")
+	)
+	(bus
+		(pts
+			(xy 96.52 243.84) (xy 101.6 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46cc691-7127-4e6c-9e2c-ae8bad46d986")
+	)
+	(bus
+		(pts
 			(xy 266.7 152.4) (xy 304.8 152.4)
 		)
 		(stroke
@@ -768,6 +884,16 @@
 			(type default)
 		)
 		(uuid "a74321e1-3a58-4dcd-8935-47d0dee9f0c7")
+	)
+	(wire
+		(pts
+			(xy 99.06 236.22) (xy 161.29 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7db589c-abeb-44d8-9963-2054bd6a13fc")
 	)
 	(bus
 		(pts
@@ -2070,6 +2196,26 @@
 				(justify left top)
 			)
 		)
+		(pin "DC_SCM_QSPI{QSPI}" bidirectional
+			(at 76.2 243.84 0)
+			(uuid "a28bf389-862c-440b-a99b-cc5951169ce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_TPM_SPI{SPI}" bidirectional
+			(at 76.2 246.38 0)
+			(uuid "2b634931-0e05-4947-90e9-d73c7e1759bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
@@ -2379,7 +2525,7 @@
 			)
 		)
 		(pin "TPM_MUX_SEL" input
-			(at 101.6 247.65 180)
+			(at 101.6 248.92 180)
 			(uuid "28abd767-f825-4f6a-bcf3-fc35a7f23fcd")
 			(effects
 				(font
@@ -2389,7 +2535,7 @@
 			)
 		)
 		(pin "~{RST}" input
-			(at 101.6 250.19 180)
+			(at 101.6 251.46 180)
 			(uuid "97eff0fb-d922-4acc-a990-6c93c9d3bdfd")
 			(effects
 				(font
@@ -2398,19 +2544,19 @@
 				(justify left)
 			)
 		)
-		(pin "SOM_SPI{SPI}" bidirectional
-			(at 139.7 245.11 0)
-			(uuid "8862b9f7-8529-458c-8051-146f835fae70")
+		(pin "QSPI_HPM_CNTRL{QSPI}" bidirectional
+			(at 101.6 243.84 180)
+			(uuid "5fa65a13-0f29-49e4-b425-45f2f51260d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "DC_SCM_SPI{SPI}" bidirectional
-			(at 101.6 245.11 180)
-			(uuid "1626ad3a-2e4b-424f-a025-10a34b8d4d22")
+		(pin "SPI_HPM_CNTRL_TPM{SPI}" bidirectional
+			(at 101.6 246.38 180)
+			(uuid "6d710370-dc00-4cfa-8e80-100a930d6321")
 			(effects
 				(font
 					(size 1.27 1.27)
