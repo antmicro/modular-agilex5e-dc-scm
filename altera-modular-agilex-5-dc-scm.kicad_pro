@@ -593,6 +593,36 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Clock/DC_SCM_CLK.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/Clock/DC_SCM_CLK.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/Clock/SOM_CLK+": [
+        "85Ohm-diff"
+      ],
+      "/Clock/SOM_CLK-": [
+        "85Ohm-diff"
+      ],
+      "/Clock/SOM_CLK.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/Clock/SOM_CLK.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/Clock/SOM_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
+      "/Clock/USB_CLK.CLK+": [
+        "85Ohm-diff"
+      ],
+      "/Clock/USB_CLK.CLK-": [
+        "85Ohm-diff"
+      ],
+      "/Clock/USB_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO0": [
         "50Ohm-se"
       ],
@@ -1758,7 +1788,7 @@
     ],
     [
       "f9d49440-6457-44a6-96ad-733c78ac7b04",
-      "PCIe CLK"
+      "CLK"
     ],
     [
       "65eda2d2-086a-48f2-af4e-47077a805913",
