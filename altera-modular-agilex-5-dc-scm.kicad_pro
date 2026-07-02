@@ -989,6 +989,42 @@
       "/Front panel USB/USB_DBG{USB}": [
         "90Ohm-diff"
       ],
+      "/HS connector/DP.AUX+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.AUX-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.HPD": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD0+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD0-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD1+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD1-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD2+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD2-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD3+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.TXD3-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP{DP}": [
+        "100Ohm-diff"
+      ],
       "/LTPI bias/DC_SCM_LTPI.RXCK+": [
         "100Ohm-diff"
       ],
@@ -1796,7 +1832,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "J203-204,C213-214,#PWR221-224,SW201",
+    "used_designators": "J1901",
     "variants": []
   },
   "sheets": [
@@ -1871,6 +1907,10 @@
     [
       "65eda2d2-086a-48f2-af4e-47077a805913",
       "LTPI bias"
+    ],
+    [
+      "24358ccd-38f4-4473-b406-ebc28282868f",
+      "HS connector"
     ]
   ],
   "text_variables": {},

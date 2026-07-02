@@ -2462,16 +2462,6 @@
 				(justify left)
 			)
 		)
-		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
-			(at 165.1 66.04 180)
-			(uuid "38f36e8c-94f2-42b5-973e-1023e81abd10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USBSS4{USBSS}" bidirectional
 			(at 266.7 80.01 0)
 			(uuid "69e25776-cdef-490e-8736-822ff51b3fce")
@@ -2645,6 +2635,16 @@
 		(pin "DP_HS_CONN{DP}" output
 			(at 165.1 167.64 180)
 			(uuid "1a8ff988-53c2-4459-bea2-be789bde1ef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOM_PCIE_DEVICE{PCIE}" bidirectional
+			(at 165.1 66.04 180)
+			(uuid "c46e50f1-69b9-4b2c-9f25-c7ae834cdc76")
 			(effects
 				(font
 					(size 1.27 1.27)
