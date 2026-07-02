@@ -511,6 +511,16 @@
 		)
 		(uuid "1feb57f8-af97-4350-950a-f943d7950e3b")
 	)
+	(wire
+		(pts
+			(xy 266.7 182.88) (xy 355.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235dca70-7832-42c5-baae-85e8f8a6b3dc")
+	)
 	(bus
 		(pts
 			(xy 76.2 127) (xy 165.1 127)
@@ -521,6 +531,16 @@
 		)
 		(uuid "2491bb5e-9796-42a8-91e2-43e424374f72")
 	)
+	(wire
+		(pts
+			(xy 266.7 180.34) (xy 355.6 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24ef2dca-ca91-44b1-b56c-fbd351310ee1")
+	)
 	(bus
 		(pts
 			(xy 162.56 88.9) (xy 165.1 88.9)
@@ -530,6 +550,16 @@
 			(type default)
 		)
 		(uuid "2522b8bf-179e-4472-8235-e05ba303f722")
+	)
+	(wire
+		(pts
+			(xy 266.7 185.42) (xy 355.6 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aae4b2-ccfa-4eb9-8010-7c31ef7cff15")
 	)
 	(bus
 		(pts
@@ -741,6 +771,16 @@
 		)
 		(uuid "5d8615d7-1eae-4208-98f2-fe64fa51d7f5")
 	)
+	(wire
+		(pts
+			(xy 266.7 199.39) (xy 355.6 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecbcdb2-2a1b-4009-82ad-2414d0c2454c")
+	)
 	(bus
 		(pts
 			(xy 302.26 73.66) (xy 302.26 80.01)
@@ -803,6 +843,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 190.5) (xy 355.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "747b012e-d473-4190-a321-9b64a7451f7a")
+	)
+	(wire
+		(pts
 			(xy 342.9 147.32) (xy 355.6 147.32)
 		)
 		(stroke
@@ -810,6 +860,16 @@
 			(type default)
 		)
 		(uuid "77b49b47-997b-4143-a490-9eab9139f243")
+	)
+	(wire
+		(pts
+			(xy 266.7 193.04) (xy 355.6 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f5c25c-aec6-4da0-88ae-52160cc6d416")
 	)
 	(bus
 		(pts
@@ -960,6 +1020,16 @@
 			(type default)
 		)
 		(uuid "9c0205c4-dae9-4112-8b6e-30020f21ca70")
+	)
+	(wire
+		(pts
+			(xy 266.7 187.96) (xy 355.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c029092-0cdc-4164-9b9c-c55b6f3810bd")
 	)
 	(wire
 		(pts
@@ -2264,6 +2334,106 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
+			(at 165.1 101.6 180)
+			(uuid "38f36e8c-94f2-42b5-973e-1023e81abd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBSS4{USBSS}" bidirectional
+			(at 266.7 80.01 0)
+			(uuid "69e25776-cdef-490e-8736-822ff51b3fce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "20MHz_CLK{+ -}" bidirectional
+			(at 165.1 76.2 180)
+			(uuid "a246d6d4-4a2a-40cb-bcd1-f715b60e1ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX-" output
+			(at 266.7 187.96 0)
+			(uuid "fec4bb29-93a9-4b95-9f9c-e947a6e56be4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX+" output
+			(at 266.7 190.5 0)
+			(uuid "d1e5960c-12de-497a-8185-448a486bb77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_DRV_IN" output
+			(at 266.7 185.42 0)
+			(uuid "00f648f7-65b1-4d90-93b3-d44049823831")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_DRV_OUT" input
+			(at 266.7 180.34 0)
+			(uuid "619c2b74-8c35-41c9-bea1-df11e5b6ea94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_DRV_OE" input
+			(at 266.7 182.88 0)
+			(uuid "51fd2d5a-9b10-4569-aa5f-a2fd8af864f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HPD" output
+			(at 266.7 199.39 0)
+			(uuid "69cc63ad-1cb1-4190-a5a9-1e45ae7a5795")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CFG1" output
+			(at 266.7 193.04 0)
+			(uuid "6e515a07-0843-4492-a8ee-8c413f3c84cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

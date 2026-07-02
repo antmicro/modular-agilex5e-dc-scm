@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -621,6 +621,57 @@
         "85Ohm-diff"
       ],
       "/CLK/USB_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.RX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT.TX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC-SCM_PCIE_USB_HPMROOT{PCIE}": [
         "85Ohm-diff"
       ],
       "/DC-SCM 2.1 connector/DC_SCM_ESPI.IO0": [
@@ -1034,6 +1085,21 @@
       "/MitySOM-A5E Mini/ULPI{ULPI}": [
         "50Ohm-se"
       ],
+      "/MitySOM-A5E Mini/USBSS4.RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM-A5E Mini/USBSS4.RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM-A5E Mini/USBSS4.TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM-A5E Mini/USBSS4.TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM-A5E Mini/USBSS4{USBSS}": [
+        "90Ohm-diff"
+      ],
       "/MitySOM-A5E Mini/uSD.CLK": [
         "50Ohm-se"
       ],
@@ -1390,6 +1456,12 @@
       ],
       "Net-(U1104-B)": [
         "100Ohm-diff"
+      ],
+      "Net-(U801-COM1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U801-COM2)": [
+        "50Ohm-se"
       ]
     },
     "netclass_patterns": [
@@ -1615,6 +1687,12 @@
         "WP",
         "DS"
       ],
+      "SFP": [
+        "RX+",
+        "RX-",
+        "TX+",
+        "TX-"
+      ],
       "SGMII": [
         "TX+",
         "TX-",
@@ -1718,7 +1796,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J203-204,C213-214,#PWR221-224,SW201",
     "variants": []
   },
   "sheets": [
