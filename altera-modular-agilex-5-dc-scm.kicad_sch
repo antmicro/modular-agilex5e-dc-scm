@@ -433,6 +433,16 @@
 	)
 	(bus
 		(pts
+			(xy 139.7 167.64) (xy 165.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d77d53b-d1ed-4c2f-9d16-51cc8361ac0c")
+	)
+	(bus
+		(pts
 			(xy 76.2 48.26) (xy 304.8 48.26)
 		)
 		(stroke
@@ -511,6 +521,16 @@
 		)
 		(uuid "1feb57f8-af97-4350-950a-f943d7950e3b")
 	)
+	(bus
+		(pts
+			(xy 139.7 68.58) (xy 165.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21bbee08-f985-4087-ac3c-767e0f67d773")
+	)
 	(wire
 		(pts
 			(xy 266.7 182.88) (xy 355.6 182.88)
@@ -540,16 +560,6 @@
 			(type default)
 		)
 		(uuid "24ef2dca-ca91-44b1-b56c-fbd351310ee1")
-	)
-	(bus
-		(pts
-			(xy 162.56 88.9) (xy 165.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2522b8bf-179e-4472-8235-e05ba303f722")
 	)
 	(wire
 		(pts
@@ -693,6 +703,16 @@
 	)
 	(bus
 		(pts
+			(xy 139.7 172.72) (xy 165.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "496008af-2832-4ffc-a17d-e10fd5932ec4")
+	)
+	(bus
+		(pts
 			(xy 76.2 27.94) (xy 347.98 27.94)
 		)
 		(stroke
@@ -710,16 +730,6 @@
 			(type default)
 		)
 		(uuid "4edefb11-a3d5-4c9c-a885-52fce4b4a548")
-	)
-	(bus
-		(pts
-			(xy 139.7 68.58) (xy 165.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557f97d6-7e3f-450e-8ecf-dc8dcd87a002")
 	)
 	(bus
 		(pts
@@ -1141,6 +1151,16 @@
 		)
 		(uuid "c929d267-2b43-45c5-862b-990292c9f367")
 	)
+	(bus
+		(pts
+			(xy 139.7 170.18) (xy 165.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b6c74a-9189-4973-837e-9898b2d2c6db")
+	)
 	(wire
 		(pts
 			(xy 266.7 116.84) (xy 355.6 116.84)
@@ -1221,6 +1241,16 @@
 		)
 		(uuid "e008d997-4d54-4d2d-8c12-1f95213af14a")
 	)
+	(bus
+		(pts
+			(xy 139.7 175.26) (xy 165.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ce7c5a-c6b4-430c-8d58-04b927428547")
+	)
 	(wire
 		(pts
 			(xy 342.9 53.34) (xy 355.6 53.34)
@@ -1263,7 +1293,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 50.8) (xy 162.56 88.9)
+			(xy 162.56 50.8) (xy 162.56 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1300,6 +1330,16 @@
 			(type default)
 		)
 		(uuid "fb318dad-28d1-4169-8a34-bb9cc3a18d9a")
+	)
+	(bus
+		(pts
+			(xy 162.56 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd59555-08f7-4566-b1fb-a96ae359f329")
 	)
 	(bus
 		(pts
@@ -1644,6 +1684,92 @@
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
 					(reference "#PWR0103")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 165.1)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "24358ccd-38f4-4473-b406-ebc28282868f")
+		(property "Sheetname" "HS connector"
+			(at 101.6 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hs-connector.kicad_sch"
+			(at 101.6 178.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DP{DP}" input
+			(at 139.7 167.64 0)
+			(uuid "efd06b7d-e113-4f2e-b1fb-a73ebaa4e321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROOTPORT{PCIeREFCLK}" input
+			(at 139.7 172.72 0)
+			(uuid "6909bc34-49ea-4f7d-a76e-e827e671c038")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ROOTPORT{PCIE}" bidirectional
+			(at 139.7 170.18 0)
+			(uuid "2d3e0d99-5008-48f9-866f-218718e0850f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP{SFP}" bidirectional
+			(at 139.7 175.26 0)
+			(uuid "493604e3-8af9-45ca-a21f-8ab437e3b90a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "19")
 				)
 			)
 		)
@@ -2337,7 +2463,7 @@
 			)
 		)
 		(pin "DC-SCM_PCIE_USB_SCMROOT{PCIE}" bidirectional
-			(at 165.1 101.6 180)
+			(at 165.1 66.04 180)
 			(uuid "38f36e8c-94f2-42b5-973e-1023e81abd10")
 			(effects
 				(font
@@ -2356,7 +2482,7 @@
 				(justify right)
 			)
 		)
-		(pin "20MHz_CLK{+ -}" bidirectional
+		(pin "20MHz_CLK{+ -}" input
 			(at 165.1 76.2 180)
 			(uuid "a246d6d4-4a2a-40cb-bcd1-f715b60e1ff0")
 			(effects
@@ -2434,6 +2560,96 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "HPS_CLK_25MHz" input
+			(at 165.1 81.28 180)
+			(uuid "9209124c-2b61-4c49-9d43-1304c7261f09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK_25MHz" output
+			(at 165.1 78.74 180)
+			(uuid "8830411c-08ea-4a99-8a9b-fae91aa1edc6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROOTPORT{PCIeREFCLK}" output
+			(at 165.1 172.72 180)
+			(uuid "bc9b59a4-e5dc-467e-a00f-acb3b5d46c10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "150MHz_CLK{+ -}" input
+			(at 165.1 71.12 180)
+			(uuid "ee419fe8-1364-4cc4-8e43-15323fc64d65")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ROOTPORT{PCIE}" bidirectional
+			(at 165.1 170.18 180)
+			(uuid "a257c04d-5fed-427a-88e6-c8708c43863a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "156_25MHz_CLK{+ -}" input
+			(at 165.1 73.66 180)
+			(uuid "2748d070-1d65-459b-9042-e835e424478e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP{SFP}" bidirectional
+			(at 165.1 175.26 180)
+			(uuid "18e8d53b-aa7c-4f60-b81b-deae7fe587d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SOM_CLK{PCIeREFCLK}" input
+			(at 165.1 68.58 180)
+			(uuid "06072e50-15a2-4c07-9d1d-556807cbb906")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP_HS_CONN{DP}" output
+			(at 165.1 167.64 180)
+			(uuid "1a8ff988-53c2-4459-bea2-be789bde1ef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -3746,7 +3962,7 @@
 				(justify right)
 			)
 		)
-		(pin "20MHz_CLK{+ -}" bidirectional
+		(pin "20MHz_CLK{+ -}" output
 			(at 139.7 76.2 0)
 			(uuid "463cd786-ce9b-49ce-942f-2c08fad54d65")
 			(effects
@@ -3756,7 +3972,7 @@
 				(justify right)
 			)
 		)
-		(pin "150MHz_CLK{+ -}" bidirectional
+		(pin "150MHz_CLK{+ -}" output
 			(at 139.7 71.12 0)
 			(uuid "0b3b7bfa-7683-470f-b09b-5b19b4420d8c")
 			(effects
@@ -3766,7 +3982,7 @@
 				(justify right)
 			)
 		)
-		(pin "156_25MHz_CLK{+ -}" bidirectional
+		(pin "156_25MHz_CLK{+ -}" output
 			(at 139.7 73.66 0)
 			(uuid "b5b3c265-e7c6-4e90-891c-f9153c67f4bc")
 			(effects
