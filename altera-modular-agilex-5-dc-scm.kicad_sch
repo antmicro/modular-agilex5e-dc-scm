@@ -751,6 +751,16 @@
 		)
 		(uuid "57735560-97d5-4293-a9b4-20d25009a21a")
 	)
+	(wire
+		(pts
+			(xy 160.02 273.05) (xy 165.1 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8cd379-a5c2-4b74-9d36-b9b7e0d0d7db")
+	)
 	(bus
 		(pts
 			(xy 342.9 58.42) (xy 355.6 58.42)
@@ -893,6 +903,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 270.51) (xy 162.56 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818450c2-2b57-4b8b-a1e3-d3eed25ab856")
+	)
+	(wire
+		(pts
 			(xy 342.9 55.88) (xy 355.6 55.88)
 		)
 		(stroke
@@ -930,6 +950,16 @@
 			(type default)
 		)
 		(uuid "88f730f4-5972-4c26-b5f3-ec4299d76b44")
+	)
+	(wire
+		(pts
+			(xy 162.56 251.46) (xy 165.1 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89baa3a3-0267-43c8-af4d-0d371a3732f9")
 	)
 	(wire
 		(pts
@@ -980,6 +1010,16 @@
 			(type default)
 		)
 		(uuid "93d0dcc9-69cb-46b8-9ed9-61165b077966")
+	)
+	(wire
+		(pts
+			(xy 165.1 270.51) (xy 162.56 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940172ef-1b02-4c21-a523-03e750b5d6e5")
 	)
 	(wire
 		(pts
@@ -1110,6 +1150,26 @@
 			(type default)
 		)
 		(uuid "b247fa4e-ea71-420f-acb7-ca60808add23")
+	)
+	(wire
+		(pts
+			(xy 160.02 248.92) (xy 160.02 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32ddc28-0a7f-451b-9424-8ca48f0b6f03")
+	)
+	(wire
+		(pts
+			(xy 165.1 275.59) (xy 157.48 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c260a242-dea4-4569-8182-3387d3732e39")
 	)
 	(wire
 		(pts
@@ -1291,6 +1351,16 @@
 		)
 		(uuid "ed8fd185-7379-4d13-9e6d-4a1deeedfb97")
 	)
+	(wire
+		(pts
+			(xy 157.48 275.59) (xy 157.48 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb5d457-e331-4513-9dd7-6e07b2fb5144")
+	)
 	(bus
 		(pts
 			(xy 162.56 50.8) (xy 162.56 66.04)
@@ -1313,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 246.38) (xy 165.1 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f339d5e0-c400-442c-889c-d2ae2ef44fc0")
+	)
+	(wire
+		(pts
 			(xy 139.7 222.25) (xy 165.1 222.25)
 		)
 		(stroke
@@ -1320,6 +1400,16 @@
 			(type default)
 		)
 		(uuid "f7d6bd88-7f09-4ae2-93ff-89e9424bc2b9")
+	)
+	(wire
+		(pts
+			(xy 165.1 248.92) (xy 160.02 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facd6a0b-efd7-47e3-8d59-12d8e0c0120c")
 	)
 	(bus
 		(pts
@@ -1684,6 +1774,82 @@
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
 					(reference "#PWR0103")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 266.7)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0f840514-43a9-482c-9273-0d794c7e3be4")
+		(property "Sheetname" "Misc"
+			(at 165.1 265.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 165.1 279.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{CONFIG_BTN}" output
+			(at 165.1 270.51 180)
+			(uuid "a7bd9389-fe23-411d-ab6e-a500486ebe8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET_BTN}" output
+			(at 165.1 273.05 180)
+			(uuid "021a8c54-2c9b-4c74-963c-8ab6a3f1970c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{USER_BTN}" output
+			(at 165.1 275.59 180)
+			(uuid "07c18630-44d2-4b3b-88dc-9044d655cb62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "20")
 				)
 			)
 		)
@@ -2422,7 +2588,7 @@
 				(justify right)
 			)
 		)
-		(pin "DP{DP}" input
+		(pin "DP{DP}" output
 			(at 266.7 196.85 0)
 			(uuid "9faa0480-879e-4728-8376-c55cb2555dd8")
 			(effects
@@ -2645,6 +2811,36 @@
 		(pin "SOM_PCIE_DEVICE{PCIE}" bidirectional
 			(at 165.1 66.04 180)
 			(uuid "c46e50f1-69b9-4b2c-9f25-c7ae834cdc76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CONFIG_BTN}" input
+			(at 165.1 251.46 180)
+			(uuid "138a71f6-ae3b-4348-b71e-24fd286cb173")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET_BTN}" input
+			(at 165.1 248.92 180)
+			(uuid "76c2b128-0845-44bb-9901-cb2281433bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{USER_BTN}" input
+			(at 165.1 246.38 180)
+			(uuid "d705d7b2-1e9d-4682-9879-66370e5624bb")
 			(effects
 				(font
 					(size 1.27 1.27)
