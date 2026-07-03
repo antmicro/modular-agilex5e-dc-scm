@@ -593,6 +593,36 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/BIOS/BIOS.IO0": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS.IO1": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS.IO2": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS.IO3": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS.SCK": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.IO0": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.IO1": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.IO2": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.IO3": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.SCK": [
+        "50Ohm-se"
+      ],
       "/CLK/DC_SCM_CLK.CLK+": [
         "85Ohm-diff"
       ],
@@ -1859,7 +1889,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "J802",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1942,6 +1972,10 @@
     [
       "0f840514-43a9-482c-9273-0d794c7e3be4",
       "Misc"
+    ],
+    [
+      "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
+      "BIOS"
     ]
   ],
   "text_variables": {},

@@ -2445,6 +2445,72 @@
 		)
 	)
 	(sheet
+		(at 101.6 190.5)
+		(size 38.1 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195")
+		(property "Sheetname" "BIOS"
+			(at 101.6 189.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bios.kicad_sch"
+			(at 101.6 205.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "QSPI_HPMCNTRL{QSPI}" bidirectional
+			(at 101.6 196.85 180)
+			(uuid "0b4ca849-f2cc-4ee8-a567-325d6268d664")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QSPI_ISO_SW" input
+			(at 101.6 199.39 180)
+			(uuid "ced2c622-6c93-419e-b4ae-61e9f28f273d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 114.3)
 		(size 38.1 7.62)
 		(exclude_from_sim no)
