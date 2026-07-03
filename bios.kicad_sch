@@ -4739,16 +4739,6 @@
 		)
 		(uuid "e850b190-c8d6-461b-a941-c81e0928f4cb")
 	)
-	(label "BIOS{QSPI}"
-		(at 261.62 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8f37d28-b3d2-4787-88a1-a25f16cf4516")
-	)
 	(label "BIOS.SCK"
 		(at 245.11 114.3 180)
 		(effects
@@ -4789,6 +4779,17 @@
 			(justify left)
 		)
 		(uuid "26d5dfc7-00b8-4ba4-a2a0-7457eb58d124")
+	)
+	(hierarchical_label "BIOS{QSPI}"
+		(shape bidirectional)
+		(at 261.62 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f6494c5-3875-4ffb-9f4c-a74e5b5e2227")
 	)
 	(hierarchical_label "QSPI_ISO_SW"
 		(shape input)
@@ -4862,7 +4863,7 @@
 			(justify left bottom)
 		)
 		(uuid "40860377-3801-4e8a-a2dd-22ab42a67b6e")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 57.8485 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4897,7 +4898,7 @@
 			(justify left bottom)
 		)
 		(uuid "55a8081e-c79b-4f3c-bda0-fac298c7a24a")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 94.6785 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +4933,7 @@
 			(justify right bottom)
 		)
 		(uuid "b7f797e8-bf25-4bd3-8c09-5505f431e9f8")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 93.4085 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,7 +4969,7 @@
 			(justify right bottom)
 		)
 		(uuid "c330d278-3203-4be6-84e2-583d11f30642")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 66.6115 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
