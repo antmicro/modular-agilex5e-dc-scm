@@ -1,0 +1,61 @@
+(version 1)
+
+#---------------------- 85 Ohm diff ----------------------
+(rule "85_Ohm_inner"
+	(layer inner)
+	(condition "(A.NetClass == '85Ohm-diff')")
+	(constraint track_width (opt 0.152mm))
+	(constraint diff_pair_gap  (opt 0.150mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "85_Ohm_outer"
+	(layer outer)
+	(condition "(A.NetClass == '85Ohm-diff')")
+	(constraint track_width (opt 0.178mm))
+	(constraint diff_pair_gap  (opt 0.136mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+#---------------------- 90 Ohm diff ----------------------
+(rule "90_Ohm_inner"
+	(layer inner)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.136mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "90_Ohm_outer"
+	(layer outer)
+	(condition "(A.NetClass == '90Ohm-diff')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.136mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+#---------------------- 100 Ohm diff ----------------------
+(rule "100_Ohm_inner"
+	(layer inner)
+	(condition "(A.NetClass == '100Ohm-diff')")
+	(constraint track_width (opt 0.12mm))
+	(constraint diff_pair_gap  (opt 0.235mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+(rule "100_Ohm_outer"
+	(layer outer)
+	(condition "(A.NetClass == '100Ohm-diff')")
+	(constraint track_width (opt 0.16mm))
+	(constraint diff_pair_gap  (opt 0.240mm))
+#	(constraint diff_pair_uncoupled (max 2mm))
+)
+
+#---------------------- 50 Ohm se ----------------------
+(rule "50_Ohm_inner"
+	(layer inner)
+	(condition "(A.NetClass == '50Ohm-se')")
+	(constraint track_width (opt 0.195mm))
+)
+(rule "50_Ohm_outer"
+	(layer outer)
+	(condition "(A.NetClass == '50Ohm-se')")
+	(constraint track_width (opt 0.21mm))
+)
