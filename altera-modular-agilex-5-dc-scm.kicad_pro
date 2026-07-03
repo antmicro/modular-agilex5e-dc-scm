@@ -1109,6 +1109,138 @@
       "/LTPI bias/SOM_LTPI{LTPI}": [
         "100Ohm-diff"
       ],
+      "/MitySOM GTS/USBSS4.RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS4.RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS4.TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS4.TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS4{USBSS}": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM HPS/ULPI.CLK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT4": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT5": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT6": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DAT7": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.DIR": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.NXT": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.STP": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI.~{RST}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI{ULPI}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.CLK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.CMD": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT4": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT5": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT6": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DAT7": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.DS": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.IOPWR": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.PWR_EN": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.WP": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD.~{CD}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/uSD{SDIO}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.IO0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.IO1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.IO2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.IO3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.SCK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.~{ALERT0}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI.~{RESET}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/DC_SCM_ESPI{eSPI}": [
+        "50Ohm-se"
+      ],
       "/MitySOM-A5E Mini/DC_SCM_ESPI.IO0": [
         "50Ohm-se"
       ],
@@ -1889,17 +2021,13 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP2201,R2201,R2301-2306,R2401,J201,J2201-2202,J2301,J2401,J2501,J2601,J2701,C2201-2218,BT2201,#PWR2201-2230,#PWR2401",
     "variants": []
   },
   "sheets": [
     [
       "6bb9d978-a328-4b30-874b-55170a976185",
       "Root"
-    ],
-    [
-      "6f20a968-76d0-4612-b63c-2d703b85e263",
-      "MitySOM-A5E Mini"
     ],
     [
       "724a50b6-0cc3-4337-8510-a63a9adaa031",
@@ -1976,6 +2104,30 @@
     [
       "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
       "BIOS"
+    ],
+    [
+      "ccfd355f-9460-404d-be61-24db575a0371",
+      "MitySOM Power"
+    ],
+    [
+      "28ef639c-9de1-4cc9-9bdd-2421ace540ac",
+      "MitySOM HPS"
+    ],
+    [
+      "266bf6db-77fc-4e99-b82f-dd347350f420",
+      "MitySOM HSIO"
+    ],
+    [
+      "c1ff3762-7815-4072-9586-bdd6f23ff1ef",
+      "MitySOM HVIO"
+    ],
+    [
+      "82474d56-ea73-4bfa-9277-1decbf47afb2",
+      "MitySOM GTS"
+    ],
+    [
+      "44f62d5f-99b7-4265-9c30-e48dbfd6f996",
+      "MitySOM Config"
     ]
   ],
   "text_variables": {},
