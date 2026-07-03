@@ -1848,6 +1848,10 @@
         "TXCK+",
         "TXCK-"
       ],
+      "MDIO": [
+        "MDIO",
+        "MDC"
+      ],
       "NC-SI": [
         "REF_CLK",
         "CRS_DV",
@@ -1898,9 +1902,7 @@
         "TX_CLK",
         "TX_CTL",
         "RX_CTL",
-        "RX_CLK",
-        "MDIO",
-        "MDC"
+        "RX_CLK"
       ],
       "SDIO": [
         "DAT[0..7]",
@@ -2021,7 +2023,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "TP2201,R2201,R2301-2306,R2401,J201,J2201-2202,J2301,J2401,J2501,J2601,J2701,C2201-2218,BT2201,#PWR2201-2230,#PWR2401",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
