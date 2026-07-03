@@ -8872,6 +8872,16 @@
 		)
 		(uuid "52df1afb-43d7-4142-8ddf-77b534302b76")
 	)
+	(wire
+		(pts
+			(xy 120.65 265.43) (xy 139.7 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e83a22-cdc1-49f2-a054-d9be160ef4a7")
+	)
 	(bus
 		(pts
 			(xy 215.9 190.5) (xy 215.9 191.77)
@@ -9282,6 +9292,16 @@
 		)
 		(uuid "7dad0383-f485-4cf5-80ab-6f86008d3ef3")
 	)
+	(wire
+		(pts
+			(xy 120.65 257.81) (xy 139.7 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df19261-adb2-45b7-9bff-37586c71be75")
+	)
 	(bus
 		(pts
 			(xy 214.63 189.23) (xy 215.9 190.5)
@@ -9651,6 +9671,16 @@
 			(type default)
 		)
 		(uuid "ab0a913e-3201-459f-9d0e-82772ad73b84")
+	)
+	(wire
+		(pts
+			(xy 120.65 260.35) (xy 139.7 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab66eff7-70d9-42b6-b453-b7791ff69382")
 	)
 	(wire
 		(pts
@@ -10141,6 +10171,16 @@
 			(type default)
 		)
 		(uuid "fdfc70c0-af65-4248-b6e1-e21b3070618f")
+	)
+	(wire
+		(pts
+			(xy 120.65 262.89) (xy 139.7 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5a4b8d-f571-4fdc-bbb1-85b6055d17a7")
 	)
 	(label "DC_SCM_SPI_SCMCNTRL.~{CS0}"
 		(at 325.12 152.4 180)
@@ -10935,6 +10975,28 @@
 		)
 		(uuid "083b88a9-276b-4999-90e4-49f153235e34")
 	)
+	(hierarchical_label "DC_SCM_STBY_EN"
+		(shape output)
+		(at 120.65 262.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bc67e47-6938-4d08-b96d-62f927304099")
+	)
+	(hierarchical_label "~{DC_SCM_STBY_RST}"
+		(shape output)
+		(at 120.65 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "128db9a1-b247-4311-b3a4-7b66b0eec28f")
+	)
 	(hierarchical_label "SFP_TX_FLT_3V3"
 		(shape input)
 		(at 109.22 105.41 180)
@@ -11099,6 +11161,17 @@
 			(justify right)
 		)
 		(uuid "4aafa2a6-6af4-4e87-8cbf-0918740c18ba")
+	)
+	(hierarchical_label "DC_SCM_STBY_RDY"
+		(shape input)
+		(at 120.65 257.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c1e5077-7ea0-49ea-98c5-b8cfc73e21d1")
 	)
 	(hierarchical_label "DC_SCM_I2C0{I2C}"
 		(shape bidirectional)
@@ -11331,6 +11404,17 @@
 		)
 		(uuid "a6b3b835-63dc-4472-8c10-46bad1510c61")
 	)
+	(hierarchical_label "~{DC_SCM_INTRUSION}"
+		(shape input)
+		(at 120.65 265.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8f409cd-5b6a-470c-89ec-1fc6847d8679")
+	)
 	(hierarchical_label "~{DEBUG2_BTN}"
 		(shape input)
 		(at 293.37 123.19 0)
@@ -11430,7 +11514,7 @@
 			(justify left bottom)
 		)
 		(uuid "09e39394-d9e3-4e31-9364-9b1a5323d7c2")
-		(property "Netclass" "50Ohm-se"
+		(property "Net Class" "50Ohm-se"
 			(at 210.82 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11465,7 +11549,7 @@
 			(justify left bottom)
 		)
 		(uuid "109c7bbc-5995-4c1a-b8c1-f1e4f86bba75")
-		(property "Netclass" "50Ohm-se"
+		(property "Net Class" "50Ohm-se"
 			(at 181.61 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11500,7 +11584,7 @@
 			(justify left bottom)
 		)
 		(uuid "19841bb4-9777-4a45-998c-756794afd638")
-		(property "Netclass" "50Ohm-se"
+		(property "Net Class" "50Ohm-se"
 			(at 293.37 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -623,6 +623,15 @@
       "/BIOS/QSPI_HPMCNTRL.SCK": [
         "50Ohm-se"
       ],
+      "/BIOS/QSPI_HPMCNTRL.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/BIOS/QSPI_HPMCNTRL{QSPI}": [
+        "50Ohm-se"
+      ],
       "/CLK/DC_SCM_CLK.CLK+": [
         "85Ohm-diff"
       ],
@@ -881,6 +890,12 @@
       "/Front panel DisplayPort/DP.AUX-": [
         "100Ohm-diff"
       ],
+      "/Front panel DisplayPort/DP.CONFIG1": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DP.CONFIG2": [
+        "100Ohm-diff"
+      ],
       "/Front panel DisplayPort/DP.HPD": [
         "100Ohm-diff"
       ],
@@ -1019,10 +1034,22 @@
       "/Front panel USB/USB_DBG{USB}": [
         "90Ohm-diff"
       ],
+      "/HS connector/AUX+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/AUX-": [
+        "100Ohm-diff"
+      ],
       "/HS connector/DP.AUX+": [
         "100Ohm-diff"
       ],
       "/HS connector/DP.AUX-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.CONFIG1": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/DP.CONFIG2": [
         "100Ohm-diff"
       ],
       "/HS connector/DP.HPD": [
@@ -1053,6 +1080,18 @@
         "100Ohm-diff"
       ],
       "/HS connector/DP{DP}": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/TXD0+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/TXD0-": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/TXD1+": [
+        "100Ohm-diff"
+      ],
+      "/HS connector/TXD1-": [
         "100Ohm-diff"
       ],
       "/LTPI bias/DC_SCM_LTPI.RXCK+": [
@@ -1239,6 +1278,48 @@
         "50Ohm-se"
       ],
       "/MitySOM HVIO/DC_SCM_ESPI{eSPI}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.CLK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT4": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT5": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT6": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DAT7": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.DIR": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.NXT": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.STP": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI.~{RST}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HVIO/ULPI{ULPI}": [
         "50Ohm-se"
       ],
       "/MitySOM-A5E Mini/DC_SCM_ESPI.IO0": [
@@ -1676,6 +1757,24 @@
       "Net-(J1101-TXD3-)": [
         "100Ohm-diff"
       ],
+      "Net-(J1902-Pad10)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J1902-Pad12)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J1902-Pad16)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J1902-Pad18)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J1902-Pad4)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J1902-Pad6)": [
+        "100Ohm-diff"
+      ],
       "Net-(U1104-A)": [
         "100Ohm-diff"
       ],
@@ -1799,7 +1898,9 @@
         "TXD3+",
         "HPD",
         "AUX-",
-        "AUX+"
+        "AUX+",
+        "CONFIG1",
+        "CONFIG2"
       ],
       "DSI": [
         "D0+",
