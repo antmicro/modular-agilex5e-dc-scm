@@ -13381,6 +13381,16 @@
 	)
 	(wire
 		(pts
+			(xy 387.35 219.71) (xy 389.89 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bda0d90-16ca-4838-a650-510f40fff364")
+	)
+	(wire
+		(pts
 			(xy 59.69 153.67) (xy 63.5 153.67)
 		)
 		(stroke
@@ -15658,6 +15668,16 @@
 			(type default)
 		)
 		(uuid "a9a9b86b-30a7-4d99-851e-229cab07a482")
+	)
+	(wire
+		(pts
+			(xy 387.35 217.17) (xy 389.89 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7692de-972c-4e33-8815-c88e24584c3d")
 	)
 	(wire
 		(pts
@@ -25270,6 +25290,17 @@
 		)
 		(uuid "13b71ad3-d8ae-436e-8a70-b432e5e38308")
 	)
+	(hierarchical_label "~{DEBUG_LED_1}"
+		(shape output)
+		(at 389.89 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16ae89d1-90b8-4978-a98b-d9016d9cac6d")
+	)
 	(hierarchical_label "~{DEBUG2_BTN}"
 		(shape input)
 		(at 389.89 214.63 0)
@@ -25280,6 +25311,17 @@
 			(justify left)
 		)
 		(uuid "18f092a5-2e5a-4e75-aa32-e45b8f5b42ab")
+	)
+	(hierarchical_label "~{DEBUG_LED_2}"
+		(shape output)
+		(at 389.89 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f582727-cddf-46bb-9d91-202d2c1ec24b")
 	)
 	(hierarchical_label "GbE{MDIO}"
 		(shape bidirectional)
@@ -25513,7 +25555,7 @@
 		(uuid "7d4370cb-7065-4437-b7a2-d88c76f7fabb")
 	)
 	(hierarchical_label "FAN_EN"
-		(shape input)
+		(shape output)
 		(at 146.05 179.07 0)
 		(effects
 			(font
@@ -25798,7 +25840,7 @@
 			(justify left bottom)
 		)
 		(uuid "17ff434b-1f3e-4a4a-ba94-f478b1e35b55")
-		(property "Netclass" "100Ohm-diff"
+		(property "Net Class" "100Ohm-diff"
 			(at 215.138 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25833,7 +25875,7 @@
 			(justify left bottom)
 		)
 		(uuid "23709d72-a5fe-4620-b091-48dfa357512e")
-		(property "Netclass" "100Ohm-diff"
+		(property "Net Class" "100Ohm-diff"
 			(at 318.008 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25868,7 +25910,7 @@
 			(justify right bottom)
 		)
 		(uuid "a0b33ac4-caa4-441e-8d00-01b3d5986053")
-		(property "Netclass" "100Ohm-diff"
+		(property "Net Class" "100Ohm-diff"
 			(at 404.622 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25903,7 +25945,7 @@
 			(justify left bottom)
 		)
 		(uuid "a3be9345-b0d6-4553-b005-00bd5aeb9396")
-		(property "Netclass" "50Ohm-se"
+		(property "Net Class" "50Ohm-se"
 			(at 278.13 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25938,7 +25980,7 @@
 			(justify right bottom)
 		)
 		(uuid "e51364b7-5f9f-403a-965e-cb7004cf0ec2")
-		(property "Netclass" "100Ohm-diff"
+		(property "Net Class" "100Ohm-diff"
 			(at 261.112 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
