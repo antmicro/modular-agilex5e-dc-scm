@@ -1846,16 +1846,6 @@
 		)
 		(uuid "c49e0f66-5cf7-41fd-834b-3505cb4a25c8")
 	)
-	(bus
-		(pts
-			(xy 186.69 139.7) (xy 189.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00776fd6-6a6b-4ac5-9d0e-4ca20221b190")
-	)
 	(wire
 		(pts
 			(xy 191.77 167.64) (xy 215.9 167.64)
@@ -1928,6 +1918,16 @@
 	)
 	(bus
 		(pts
+			(xy 186.69 140.97) (xy 187.96 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4944a3e7-f8f4-45b1-9828-d26e3441e7db")
+	)
+	(bus
+		(pts
 			(xy 189.23 158.75) (xy 189.23 161.29)
 		)
 		(stroke
@@ -1965,6 +1965,16 @@
 			(type default)
 		)
 		(uuid "6a7225cb-d89b-4d1c-b447-3da9515cadfe")
+	)
+	(bus
+		(pts
+			(xy 187.96 140.97) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7ae28c-4868-4fd7-b8bf-0d1722f36cb1")
 	)
 	(bus
 		(pts
@@ -2075,16 +2085,6 @@
 			(type default)
 		)
 		(uuid "ba4ededd-0e4b-496c-8b94-490e1edde508")
-	)
-	(bus
-		(pts
-			(xy 165.1 139.7) (xy 186.69 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4531d8-942b-4252-a44a-733b2b8e709b")
 	)
 	(wire
 		(pts
@@ -2288,7 +2288,7 @@
 	)
 	(hierarchical_label "ETHERNET{ETHERNET}"
 		(shape bidirectional)
-		(at 165.1 139.7 180)
+		(at 186.69 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)

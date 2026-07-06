@@ -5842,7 +5842,7 @@
 	)
 	(bus
 		(pts
-			(xy 173.99 88.9) (xy 176.53 88.9)
+			(xy 176.53 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7000,16 +7000,6 @@
 		)
 		(uuid "9b209094-0a55-4ce7-9836-0cdb946de46c")
 	)
-	(bus
-		(pts
-			(xy 176.53 88.9) (xy 179.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c4fa106-7c0e-4c97-abaf-7bed11bad901")
-	)
 	(wire
 		(pts
 			(xy 82.55 115.57) (xy 82.55 95.25)
@@ -7479,6 +7469,16 @@
 			(type default)
 		)
 		(uuid "e760756d-a272-4892-9535-1fcfa01efeb0")
+	)
+	(bus
+		(pts
+			(xy 177.8 90.17) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9555ba2-2734-4822-a0e5-07dd7e9756c1")
 	)
 	(bus
 		(pts
@@ -8064,7 +8064,7 @@
 	)
 	(hierarchical_label "DP{DP}"
 		(shape input)
-		(at 173.99 88.9 180)
+		(at 176.53 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8325,10 +8325,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ea2bc5e-a47f-40ba-8d51-7054818ad064")
 		(property "Reference" "C2515"
-			(at 260.35 140.9636 90)
+			(at 258.318 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8443,7 +8442,7 @@
 			)
 		)
 		(property "Val" "10n"
-			(at 260.35 143.5036 90)
+			(at 258.572 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9140,10 +9139,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ca3e7af-2afa-4560-a8c1-09059ad9c1ae")
 		(property "Reference" "C2506"
-			(at 132.08 99.0536 90)
+			(at 130.302 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9258,7 +9256,7 @@
 			)
 		)
 		(property "Val" "10n"
-			(at 132.08 101.5936 90)
+			(at 130.302 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11602,7 +11600,7 @@
 		(dnp no)
 		(uuid "7e1a1230-332c-4d70-a0c1-d1154766251b")
 		(property "Reference" "C2517"
-			(at 298.45 147.3136 90)
+			(at 300.482 146.558 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11717,7 +11715,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 298.45 149.8536 90)
+			(at 300.482 150.622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12139,10 +12137,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c46ba17-4b3c-4a2b-9e3d-4004f245b20e")
 		(property "Reference" "C2504"
-			(at 102.87 99.0536 90)
+			(at 101.092 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12257,7 +12254,7 @@
 			)
 		)
 		(property "Val" "10n"
-			(at 102.87 101.5936 90)
+			(at 101.092 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13825,10 +13822,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce3571a7-7b95-4b5b-acff-640feb8ca0a1")
 		(property "Reference" "C2516"
-			(at 270.51 140.9636 90)
+			(at 268.478 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13943,7 +13939,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 270.51 143.5036 90)
+			(at 268.732 144.526 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14482,10 +14478,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e110c13c-fe51-43e0-8d5d-663f9f9027f4")
 		(property "Reference" "C2503"
-			(at 92.71 99.0536 90)
+			(at 90.932 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14600,7 +14595,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 92.71 101.5936 90)
+			(at 90.932 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15012,10 +15007,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eca8caa2-a2db-46f9-a025-17038dacc214")
 		(property "Reference" "C2505"
-			(at 120.65 99.0536 90)
+			(at 118.872 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15130,7 +15124,7 @@
 			)
 		)
 		(property "Val" "2u2"
-			(at 120.65 101.5936 90)
+			(at 118.872 102.616 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

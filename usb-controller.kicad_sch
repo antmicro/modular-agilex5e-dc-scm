@@ -4467,12 +4467,6 @@
 		(uuid "57a6a27f-b20d-459d-b520-f13404aecad7")
 	)
 	(junction
-		(at 172.72 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59593f12-9012-4a96-8443-0c3914063429")
-	)
-	(junction
 		(at 106.68 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4581,6 +4575,12 @@
 		(uuid "ba607605-5db5-4f1b-a92c-bd2bbb74fa34")
 	)
 	(junction
+		(at 172.72 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb8a85e4-e5ab-4fb8-9914-fc2e0b40aa08")
+	)
+	(junction
 		(at 44.45 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4651,6 +4651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dca82c60-ac9d-4703-8135-eee714de1fa1")
+	)
+	(junction
+		(at 130.81 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd83eebb-a6d7-4651-9341-eed40a25fd81")
 	)
 	(junction
 		(at 139.7 97.79)
@@ -5682,7 +5688,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 172.72 138.43)
+			(xy 172.72 137.16) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6532,6 +6538,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 139.7) (xy 130.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b045f669-9684-4b44-9bca-4ce326aec50c")
+	)
+	(wire
+		(pts
 			(xy 238.76 199.39) (xy 245.11 199.39)
 		)
 		(stroke
@@ -6790,6 +6806,16 @@
 		)
 		(uuid "c4efe19d-9876-41c0-8b71-a44c26ba4464")
 	)
+	(wire
+		(pts
+			(xy 130.81 138.43) (xy 144.78 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c6a69f-aea3-460f-a073-b8661e8b198f")
+	)
 	(bus
 		(pts
 			(xy 257.81 152.4) (xy 259.08 152.4)
@@ -6982,6 +7008,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 132.08) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d80a141a-a49c-4f9d-a7d3-b2c2ba213d18")
+	)
+	(wire
+		(pts
 			(xy 144.78 133.35) (xy 144.78 138.43)
 		)
 		(stroke
@@ -7099,16 +7135,6 @@
 			(type default)
 		)
 		(uuid "e6391e3d-4d23-46bc-aab8-2e3cff49efc3")
-	)
-	(wire
-		(pts
-			(xy 130.81 138.43) (xy 144.78 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e66eee6e-f44d-44cb-a796-081a878b039f")
 	)
 	(wire
 		(pts
@@ -8231,7 +8257,7 @@
 		(dnp no)
 		(uuid "0177d2e1-abea-48a3-8237-9652018dc037")
 		(property "Reference" "R1502"
-			(at 174.752 125.7364 90)
+			(at 173.99 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8346,7 +8372,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 174.752 128.2764 90)
+			(at 173.99 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8550,10 +8576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03cb5471-0fd3-4bc6-bb03-d6830bd0afc7")
 		(property "Reference" "C1509"
-			(at 331.47 87.6236 90)
+			(at 329.692 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8629,7 +8654,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 331.47 90.1636 90)
+			(at 329.692 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8730,10 +8755,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05331eb8-2299-4031-9886-040bfaf7094f")
 		(property "Reference" "C1516"
-			(at 182.88 100.3236 90)
+			(at 180.848 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8809,7 +8833,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 182.88 102.8636 90)
+			(at 180.848 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8910,10 +8934,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06ff33f4-5a5d-4598-9c6c-0b13e0814544")
 		(property "Reference" "C1502"
-			(at 260.35 87.6236 90)
+			(at 258.572 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8989,7 +9012,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 260.35 90.1636 90)
+			(at 258.572 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9335,10 +9358,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e74e60b-dcfd-4db8-b4a9-7ed7f5b75a42")
 		(property "Reference" "C1522"
-			(at 162.56 132.0736 90)
+			(at 160.528 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9453,7 +9475,7 @@
 			)
 		)
 		(property "Val" "12p"
-			(at 162.56 134.6136 90)
+			(at 161.036 135.6296 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9625,10 +9647,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17993641-1029-4dd7-a0b6-f7f14862e401")
 		(property "Reference" "C1515"
-			(at 172.72 100.3236 90)
+			(at 170.688 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9704,7 +9725,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 172.72 102.8636 90)
+			(at 170.688 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,10 +9904,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a93348d-a21f-44f8-b0c4-f4fcc087b79e")
 		(property "Reference" "C1501"
-			(at 250.19 87.6236 90)
+			(at 248.412 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9962,7 +9982,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 250.19 90.1636 90)
+			(at 248.412 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10063,10 +10083,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1f2de50a-fd84-4296-8595-e9a9fd0ad2fa")
 		(property "Reference" "C1503"
-			(at 270.51 87.6236 90)
+			(at 268.732 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10142,7 +10161,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 270.51 90.1636 90)
+			(at 268.732 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10243,10 +10262,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2724e06c-8322-4d8c-9565-1e6b74cf57b7")
 		(property "Reference" "R1506"
-			(at 77.47 185.42 90)
+			(at 76.2 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10361,7 +10379,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 77.47 187.96 90)
+			(at 76.2 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10409,10 +10427,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c0e3292-84a8-4b8f-8d45-2bba2c2793c3")
 		(property "Reference" "C1507"
-			(at 311.15 87.6236 90)
+			(at 309.372 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10488,7 +10505,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 311.15 90.1636 90)
+			(at 309.372 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10589,10 +10606,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f3991b0-5fcf-458b-8cc1-a91ffadb1700")
 		(property "Reference" "R1508"
-			(at 77.47 207.01 90)
+			(at 76.2 207.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10707,7 +10723,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 77.47 209.55 90)
+			(at 76.2 209.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10757,7 +10773,7 @@
 		(dnp no)
 		(uuid "325aadbb-9756-4838-a9de-c6507eb2634b")
 		(property "Reference" "R1507"
-			(at 247.65 202.184 0)
+			(at 247.65 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10871,7 +10887,7 @@
 			)
 		)
 		(property "Val" "1k6"
-			(at 247.65 204.216 0)
+			(at 247.65 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10997,10 +11013,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "380a7d15-8363-458b-9cb1-1e5315622858")
 		(property "Reference" "C1519"
-			(at 300.99 104.1336 90)
+			(at 298.958 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11076,7 +11091,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 300.99 106.6736 90)
+			(at 299.212 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11248,7 +11263,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_1u_10V_X7R_0402")
-		(at 172.72 135.89 90)
+		(at 172.72 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11258,7 +11273,7 @@
 		(dnp no)
 		(uuid "3c9883f3-7826-4e1e-b759-ce4a946ed91c")
 		(property "Reference" "C1523"
-			(at 174.752 132.08 90)
+			(at 172.72 132.5944 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11270,7 +11285,7 @@
 			)
 		)
 		(property "Value" "C_1u_10V_X7R_0402"
-			(at 182.88 120.65 0)
+			(at 182.88 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11298,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 185.42 120.65 0)
+			(at 185.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11296,7 +11311,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/281/1/GRM155Z71A105KE01_01A-1984538.pdf"
-			(at 187.96 120.65 0)
+			(at 187.96 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11309,7 +11324,7 @@
 			)
 		)
 		(property "Description" "MLCC - SMD/SMT, 1UF, 10V, 10%, 0402, X7R"
-			(at 208.28 120.65 0)
+			(at 208.28 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11322,7 +11337,7 @@
 			)
 		)
 		(property "MPN" "GRM155Z71A105KE01D"
-			(at 193.04 120.65 0)
+			(at 193.04 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11335,7 +11350,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 195.58 120.65 0)
+			(at 195.58 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,7 +11363,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 198.12 120.65 0)
+			(at 198.12 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11361,7 +11376,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 200.66 120.65 0)
+			(at 200.66 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11374,7 +11389,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 174.752 134.62 90)
+			(at 173.228 136.906 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11386,7 +11401,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 203.2 120.65 0)
+			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11399,7 +11414,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 205.74 120.65 0)
+			(at 205.74 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11436,10 +11451,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45fddc13-fd0d-4674-a5a6-065b22e94a56")
 		(property "Reference" "C1517"
-			(at 193.04 100.3236 90)
+			(at 191.008 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11515,7 +11529,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 193.04 102.8636 90)
+			(at 191.008 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11616,10 +11630,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4728a52b-9145-4601-a71e-ba1de414f3ae")
 		(property "Reference" "C1514"
-			(at 162.56 100.3236 90)
+			(at 160.528 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11695,7 +11708,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 162.56 102.8636 90)
+			(at 160.528 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12086,10 +12099,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a05679e-dc1f-40ec-ac9e-1ffaaf7fd39f")
 		(property "Reference" "C1505"
-			(at 290.83 87.6236 90)
+			(at 289.052 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12165,7 +12177,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 290.83 90.1636 90)
+			(at 289.052 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12266,10 +12278,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b4d876c-1810-401d-9e91-defca12b43df")
 		(property "Reference" "C1513"
-			(at 152.4 100.3236 90)
+			(at 150.368 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12345,7 +12356,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 152.4 102.8636 90)
+			(at 150.368 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12558,10 +12569,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6b7e7a83-82b9-4964-aadb-f0528ac6bfc9")
 		(property "Reference" "R1501"
-			(at 162.56 121.92 90)
+			(at 161.798 121.9136 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12676,7 +12686,7 @@
 			)
 		)
 		(property "Val" "470R"
-			(at 162.56 124.46 90)
+			(at 161.798 124.4536 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12724,10 +12734,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "78e55291-175a-43e6-9afd-e4bb3160e9e8")
 		(property "Reference" "C1510"
-			(at 341.63 87.6236 90)
+			(at 339.852 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12843,7 +12852,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 341.63 90.1636 90)
+			(at 339.852 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12984,10 +12993,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80095532-b06c-4f22-bdf4-dfa27f83e532")
 		(property "Reference" "C1518"
-			(at 290.83 104.1336 90)
+			(at 288.798 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13063,7 +13071,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 290.83 106.6736 90)
+			(at 289.052 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13164,7 +13172,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "843ec0cf-cfcb-423d-a35c-abe4ed427632")
 		(property "Reference" "#PWR01514"
 			(at 250.19 214.63 0)
@@ -13180,7 +13187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 217.17 0)
+			(at 241.3 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13268,7 +13275,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 144.78 138.43 0)
+		(at 130.81 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13276,10 +13283,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "895dca59-a3b3-48c9-91c5-625d8ca3e6cd")
 		(property "Reference" "#PWR01508"
-			(at 153.67 140.97 0)
+			(at 139.7 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13292,7 +13298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 143.51 0)
+			(at 130.81 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13303,7 +13309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 146.05 0)
+			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13316,7 +13322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 151.13 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13329,7 +13335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 153.67 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13341,7 +13347,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 153.67 146.05 0)
+			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13354,7 +13360,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 153.67 148.59 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13579,7 +13585,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9e294c97-73a4-4a80-bd10-4cae267c607a")
 		(property "Reference" "#PWR01515"
 			(at 260.35 214.63 0)
@@ -13595,7 +13600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 217.17 0)
+			(at 251.46 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13691,7 +13696,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7bc5da6-a17f-4e13-b896-03c62e25b23c")
 		(property "Reference" "#PWR01513"
 			(at 115.57 214.63 0)
@@ -13707,7 +13711,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 217.17 0)
+			(at 106.68 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13968,10 +13972,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7cdac9c-d908-4447-b3cf-6f7517711fb1")
 		(property "Reference" "C1504"
-			(at 280.67 87.6236 90)
+			(at 278.892 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14047,7 +14050,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 280.67 90.1636 90)
+			(at 278.892 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14286,7 +14289,7 @@
 		(dnp no)
 		(uuid "c8dcbeab-f631-4178-991d-5426e2375aa3")
 		(property "Reference" "R1503"
-			(at 41.91 185.42 90)
+			(at 43.18 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14401,7 +14404,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 41.91 187.96 90)
+			(at 43.18 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14449,10 +14452,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "caf08114-96c9-44e9-a023-58a191b5bbba")
 		(property "Reference" "R1504"
-			(at 57.15 185.42 90)
+			(at 55.88 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14567,7 +14569,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 57.15 187.96 90)
+			(at 55.88 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14615,10 +14617,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3e406b1-1b58-4988-bfda-229501afdd70")
 		(property "Reference" "C1508"
-			(at 321.31 87.6236 90)
+			(at 319.532 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14694,7 +14695,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 321.31 90.1636 90)
+			(at 319.532 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14798,7 +14799,7 @@
 		(dnp no)
 		(uuid "d5557f0f-b830-4d57-839f-6fd55bb80204")
 		(property "Reference" "C1521"
-			(at 128.27 132.0736 90)
+			(at 130.048 131.318 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14913,7 +14914,7 @@
 			)
 		)
 		(property "Val" "12p"
-			(at 128.27 134.6136 90)
+			(at 130.302 135.382 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15153,10 +15154,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc6e6224-4dac-42ce-b20d-ebc38d55d7f2")
 		(property "Reference" "C1520"
-			(at 311.15 104.1336 90)
+			(at 309.118 103.378 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15271,7 +15271,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 311.15 106.6736 90)
+			(at 309.372 107.696 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15331,10 +15331,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "deffb4ca-c4cb-41d3-b8d9-b66adf96da19")
 		(property "Reference" "C1511"
-			(at 133.35 100.3236 90)
+			(at 131.318 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15450,7 +15449,7 @@
 			)
 		)
 		(property "Val" "1u"
-			(at 133.35 102.8636 90)
+			(at 131.318 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15725,10 +15724,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8acb75b-1ac4-4a99-85d7-734b8b129a43")
 		(property "Reference" "U1502"
-			(at 90.805 184.15 0)
+			(at 90.932 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15790,7 +15788,7 @@
 			)
 		)
 		(property "MPN" "W25Q80DVUXIE TR"
-			(at 90.805 186.69 0)
+			(at 90.932 187.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15885,10 +15883,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8c307d3-c53c-4201-8f3c-46e6b745e4b0")
 		(property "Reference" "R1505"
-			(at 67.31 185.42 90)
+			(at 66.04 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16003,7 +16000,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 67.31 187.96 90)
+			(at 66.04 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16051,10 +16048,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eccb2431-ecb8-46a6-8e4d-31772ea6ecb1")
 		(property "Reference" "C1512"
-			(at 142.24 100.3236 90)
+			(at 140.208 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16130,7 +16126,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 142.24 102.8636 90)
+			(at 140.208 103.632 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16231,10 +16227,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1686d27-22ef-43e5-9305-6c6548d23a4a")
 		(property "Reference" "C1506"
-			(at 300.99 87.6236 90)
+			(at 299.212 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16310,7 +16305,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 300.99 90.1636 90)
+			(at 299.212 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16411,7 +16406,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fde7e5ad-3c95-47ef-8802-3ee4aff46615")
 		(property "Reference" "#PWR01512"
 			(at 83.82 214.63 0)
@@ -16427,7 +16421,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 217.17 0)
+			(at 74.93 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

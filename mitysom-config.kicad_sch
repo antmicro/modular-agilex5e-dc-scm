@@ -7426,6 +7426,16 @@
 		)
 		(uuid "c148afe3-4f8d-459c-911f-1d9b4cca0457")
 	)
+	(bus
+		(pts
+			(xy 184.15 129.54) (xy 185.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178de36a-fa30-4337-b1d7-a7171db49d92")
+	)
 	(wire
 		(pts
 			(xy 195.58 157.48) (xy 199.39 157.48)
@@ -7468,7 +7478,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 128.27) (xy 182.88 128.27)
+			(xy 182.88 129.54) (xy 184.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7505,16 +7515,6 @@
 			(type default)
 		)
 		(uuid "a1a31997-f9c8-49fe-bd5b-efa964601a33")
-	)
-	(bus
-		(pts
-			(xy 182.88 128.27) (xy 185.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbdc4d4-913f-450f-bc46-d7405e377518")
 	)
 	(label "SDM.TDO"
 		(at 190.5 137.16 0)
@@ -7591,7 +7591,7 @@
 	)
 	(hierarchical_label "SDM{JTAG}"
 		(shape input)
-		(at 180.34 128.27 180)
+		(at 182.88 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)

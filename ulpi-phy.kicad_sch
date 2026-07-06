@@ -3343,15 +3343,6 @@
 		(uuid "3b1229fb-4b5d-4ba1-b658-747e70d766cd")
 	)
 	(bus_entry
-		(at 254 139.7)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "001b3abe-5849-46f2-981a-9656c4da9909")
-	)
-	(bus_entry
 		(at 173.99 165.1)
 		(size 2.54 -2.54)
 		(stroke
@@ -3406,6 +3397,15 @@
 		(uuid "70f6f772-deee-4561-933a-c8526b75fabe")
 	)
 	(bus_entry
+		(at 252.73 140.97)
+		(size -1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c4b37b-b165-444e-96f6-bda00b32f8b3")
+	)
+	(bus_entry
 		(at 173.99 170.18)
 		(size 2.54 -2.54)
 		(stroke
@@ -3433,13 +3433,13 @@
 		(uuid "9a988c03-3181-493c-931f-785523bc06f9")
 	)
 	(bus_entry
-		(at 254 137.16)
-		(size -2.54 2.54)
+		(at 252.73 138.43)
+		(size -1.27 1.27)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcfb3e6f-ae11-4f12-a2c8-0b65181aac8f")
+		(uuid "b6b05aa9-9ce0-4cd8-bd74-a761beabf399")
 	)
 	(bus_entry
 		(at 173.99 139.7)
@@ -3799,7 +3799,7 @@
 	)
 	(bus
 		(pts
-			(xy 257.81 135.89) (xy 255.27 135.89)
+			(xy 256.54 135.89) (xy 254 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3829,7 +3829,7 @@
 	)
 	(bus
 		(pts
-			(xy 254 137.16) (xy 254 139.7)
+			(xy 252.73 137.16) (xy 252.73 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3989,7 @@
 	)
 	(bus
 		(pts
-			(xy 255.27 135.89) (xy 254 137.16)
+			(xy 254 135.89) (xy 252.73 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4692,7 +4692,7 @@
 	)
 	(hierarchical_label "USB{USB}"
 		(shape bidirectional)
-		(at 257.81 135.89 0)
+		(at 256.54 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4715,7 +4715,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 254 138.43 270)
+		(at 252.73 138.43 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4724,7 +4724,7 @@
 		)
 		(uuid "5eb67a05-f3a2-49f4-beb7-cf962a014c80")
 		(property "Net Class" "90Ohm-diff"
-			(at 257.81 138.43 0)
+			(at 256.54 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4735,7 +4735,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 453.39 261.62 0)
+			(at 452.12 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

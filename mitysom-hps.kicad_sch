@@ -7666,6 +7666,15 @@
 		(uuid "283e05a9-f2ef-4cdb-b532-d5f4c25d0ad6")
 	)
 	(bus_entry
+		(at 262.89 160.02)
+		(size -1.27 -1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b32afd-60b1-4aee-bd04-b57000edfb4b")
+	)
+	(bus_entry
 		(at 167.64 181.61)
 		(size 2.54 -2.54)
 		(stroke
@@ -7694,12 +7703,12 @@
 	)
 	(bus_entry
 		(at 262.89 157.48)
-		(size -1.27 1.27)
+		(size -1.27 -1.27)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "555b7edd-1967-46f3-8e74-d8376c2d29ca")
+		(uuid "5212b02e-669e-47b7-a204-96427400d1f0")
 	)
 	(bus_entry
 		(at 262.89 167.64)
@@ -7828,15 +7837,6 @@
 		(uuid "9e8cf2c0-b2be-46f9-ad82-362629860bbe")
 	)
 	(bus_entry
-		(at 262.89 154.94)
-		(size -1.27 1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ead94af-26b4-4ad5-8d78-450c3ddfe1da")
-	)
-	(bus_entry
 		(at 262.89 147.32)
 		(size -1.27 1.27)
 		(stroke
@@ -7949,6 +7949,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 158.75) (xy 261.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b645843-5002-41b8-80df-82e1609e64e8")
+	)
+	(wire
+		(pts
 			(xy 219.71 140.97) (xy 261.62 140.97)
 		)
 		(stroke
@@ -7987,6 +7997,16 @@
 		)
 		(uuid "1000a7d3-be7d-4f88-96e5-aee81a40e483")
 	)
+	(bus
+		(pts
+			(xy 264.16 162.56) (xy 265.43 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10686973-d619-4721-9ff3-d9974145376a")
+	)
 	(wire
 		(pts
 			(xy 170.18 161.29) (xy 186.69 161.29)
@@ -7999,7 +8019,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 119.38) (xy 165.1 119.38)
+			(xy 165.1 120.65) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8117,16 +8137,6 @@
 		)
 		(uuid "46f3ae00-1bf3-497c-bc52-25c802f34cf2")
 	)
-	(wire
-		(pts
-			(xy 219.71 158.75) (xy 261.62 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5083bdcc-d020-4b3c-886e-c668317c0e7a")
-	)
 	(bus
 		(pts
 			(xy 167.64 171.45) (xy 167.64 168.91)
@@ -8136,6 +8146,16 @@
 			(type default)
 		)
 		(uuid "5152c910-aeb4-45a7-bbdc-ed4dc6cfb907")
+	)
+	(bus
+		(pts
+			(xy 264.16 162.56) (xy 262.89 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a5ef3e5-523d-4da3-8ce9-5725c9bc5265")
 	)
 	(wire
 		(pts
@@ -8227,16 +8247,6 @@
 		)
 		(uuid "7b62f9c4-658f-488d-896c-d1fcd9bb6cad")
 	)
-	(bus
-		(pts
-			(xy 264.16 153.67) (xy 267.97 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e223da8-3a5e-4ad4-a8aa-fa898f47f75a")
-	)
 	(wire
 		(pts
 			(xy 219.71 128.27) (xy 237.49 128.27)
@@ -8269,16 +8279,6 @@
 	)
 	(bus
 		(pts
-			(xy 262.89 154.94) (xy 262.89 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9179cc6f-4c09-4571-bbc4-ff3ca6a43d49")
-	)
-	(bus
-		(pts
 			(xy 264.16 172.72) (xy 262.89 171.45)
 		)
 		(stroke
@@ -8299,6 +8299,16 @@
 	)
 	(bus
 		(pts
+			(xy 166.37 120.65) (xy 167.64 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95eadd72-f433-4349-8344-67a70a8c6135")
+	)
+	(bus
+		(pts
 			(xy 165.1 189.23) (xy 166.37 189.23)
 		)
 		(stroke
@@ -8306,16 +8316,6 @@
 			(type default)
 		)
 		(uuid "97539cf4-facd-4aab-b72f-e41bc1f3334c")
-	)
-	(bus
-		(pts
-			(xy 165.1 119.38) (xy 167.64 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e583c9-4b6e-4b1c-a55a-fa6ee59c77a1")
 	)
 	(wire
 		(pts
@@ -8336,16 +8336,6 @@
 			(type default)
 		)
 		(uuid "9e8b4a89-9091-4e39-b72b-f3151deee6a7")
-	)
-	(bus
-		(pts
-			(xy 264.16 153.67) (xy 262.89 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7abafa-0cdd-490b-9138-1ccbe76f467b")
 	)
 	(wire
 		(pts
@@ -8386,6 +8376,16 @@
 			(type default)
 		)
 		(uuid "a7de5e60-c7e1-4931-b29c-bd471ead135c")
+	)
+	(bus
+		(pts
+			(xy 262.89 161.29) (xy 262.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa467c7f-082e-40f6-8011-1d5b38516855")
 	)
 	(wire
 		(pts
@@ -9089,14 +9089,14 @@
 	)
 	(hierarchical_label "UART{UART}"
 		(shape bidirectional)
-		(at 267.97 153.67 0)
+		(at 265.43 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0ec48847-d65c-47a4-a4e6-9f66caa4d444")
+		(uuid "003bb115-605d-4a9c-a140-b13f7eabf714")
 	)
 	(hierarchical_label "CLK_25MHz"
 		(shape output)
@@ -9155,7 +9155,7 @@
 	)
 	(hierarchical_label "uSD{SDIO}"
 		(shape bidirectional)
-		(at 162.56 119.38 180)
+		(at 165.1 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9188,7 +9188,7 @@
 		(dnp no)
 		(uuid "0bf58126-2933-43ce-93dc-9b6cd82728d3")
 		(property "Reference" "R301"
-			(at 235.204 124.46 0)
+			(at 237.49 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9196,6 +9196,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -9302,7 +9303,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 124.714 0)
+			(at 242.57 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9310,6 +9311,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -9352,7 +9354,7 @@
 		(dnp no)
 		(uuid "86764a0f-521d-41e1-9c64-a4e16384c63c")
 		(property "Reference" "R306"
-			(at 235.204 147.32 0)
+			(at 237.49 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9360,6 +9362,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -9466,7 +9469,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 147.574 0)
+			(at 242.57 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9474,6 +9477,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -9516,7 +9520,7 @@
 		(dnp no)
 		(uuid "95b4ee3b-9d33-4b9a-92e3-67a89a2db27b")
 		(property "Reference" "R303"
-			(at 235.204 134.62 0)
+			(at 237.49 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9524,6 +9528,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -9630,7 +9635,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 134.874 0)
+			(at 242.57 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9638,6 +9643,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -9680,7 +9686,7 @@
 		(dnp no)
 		(uuid "a79599b9-db27-4681-946d-63841ee70d62")
 		(property "Reference" "R302"
-			(at 235.204 127 0)
+			(at 237.49 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9688,6 +9694,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -9794,7 +9801,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 127.254 0)
+			(at 242.57 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9802,6 +9809,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -11133,7 +11141,7 @@
 		(dnp no)
 		(uuid "e78a3305-61ce-4b0d-98ff-4d5444cc9bcf")
 		(property "Reference" "R304"
-			(at 235.204 137.16 0)
+			(at 237.49 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11141,6 +11149,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -11247,7 +11256,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 137.414 0)
+			(at 242.57 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11255,6 +11264,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -11297,7 +11307,7 @@
 		(dnp no)
 		(uuid "f78680aa-ee76-418f-a5f0-6f8ed1eee796")
 		(property "Reference" "R305"
-			(at 235.204 144.78 0)
+			(at 237.49 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11305,6 +11315,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_33R_0402"
@@ -11411,7 +11422,7 @@
 			)
 		)
 		(property "Val" "33R"
-			(at 244.094 145.034 0)
+			(at 242.57 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11419,6 +11430,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
