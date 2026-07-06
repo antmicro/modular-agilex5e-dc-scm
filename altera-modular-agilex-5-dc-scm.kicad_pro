@@ -923,6 +923,36 @@
       "/Front panel DisplayPort/DP.TXD3-": [
         "100Ohm-diff"
       ],
+      "/Front panel DisplayPort/DPCONN_AUX+": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_AUX-": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD0+": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD0-": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD1+": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD1-": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD2+": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD2-": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD3+": [
+        "100Ohm-diff"
+      ],
+      "/Front panel DisplayPort/DPCONN_TXD3-": [
+        "100Ohm-diff"
+      ],
       "/Front panel DisplayPort/DP{DP}": [
         "100Ohm-diff"
       ],
@@ -1023,6 +1053,42 @@
         "90Ohm-diff"
       ],
       "/Front panel USB/USB1{USB}": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_CONN_TX1+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_CONN_TX1-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_CONN_TX2+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_CONN_TX2-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_RX1+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_RX1-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_RX2+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_RX2-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_TX1+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_TX1-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_TX2+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBC1_TX2-": [
         "90Ohm-diff"
       ],
       "/Front panel USB/USB_DBG.D+": [
@@ -1955,12 +2021,17 @@
         "TXD2-",
         "TXD2+",
         "TXD3-",
-        "TXD3+",
+        "TXD3+"
+      ],
+      "DP_CTRL": [
         "HPD",
-        "AUX-",
         "AUX+",
+        "AUX-",
         "CONFIG1",
-        "CONFIG2"
+        "CONFIG2",
+        "AUX_DRV_IN",
+        "AUX_DRV_OUT",
+        "AUX_DRV_OE"
       ],
       "DSI": [
         "D0+",
@@ -2184,7 +2255,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "TP101,TP901-903,TP1401,TP1501-1503,TP1701,TP1801,TP2201-2204,TP2301,#FLG701-702,#FLG801-804,#FLG1901-1902,#FLG2001,#FLG2201,#FLG2301-2302,#FLG2501,Y1501,Y1601,Y1701,Y1801,Y1901,Y2301,T2001-2003,T2501-2505,#PWR1-3,#PWR101-128,#PWR401,#PWR701-707,#PWR801-848,#PWR901-915,#PWR1001-1005,#PWR1101-1109,#PWR1201-1220,#PWR1301-1304,#PWR1401-1408,#PWR1501-1515,#PWR1601-1618,#PWR1701-1715,#PWR1801-1815,#PWR1901-1932,#PWR2001-2013,#PWR2101-2125,#PWR2201-2261,#PWR2301-2327,#PWR2401-2405,#PWR2501-2514,BT101,H2201,C101-118,C701-702,C801-836,C901-914,C1001,C1101-1103,C1201-1204,C1301-1310,C1401-1402,C1501-1524,C1601-1609,C1701-1708,C1801-1808,C1901-1923,C2001-2018,C2101-2105,C2201-2219,C2301-2318,C2401,C2501-2517,U701,U801-804,U901-903,U1001,U1101,U1201-1204,U1401,U1501-1502,U1601,U1701,U1801,U1901,U2001,U2201-2211,U2301-2304,U2501-2504,D2001,D2101-2104,D2201-2207,D2301-2302,D2501,F2001,F2501,Q1401,Q2101-2103,Q2201,J101-102,J201,J301,J401,J501,J601,J701,J1001,J1101,J2001,J2101,J2201-2203,J2401,J2501,FB1501,FB1901-1902,L801-804,R101,R301-306,R401,R701-753,R801-820,R901-905,R1001-1005,R1101-1108,R1201-1212,R1301-1308,R1401-1405,R1501-1508,R1601-1612,R1701-1705,R1801-1805,R1901-1931,R2001-2020,R2101-2115,R2201-2241,R2301-2311,R2401-2405,R2501-2509,SW2101-2105",
+    "used_designators": "#FLG502,R2021,U2002,C2019-2020,#PWR2014-2020",
     "variants": []
   },
   "sheets": [
