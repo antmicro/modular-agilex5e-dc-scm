@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -944,12 +958,6 @@
       "/Front panel DisplayPort/DP.AUX-": [
         "100Ohm-diff"
       ],
-      "/Front panel DisplayPort/DP.CONFIG1": [
-        "100Ohm-diff"
-      ],
-      "/Front panel DisplayPort/DP.CONFIG2": [
-        "100Ohm-diff"
-      ],
       "/Front panel DisplayPort/DP.HPD": [
         "100Ohm-diff"
       ],
@@ -1182,12 +1190,6 @@
         "100Ohm-diff"
       ],
       "/HS connector/DP.AUX-": [
-        "100Ohm-diff"
-      ],
-      "/HS connector/DP.CONFIG1": [
-        "100Ohm-diff"
-      ],
-      "/HS connector/DP.CONFIG2": [
         "100Ohm-diff"
       ],
       "/HS connector/DP.HPD": [
@@ -1512,33 +1514,6 @@
         "50Ohm-se"
       ],
       "/MitySOM HPS/uSD{SDIO}": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.IO0": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.IO1": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.IO2": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.IO3": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.SCK": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.~{ALERT0}": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.~{CS0}": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI.~{RESET}": [
-        "50Ohm-se"
-      ],
-      "/MitySOM HVIO/DC_SCM_ESPI{eSPI}": [
         "50Ohm-se"
       ],
       "/MitySOM HVIO/ULPI.CLK": [
@@ -2018,24 +1993,6 @@
       "Net-(J1101-TXD3-)": [
         "100Ohm-diff"
       ],
-      "Net-(J1902-Pad10)": [
-        "100Ohm-diff"
-      ],
-      "Net-(J1902-Pad12)": [
-        "100Ohm-diff"
-      ],
-      "Net-(J1902-Pad16)": [
-        "100Ohm-diff"
-      ],
-      "Net-(J1902-Pad18)": [
-        "100Ohm-diff"
-      ],
-      "Net-(J1902-Pad4)": [
-        "100Ohm-diff"
-      ],
-      "Net-(J1902-Pad6)": [
-        "100Ohm-diff"
-      ],
       "Net-(J2001-Pad10)": [
         "100Ohm-diff"
       ],
@@ -2358,13 +2315,8 @@
       ],
       "DP_CTRL": [
         "HPD",
-        "AUX+",
         "AUX-",
-        "CONFIG1",
-        "CONFIG2",
-        "AUX_DRV_IN",
-        "AUX_DRV_OUT",
-        "AUX_DRV_OE"
+        "AUX+"
       ],
       "DSI": [
         "D0+",
@@ -2412,10 +2364,6 @@
         "RXCK-",
         "TXCK+",
         "TXCK-"
-      ],
-      "MDIO": [
-        "MDIO",
-        "MDC"
       ],
       "NC-SI": [
         "REF_CLK",
@@ -2467,7 +2415,9 @@
         "TX_CLK",
         "TX_CTL",
         "RX_CTL",
-        "RX_CLK"
+        "RX_CLK",
+        "MDIO",
+        "MDC"
       ],
       "SDIO": [
         "DAT[0..7]",
@@ -2596,7 +2546,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "R701,R703-708,R754,C601-604",
+    "used_designators": "J101,J1902,#PWR1901-1902",
     "variants": []
   },
   "sheets": [
@@ -2605,40 +2555,28 @@
       "Root"
     ],
     [
-      "ccfd355f-9460-404d-be61-24db575a0371",
-      "MitySOM Power"
-    ],
-    [
-      "44f62d5f-99b7-4265-9c30-e48dbfd6f996",
-      "MitySOM Config"
-    ],
-    [
-      "28ef639c-9de1-4cc9-9bdd-2421ace540ac",
-      "MitySOM HPS"
-    ],
-    [
-      "266bf6db-77fc-4e99-b82f-dd347350f420",
-      "MitySOM HSIO"
-    ],
-    [
-      "c1ff3762-7815-4072-9586-bdd6f23ff1ef",
-      "MitySOM HVIO"
-    ],
-    [
-      "82474d56-ea73-4bfa-9277-1decbf47afb2",
-      "MitySOM GTS"
+      "6f20a968-76d0-4612-b63c-2d703b85e263",
+      "MitySOM-A5E Mini"
     ],
     [
       "724a50b6-0cc3-4337-8510-a63a9adaa031",
       "DC-SCM 2.1 connector"
     ],
     [
+      "b18fedc8-291b-45fb-9413-07ab4e9140fd",
+      "PECI PHY"
+    ],
+    [
+      "94c97551-0f36-4c4c-9cf4-e9305d5a8140",
+      "ETH PHY"
+    ],
+    [
       "ec2bc394-f073-4549-a45a-609fd3c852aa",
       "Power"
     ],
     [
-      "f9d49440-6457-44a6-96ad-733c78ac7b04",
-      "CLK"
+      "2bc967bd-811d-4dc1-a0ec-b60c8334579a",
+      "USB Hub"
     ],
     [
       "af45e011-8332-484c-9b46-08bd6b2c8877",
@@ -2649,44 +2587,12 @@
       "SD Card"
     ],
     [
-      "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
-      "BIOS"
+      "2f6f709e-e133-4af2-b82d-2efdce120bcc",
+      "Front panel ETH"
     ],
     [
-      "65eda2d2-086a-48f2-af4e-47077a805913",
-      "LTPI bias"
-    ],
-    [
-      "b18fedc8-291b-45fb-9413-07ab4e9140fd",
-      "PECI PHY"
-    ],
-    [
-      "438e9c44-46ce-4859-a53d-b917b2709c50",
-      "USB Controller"
-    ],
-    [
-      "2bc967bd-811d-4dc1-a0ec-b60c8334579a",
-      "USB Hub"
-    ],
-    [
-      "4780f80e-34ad-4c1b-88e5-3aab07a56d6f",
-      "ULPI PHY 0"
-    ],
-    [
-      "b3cbd59d-9ece-44ce-ba0a-b3871e1e246e",
-      "ULPI PHY 1"
-    ],
-    [
-      "94c97551-0f36-4c4c-9cf4-e9305d5a8140",
-      "ETH PHY"
-    ],
-    [
-      "24358ccd-38f4-4473-b406-ebc28282868f",
-      "HS connector"
-    ],
-    [
-      "0f840514-43a9-482c-9273-0d794c7e3be4",
-      "Misc"
+      "c275d784-cff8-4824-87db-661a713118aa",
+      "Front panel DisplayPort"
     ],
     [
       "7cc444a1-5e93-455b-8cec-0f51c02bdc24",
@@ -2697,12 +2603,36 @@
       "FTDI"
     ],
     [
-      "2f6f709e-e133-4af2-b82d-2efdce120bcc",
-      "Front panel ETH"
+      "438e9c44-46ce-4859-a53d-b917b2709c50",
+      "USB Controller"
     ],
     [
-      "c275d784-cff8-4824-87db-661a713118aa",
-      "Front panel DisplayPort"
+      "b3cbd59d-9ece-44ce-ba0a-b3871e1e246e",
+      "ULPI PHY 1"
+    ],
+    [
+      "4780f80e-34ad-4c1b-88e5-3aab07a56d6f",
+      "ULPI PHY 0"
+    ],
+    [
+      "f9d49440-6457-44a6-96ad-733c78ac7b04",
+      "CLK"
+    ],
+    [
+      "65eda2d2-086a-48f2-af4e-47077a805913",
+      "LTPI bias"
+    ],
+    [
+      "24358ccd-38f4-4473-b406-ebc28282868f",
+      "HS connector"
+    ],
+    [
+      "0f840514-43a9-482c-9273-0d794c7e3be4",
+      "Misc"
+    ],
+    [
+      "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
+      "BIOS"
     ]
   ],
   "text_variables": {},
