@@ -1775,10 +1775,70 @@
       "Net-(J1902-Pad6)": [
         "100Ohm-diff"
       ],
+      "Net-(J2001-Pad10)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2001-Pad12)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2001-Pad16)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2001-Pad18)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2001-Pad4)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2001-Pad6)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-AUX+)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-AUX-)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD0+)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD0-)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD1+)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD1-)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD2+)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD2-)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD3+)": [
+        "100Ohm-diff"
+      ],
+      "Net-(J2501-TXD3-)": [
+        "100Ohm-diff"
+      ],
+      "Net-(U1001-COM1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1001-COM2)": [
+        "50Ohm-se"
+      ],
       "Net-(U1104-A)": [
         "100Ohm-diff"
       ],
       "Net-(U1104-B)": [
+        "100Ohm-diff"
+      ],
+      "Net-(U2503-A)": [
+        "100Ohm-diff"
+      ],
+      "Net-(U2503-B)": [
         "100Ohm-diff"
       ],
       "Net-(U801-COM1)": [
@@ -2124,7 +2184,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP101,TP901-903,TP1401,TP1501-1503,TP1701,TP1801,TP2201-2204,TP2301,#FLG701-702,#FLG801-804,#FLG1901-1902,#FLG2001,#FLG2201,#FLG2301-2302,#FLG2501,Y1501,Y1601,Y1701,Y1801,Y1901,Y2301,T2001-2003,T2501-2505,#PWR1-3,#PWR101-128,#PWR401,#PWR701-707,#PWR801-848,#PWR901-915,#PWR1001-1005,#PWR1101-1109,#PWR1201-1220,#PWR1301-1304,#PWR1401-1408,#PWR1501-1515,#PWR1601-1618,#PWR1701-1715,#PWR1801-1815,#PWR1901-1932,#PWR2001-2013,#PWR2101-2125,#PWR2201-2261,#PWR2301-2327,#PWR2401-2405,#PWR2501-2514,BT101,H2201,C101-118,C701-702,C801-836,C901-914,C1001,C1101-1103,C1201-1204,C1301-1310,C1401-1402,C1501-1524,C1601-1609,C1701-1708,C1801-1808,C1901-1923,C2001-2018,C2101-2105,C2201-2219,C2301-2318,C2401,C2501-2517,U701,U801-804,U901-903,U1001,U1101,U1201-1204,U1401,U1501-1502,U1601,U1701,U1801,U1901,U2001,U2201-2211,U2301-2304,U2501-2504,D2001,D2101-2104,D2201-2207,D2301-2302,D2501,F2001,F2501,Q1401,Q2101-2103,Q2201,J101-102,J201,J301,J401,J501,J601,J701,J1001,J1101,J2001,J2101,J2201-2203,J2401,J2501,FB1501,FB1901-1902,L801-804,R101,R301-306,R401,R701-753,R801-820,R901-905,R1001-1005,R1101-1108,R1201-1212,R1301-1308,R1401-1405,R1501-1508,R1601-1612,R1701-1705,R1801-1805,R1901-1931,R2001-2020,R2101-2115,R2201-2241,R2301-2311,R2401-2405,R2501-2509,SW2101-2105",
     "variants": []
   },
   "sheets": [
@@ -2133,84 +2193,12 @@
       "Root"
     ],
     [
-      "724a50b6-0cc3-4337-8510-a63a9adaa031",
-      "DC-SCM 2.1 connector"
-    ],
-    [
-      "b18fedc8-291b-45fb-9413-07ab4e9140fd",
-      "PECI PHY"
-    ],
-    [
-      "94c97551-0f36-4c4c-9cf4-e9305d5a8140",
-      "ETH PHY"
-    ],
-    [
-      "ec2bc394-f073-4549-a45a-609fd3c852aa",
-      "Power"
-    ],
-    [
-      "2bc967bd-811d-4dc1-a0ec-b60c8334579a",
-      "USB Hub"
-    ],
-    [
-      "af45e011-8332-484c-9b46-08bd6b2c8877",
-      "TPM"
-    ],
-    [
-      "e62a0a22-c003-4281-aacf-cd65a22f5da7",
-      "SD Card"
-    ],
-    [
-      "2f6f709e-e133-4af2-b82d-2efdce120bcc",
-      "Front panel ETH"
-    ],
-    [
-      "c275d784-cff8-4824-87db-661a713118aa",
-      "Front panel DisplayPort"
-    ],
-    [
-      "7cc444a1-5e93-455b-8cec-0f51c02bdc24",
-      "Front panel USB"
-    ],
-    [
-      "9b6dca03-b771-45e5-8c6e-4e623e5273f4",
-      "FTDI"
-    ],
-    [
-      "438e9c44-46ce-4859-a53d-b917b2709c50",
-      "USB Controller"
-    ],
-    [
-      "b3cbd59d-9ece-44ce-ba0a-b3871e1e246e",
-      "ULPI PHY 1"
-    ],
-    [
-      "4780f80e-34ad-4c1b-88e5-3aab07a56d6f",
-      "ULPI PHY 0"
-    ],
-    [
-      "f9d49440-6457-44a6-96ad-733c78ac7b04",
-      "CLK"
-    ],
-    [
-      "65eda2d2-086a-48f2-af4e-47077a805913",
-      "LTPI bias"
-    ],
-    [
-      "24358ccd-38f4-4473-b406-ebc28282868f",
-      "HS connector"
-    ],
-    [
-      "0f840514-43a9-482c-9273-0d794c7e3be4",
-      "Misc"
-    ],
-    [
-      "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
-      "BIOS"
-    ],
-    [
       "ccfd355f-9460-404d-be61-24db575a0371",
       "MitySOM Power"
+    ],
+    [
+      "44f62d5f-99b7-4265-9c30-e48dbfd6f996",
+      "MitySOM Config"
     ],
     [
       "28ef639c-9de1-4cc9-9bdd-2421ace540ac",
@@ -2229,8 +2217,80 @@
       "MitySOM GTS"
     ],
     [
-      "44f62d5f-99b7-4265-9c30-e48dbfd6f996",
-      "MitySOM Config"
+      "724a50b6-0cc3-4337-8510-a63a9adaa031",
+      "DC-SCM 2.1 connector"
+    ],
+    [
+      "ec2bc394-f073-4549-a45a-609fd3c852aa",
+      "Power"
+    ],
+    [
+      "f9d49440-6457-44a6-96ad-733c78ac7b04",
+      "CLK"
+    ],
+    [
+      "af45e011-8332-484c-9b46-08bd6b2c8877",
+      "TPM"
+    ],
+    [
+      "e62a0a22-c003-4281-aacf-cd65a22f5da7",
+      "SD Card"
+    ],
+    [
+      "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195",
+      "BIOS"
+    ],
+    [
+      "65eda2d2-086a-48f2-af4e-47077a805913",
+      "LTPI bias"
+    ],
+    [
+      "b18fedc8-291b-45fb-9413-07ab4e9140fd",
+      "PECI PHY"
+    ],
+    [
+      "438e9c44-46ce-4859-a53d-b917b2709c50",
+      "USB Controller"
+    ],
+    [
+      "2bc967bd-811d-4dc1-a0ec-b60c8334579a",
+      "USB Hub"
+    ],
+    [
+      "4780f80e-34ad-4c1b-88e5-3aab07a56d6f",
+      "ULPI PHY 0"
+    ],
+    [
+      "b3cbd59d-9ece-44ce-ba0a-b3871e1e246e",
+      "ULPI PHY 1"
+    ],
+    [
+      "94c97551-0f36-4c4c-9cf4-e9305d5a8140",
+      "ETH PHY"
+    ],
+    [
+      "24358ccd-38f4-4473-b406-ebc28282868f",
+      "HS connector"
+    ],
+    [
+      "0f840514-43a9-482c-9273-0d794c7e3be4",
+      "Misc"
+    ],
+    [
+      "7cc444a1-5e93-455b-8cec-0f51c02bdc24",
+      "Front panel USB"
+    ],
+    [
+      "9b6dca03-b771-45e5-8c6e-4e623e5273f4",
+      "FTDI"
+    ],
+    [
+      "2f6f709e-e133-4af2-b82d-2efdce120bcc",
+      "Front panel ETH"
+    ],
+    [
+      "c275d784-cff8-4824-87db-661a713118aa",
+      "Front panel DisplayPort"
     ]
   ],
   "text_variables": {},
