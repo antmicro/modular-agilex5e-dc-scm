@@ -2621,6 +2621,12 @@
 		(uuid "1528b22d-dd89-4a88-ba11-b70718568e18")
 	)
 	(junction
+		(at 215.9 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d2f7623-b483-4ae0-b4f0-36aed15822ca")
+	)
+	(junction
 		(at 181.61 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2661,12 +2667,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58465a6-e865-4b4f-804a-1e3c0aee09aa")
-	)
-	(junction
-		(at 215.9 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb2d31a3-92fa-4a64-80a4-de7354ee10b5")
 	)
 	(bus_entry
 		(at 289.56 140.97)
@@ -2725,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "1215cb7f-8e3e-4df9-abfd-1396e1bb718a")
+	)
+	(wire
+		(pts
+			(xy 229.87 157.48) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e418d53-e3f8-47ca-89ed-79883ed2b5d9")
 	)
 	(wire
 		(pts
@@ -3168,7 +3178,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 157.48) (xy 220.98 157.48)
+			(xy 215.9 157.48) (xy 224.79 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3339,7 @@
 	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
-		(at 220.98 157.48 0)
+		(at 237.49 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4988,6 +4998,183 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
 					(reference "R1403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_0R_0402")
+		(at 224.79 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "955487e7-88ed-454e-b3a2-0d6e549622d9")
+		(property "Reference" "R1406"
+			(at 229.87 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_0R_0402"
+			(at 245.11 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 245.11 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
+			(at 245.11 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 224.79 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ERJ2GE0R00X"
+			(at 245.11 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 245.11 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 245.11 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 245.11 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "0R"
+			(at 224.79 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" ""
+			(at 245.11 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Current" "1A"
+			(at 245.11 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "64a89caf-f4af-452b-b257-98663d20f9b9")
+		)
+		(pin "2"
+			(uuid "4bbcc2f1-e531-455e-bff1-75977ecc9eee")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "R1406")
 					(unit 1)
 				)
 			)
