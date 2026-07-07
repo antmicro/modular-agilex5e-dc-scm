@@ -13053,6 +13053,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 186.69) (xy 266.7 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be542958-c235-41ad-b40c-8b4921737fa2")
+	)
+	(wire
+		(pts
 			(xy 369.57 143.51) (xy 354.33 143.51)
 		)
 		(stroke
@@ -15140,6 +15150,17 @@
 			(justify left)
 		)
 		(uuid "bbf0e1f5-967e-42ae-af8b-280009bb9954")
+	)
+	(hierarchical_label "QSPI_ISO_SW"
+		(shape output)
+		(at 264.16 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0ca88ad-b3a7-415f-8ea2-f6e4d591487d")
 	)
 	(hierarchical_label "SOM{QSPI}"
 		(shape bidirectional)

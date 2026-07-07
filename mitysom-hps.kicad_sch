@@ -7967,6 +7967,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 146.05) (xy 167.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab1a48e-80c2-4f65-b5ae-ab294e9e151c")
+	)
+	(wire
+		(pts
 			(xy 219.71 158.75) (xy 261.62 158.75)
 		)
 		(stroke
@@ -8277,6 +8287,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 151.13) (xy 167.64 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81780594-a709-4df0-938a-182cd75ab719")
+	)
+	(wire
+		(pts
 			(xy 242.57 148.59) (xy 261.62 148.59)
 		)
 		(stroke
@@ -8304,6 +8324,16 @@
 			(type default)
 		)
 		(uuid "8549a0b2-2b4a-46ee-8a16-c01eba6b7c54")
+	)
+	(wire
+		(pts
+			(xy 186.69 148.59) (xy 167.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f82fab6-0a5c-4270-ab68-8edc95c3b8fb")
 	)
 	(bus
 		(pts
@@ -9186,6 +9216,17 @@
 		)
 		(uuid "003bb115-605d-4a9c-a140-b13f7eabf714")
 	)
+	(hierarchical_label "LED1"
+		(shape output)
+		(at 167.64 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d2b1ca5-a9d0-4ef0-b4a7-25ab6c7efabb")
+	)
 	(hierarchical_label "CLK_25MHz"
 		(shape output)
 		(at 184.15 187.96 180)
@@ -9230,6 +9271,17 @@
 		)
 		(uuid "65ec75f9-c42c-4c0d-91d1-cdb4b8d61a24")
 	)
+	(hierarchical_label "LED2"
+		(shape output)
+		(at 167.64 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2dcb3a1-1a71-4325-9dee-a309264d951c")
+	)
 	(hierarchical_label "FAN_EN"
 		(shape output)
 		(at 222.25 179.07 0)
@@ -9273,6 +9325,17 @@
 			(justify right)
 		)
 		(uuid "c8f0aed5-b3b6-4b68-89c7-8035705a73da")
+	)
+	(hierarchical_label "LED0"
+		(shape output)
+		(at 167.64 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9e92734-5da5-47ee-ba50-9b3988c4c226")
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_33R_0402")
