@@ -75,7 +75,7 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -83,6 +83,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "GRM155R61H104KE14D"
@@ -173,7 +174,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -250,7 +251,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroInterfaceControllers:MAX6621AUBT"
+		(symbol "antmicroInterfaceControllers:MAX6621AUB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -268,7 +269,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "MAX6621AUBT"
+			(property "Value" "MAX6621AUB"
 				(at 35.56 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -371,7 +372,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "SMT, INTERFACE, IC, TRANSCEIVER"
+			(property "ki_keywords" "SMT, INTERFACE, IC, TRANSCEIVER, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -382,7 +383,7 @@
 					)
 				)
 			)
-			(symbol "MAX6621AUBT_1_1"
+			(symbol "MAX6621AUB_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 20.32 -21.59)
@@ -394,7 +395,7 @@
 						(type background)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 22.86 -6.35 180)
 					(length 2.54)
 					(name "PECI"
@@ -430,7 +431,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 22.86 -16.51 180)
 					(length 2.54)
 					(name "AD0"
@@ -448,7 +449,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 0 -3.81 0)
 					(length 2.54)
 					(name "SDA"
@@ -466,7 +467,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 -6.35 0)
 					(length 2.54)
 					(name "SCL"
@@ -520,7 +521,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 -12.7 0)
 					(length 2.54)
 					(name "~{RESET}"
@@ -538,7 +539,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin output line
 					(at 0 -10.16 0)
 					(length 2.54)
 					(name "~{ALERT}"
@@ -1075,7 +1076,7 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1083,6 +1084,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "ERJ2GE0R00X"
@@ -1174,7 +1176,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1302,7 +1304,7 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1310,6 +1312,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "CR0402-FX-1002GLF"
@@ -1388,7 +1391,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1513,7 +1516,7 @@
 				)
 			)
 			(property "Description" "SMT test point"
-				(at 0 0 0)
+				(at 10.795 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1521,6 +1524,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" ""
@@ -1624,7 +1628,7 @@
 				(offset 0)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
@@ -1742,7 +1746,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS"
+			(property "ki_keywords" "SMT, TRANSISTOR, SEMICONDUCTOR, MOSFET, NMOS, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2065,7 +2069,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2073,6 +2077,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(symbol "+0V5_0_1"
@@ -2201,7 +2206,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2209,6 +2214,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -2361,7 +2367,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2369,6 +2375,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -2523,7 +2530,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2531,6 +2538,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -4797,171 +4805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroInterfaceControllers:MAX6621AUBT")
-		(at 210.82 121.92 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8304e4e9-0490-4e77-9619-d1810d91457d")
-		(property "Reference" "U1401"
-			(at 199.39 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MAX6621AUBT"
-			(at 175.26 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:VSSOP-10_3x3mm_P0.5mm"
-			(at 175.26 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6621.pdf"
-			(at 175.26 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "PECI to I2C translator, 400 kbps, Vin 3V - 3.6V"
-			(at 175.26 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Analog Devices"
-			(at 175.26 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "MAX6621AUB+"
-			(at 199.39 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 175.26 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 175.26 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "53ad1e70-08f4-4487-a1be-ef59d74af3cf")
-		)
-		(pin "6"
-			(uuid "530501ca-0f7b-4f28-ac4b-ac08924f0eb1")
-		)
-		(pin "10"
-			(uuid "7b68441f-4f74-4852-acea-50811a8b2c11")
-		)
-		(pin "1"
-			(uuid "68d3e891-7b7a-484a-83b5-2bfdc38afe5b")
-		)
-		(pin "5"
-			(uuid "0039ae46-1077-47d1-b128-dda02f0dea71")
-		)
-		(pin "4"
-			(uuid "886a08cd-6b71-477d-818a-d773cccd6379")
-		)
-		(pin "7"
-			(uuid "b5a4dc62-ea0c-44de-b4b5-df039065b5f0")
-		)
-		(pin "2"
-			(uuid "ec3fb7b0-ce2d-42af-b448-651c773cd634")
-		)
-		(pin "9"
-			(uuid "e1797ed1-dd31-47de-80a1-c0432d383034")
-		)
-		(pin "8"
-			(uuid "af64c48c-57c0-4a12-b8a3-92d5557be2c8")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
-					(reference "U1401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 180.34 138.43 0)
 		(unit 1)
@@ -6727,6 +6570,170 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
 					(reference "#PWR01407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroInterfaceControllers:MAX6621AUB")
+		(at 210.82 121.92 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eeddedfa-d36b-4a7a-a43d-228dfe75b377")
+		(property "Reference" "U1401"
+			(at 199.39 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MAX6621AUB"
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:VSSOP-10_3x3mm_P0.5mm"
+			(at 175.26 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6621.pdf"
+			(at 175.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "PECI to I2C translator, 400 kbps, Vin 3V - 3.6V"
+			(at 175.26 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 175.26 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "MAX6621AUB+"
+			(at 199.39 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 175.26 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "7"
+			(uuid "3d643402-4b32-4390-8255-e101191c62d5")
+		)
+		(pin "9"
+			(uuid "40d1b8b0-82cf-4fe2-a0d5-b5f3597c40b0")
+		)
+		(pin "10"
+			(uuid "07f0a67e-da15-4b1e-a815-081bc450e8ec")
+		)
+		(pin "1"
+			(uuid "969d2c17-74a4-481b-a32f-ffa7cdbe3d00")
+		)
+		(pin "6"
+			(uuid "1df5382d-6c50-48d8-9f89-0c0578e6a208")
+		)
+		(pin "5"
+			(uuid "f0d31cee-2bd3-4ea0-84d6-bc89d7581b31")
+		)
+		(pin "3"
+			(uuid "6de62629-142a-46d6-87d6-7e23b367088b")
+		)
+		(pin "4"
+			(uuid "e9610695-b233-4234-843f-8a2cde9956ca")
+		)
+		(pin "8"
+			(uuid "7e003d08-f847-4e70-9c37-776deee596a6")
+		)
+		(pin "2"
+			(uuid "b9e92982-0b1f-47a2-8cd4-d2a261af066a")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "U1401")
 					(unit 1)
 				)
 			)

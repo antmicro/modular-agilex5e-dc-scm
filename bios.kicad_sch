@@ -75,7 +75,7 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -83,6 +83,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "GRM155R61H104KE14D"
@@ -173,7 +174,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -314,7 +315,7 @@
 				)
 			)
 			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -322,6 +323,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "C1005X6S1A105K050BC"
@@ -412,7 +414,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1553,7 +1555,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "IC, SMT, FLASH"
+			(property "ki_keywords" "IC, SMT, FLASH, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2092,7 +2094,7 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2100,6 +2102,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "ERJ2GE0R00X"
@@ -2191,7 +2194,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2319,7 +2322,7 @@
 				)
 			)
 			(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 0 0 0)
+				(at 20.32 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2327,6 +2330,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "MPN" "CR0402-FX-1002GLF"
@@ -2405,7 +2409,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2534,7 +2538,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 15.24 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2542,6 +2546,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -2694,7 +2699,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 8.89 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2702,6 +2707,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Author" "Antmicro"
@@ -5106,7 +5112,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 241.3 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5118,20 +5124,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" ""
 			(at 243.84 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 246.38 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6253,7 +6247,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" ""
 			(at 241.3 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6265,20 +6259,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" ""
 			(at 243.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Public" "False"
-			(at 246.38 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
