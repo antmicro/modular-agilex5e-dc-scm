@@ -577,20 +577,8 @@
 		(uuid "2e4d41da-43d2-470b-8b4f-a745526eb965")
 	)
 	(no_connect
-		(at 342.9 68.58)
-		(uuid "3aa2b928-f48e-4b62-b73a-15dc27ab380b")
-	)
-	(no_connect
 		(at 342.9 45.72)
 		(uuid "4f9e86a4-8718-45f2-8548-69e2c0f8a3bd")
-	)
-	(no_connect
-		(at 342.9 66.04)
-		(uuid "6037f9a2-75ff-4ffe-a2db-d54cb8653d81")
-	)
-	(no_connect
-		(at 342.9 73.66)
-		(uuid "72304229-7cf4-4f86-8396-2817ab6db17a")
 	)
 	(no_connect
 		(at 304.8 68.58)
@@ -607,10 +595,6 @@
 	(no_connect
 		(at 304.8 66.04)
 		(uuid "ad17f14b-7e39-4353-9293-85dcd72d2389")
-	)
-	(no_connect
-		(at 342.9 71.12)
-		(uuid "c274607d-36ab-4225-a55c-d5cb65c484e7")
 	)
 	(bus
 		(pts
@@ -5065,16 +5049,6 @@
 				(justify right)
 			)
 		)
-		(pin "USB3{USB}" bidirectional
-			(at 342.9 71.12 0)
-			(uuid "6ba87f7a-f35c-4d5d-8363-960c8b5ee644")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB4{USB}" bidirectional
 			(at 304.8 71.12 180)
 			(uuid "8cd9a0fe-72b1-4184-8e18-39aa1019e4d3")
@@ -5105,16 +5079,6 @@
 				(justify right)
 			)
 		)
-		(pin "USBCTRL_PPON3" output
-			(at 342.9 68.58 0)
-			(uuid "7cd54f1d-8ba5-4588-92a6-5cafa1dc685c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USBCTRL_PPON4" output
 			(at 304.8 68.58 180)
 			(uuid "a48b1473-c0f8-4ef4-b4be-5f76d4f663d4")
@@ -5138,16 +5102,6 @@
 		(pin "USBSS2{USBSS}" bidirectional
 			(at 342.9 60.96 0)
 			(uuid "7b052cf8-882e-444c-8600-9abd896d5e66")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USBSS3{USBSS}" bidirectional
-			(at 342.9 73.66 0)
-			(uuid "3c5bde5d-a515-4636-8ed4-465536f6fbdc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,16 +5152,6 @@
 		(pin "~{USBCTRL_OCI2B}" input
 			(at 342.9 53.34 0)
 			(uuid "e8e48974-888e-49ed-8f7d-6cfa4e9d4381")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{USBCTRL_OCI3B}" input
-			(at 342.9 66.04 0)
-			(uuid "625b64fc-dabe-4a4c-ba85-649812ff5cd9")
 			(effects
 				(font
 					(size 1.27 1.27)
