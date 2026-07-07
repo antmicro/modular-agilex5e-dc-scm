@@ -5614,16 +5614,6 @@
 		)
 		(uuid "029cc769-4428-47c9-a53d-14e1687d7b1b")
 	)
-	(wire
-		(pts
-			(xy 341.63 124.46) (xy 341.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04f0a78f-74fc-4663-8f72-ecc26ef2449d")
-	)
 	(bus
 		(pts
 			(xy 166.37 88.9) (xy 168.91 88.9)
@@ -5633,16 +5623,6 @@
 			(type default)
 		)
 		(uuid "056f6c0c-c22f-40f8-8c44-e8424fd55781")
-	)
-	(wire
-		(pts
-			(xy 342.9 124.46) (xy 341.63 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074b52cb-5a8c-4a0b-b42e-38038ab09162")
 	)
 	(wire
 		(pts
@@ -6236,16 +6216,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 119.38) (xy 326.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6caa1f9e-c41c-45f6-a4c9-bd88a80cd7d5")
-	)
-	(wire
-		(pts
 			(xy 300.99 151.13) (xy 300.99 152.4)
 		)
 		(stroke
@@ -6536,16 +6506,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 121.92) (xy 326.39 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a761afa9-c24d-4bef-bab6-04173b6d2a23")
-	)
-	(wire
-		(pts
 			(xy 33.02 127) (xy 54.61 127)
 		)
 		(stroke
@@ -6693,16 +6653,6 @@
 			(type default)
 		)
 		(uuid "c27d4712-8f9c-42a3-a8af-1a38e414fffa")
-	)
-	(wire
-		(pts
-			(xy 342.9 114.3) (xy 326.39 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c296a61c-cc2c-4c90-ba15-ebd5cf0f1c9c")
 	)
 	(wire
 		(pts
@@ -6903,16 +6853,6 @@
 			(type default)
 		)
 		(uuid "e60b4185-e739-440d-a202-2fde0aad0424")
-	)
-	(wire
-		(pts
-			(xy 342.9 116.84) (xy 326.39 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e2fa7c-b7ff-4474-9f2e-5177ed4c4d7d")
 	)
 	(wire
 		(pts
@@ -7184,26 +7124,6 @@
 		)
 		(uuid "5126c485-fee2-4810-ac99-fa8788bfc616")
 	)
-	(label "DPCONN_TXD3+"
-		(at 326.39 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51ee6d44-5eab-465c-9432-c87a4a0a7167")
-	)
-	(label "DPCONN_TXD2-"
-		(at 326.39 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5de560a4-feb7-43fe-a7bd-0b94ce1d7ca7")
-	)
 	(label "AUX+"
 		(at 115.57 128.27 0)
 		(effects
@@ -7243,16 +7163,6 @@
 			(justify left bottom)
 		)
 		(uuid "6c3659c5-54b9-4731-a6d1-7eefdb0c69a3")
-	)
-	(label "DPCONN_TXD3-"
-		(at 326.39 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7083d799-1fec-4283-9142-6a0808bfa751")
 	)
 	(label "DPCONN_AUX+"
 		(at 262.89 125.73 0)
@@ -7373,16 +7283,6 @@
 			(justify left bottom)
 		)
 		(uuid "d45b37ec-256f-4f66-94a4-44d30d022261")
-	)
-	(label "DPCONN_TXD2+"
-		(at 326.39 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da157e22-8010-4062-a31e-f695cc0c848b")
 	)
 	(label "DP.HPD"
 		(at 326.39 139.7 0)
@@ -9427,117 +9327,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 341.63 125.73 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d145cbb-65ba-4920-a123-baa82aca354f")
-		(property "Reference" "#PWR02506"
-			(at 332.74 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 332.74 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 332.74 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" ""
-			(at 341.63 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 332.74 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 332.74 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f88eee64-59b4-4f9b-b088-e1b3efca5356")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "#PWR02506")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroInterfaceDriversReceiversTransceivers:SN65MLVD200A")
 		(at 54.61 115.57 0)
 		(unit 1)
@@ -11063,170 +10852,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
 					(reference "C2515")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTVSDiodes:TPD4E05U06QDQARQ1")
-		(at 342.9 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7dadd919-a545-4919-85e8-b3af94b84c08")
-		(property "Reference" "U2502"
-			(at 353.06 117.475 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPD4E05U06QDQARQ1"
-			(at 367.03 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:USON-10_2.5x1mm_P0.5mm"
-			(at 367.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4e05u06-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1663591265741&ref_url=https%253A%252F%252Fwww.mouser.com%252F"
-			(at 367.03 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "TVS diode array, 12 kV, USON-10, 5.5 V, 0.5 pF"
-			(at 342.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPD4E05U06QDQARQ1"
-			(at 353.06 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 367.03 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 367.03 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 367.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "6"
-			(uuid "55d18ec9-f94d-41f7-a3ef-0adf1292712d")
-		)
-		(pin "5"
-			(uuid "fcac7336-28b8-4f29-8f8c-9c4ba4171e0c")
-		)
-		(pin "10"
-			(uuid "5e26e322-5023-4d10-acc8-459cb5c8832f")
-		)
-		(pin "2"
-			(uuid "45758f4c-bd2e-4457-bd71-560025e5e2c4")
-		)
-		(pin "7"
-			(uuid "518b436c-7461-477f-8bb9-4718754ebeaf")
-		)
-		(pin "3"
-			(uuid "23d8905d-2d75-46ef-ac00-279ff43ed0d7")
-		)
-		(pin "9"
-			(uuid "a9953f7a-9a62-4593-8538-07ffdb5b7434")
-		)
-		(pin "4"
-			(uuid "cc866e34-6d96-44f2-bbd2-0ada96ea97f7")
-		)
-		(pin "1"
-			(uuid "3d86bc29-39aa-46e7-9a3c-e69de037f298")
-		)
-		(pin "8"
-			(uuid "d3d4cd70-d730-4c8b-bcbd-54484ecd0645")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/c275d784-cff8-4824-87db-661a713118aa"
-					(reference "U2502")
 					(unit 1)
 				)
 			)
