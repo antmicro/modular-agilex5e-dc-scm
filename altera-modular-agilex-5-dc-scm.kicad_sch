@@ -634,6 +634,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 262.89) (xy 156.21 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0134e9ea-91ed-4391-a7b4-a3c67f6ad6ab")
+	)
+	(wire
+		(pts
 			(xy 251.46 246.38) (xy 251.46 231.14)
 		)
 		(stroke
@@ -751,6 +761,16 @@
 			(type default)
 		)
 		(uuid "110e3cf0-e708-4384-8f88-b47b58e23568")
+	)
+	(wire
+		(pts
+			(xy 297.18 60.96) (xy 304.8 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12282fc6-95c7-46c8-8734-7866bcfb9b46")
 	)
 	(bus
 		(pts
@@ -1232,6 +1252,16 @@
 		)
 		(uuid "4ce6e6e1-9b91-490c-b0d8-f2a751bb63b0")
 	)
+	(wire
+		(pts
+			(xy 127 262.89) (xy 156.21 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d710497-339d-4e82-b49f-c65ce1ddb6fd")
+	)
 	(bus
 		(pts
 			(xy 76.2 27.94) (xy 347.98 27.94)
@@ -1281,6 +1311,16 @@
 			(type default)
 		)
 		(uuid "57735560-97d5-4293-a9b4-20d25009a21a")
+	)
+	(wire
+		(pts
+			(xy 297.18 127) (xy 297.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591cfc51-2a1e-42a1-93b3-e2bc113b6bb7")
 	)
 	(bus
 		(pts
@@ -1431,6 +1471,16 @@
 			(type default)
 		)
 		(uuid "65abe3af-7517-4fcf-83a7-ffd445d32aa2")
+	)
+	(wire
+		(pts
+			(xy 266.7 127) (xy 297.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67468fa4-289d-46bb-9a54-b3831c2d013b")
 	)
 	(wire
 		(pts
@@ -2022,6 +2072,16 @@
 		)
 		(uuid "b8e56d86-b773-4b92-8b1d-638c641b2789")
 	)
+	(wire
+		(pts
+			(xy 266.7 274.32) (xy 266.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc2ccdb5-3f2e-41aa-a2a6-f7a8c444210a")
+	)
 	(bus
 		(pts
 			(xy 142.24 92.71) (xy 142.24 76.2)
@@ -2422,6 +2482,16 @@
 		)
 		(uuid "e9f0c4f4-ba10-425c-8d5f-f04eb1a7cdb5")
 	)
+	(wire
+		(pts
+			(xy 156.21 274.32) (xy 266.7 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2b3445-e3b2-47b7-a8b9-b83fe97fef90")
+	)
 	(bus
 		(pts
 			(xy 207.01 71.12) (xy 207.01 168.91)
@@ -2534,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 260.35) (xy 165.1 260.35)
+			(xy 127 259.08) (xy 165.1 259.08)
 		)
 		(stroke
 			(width 0)
@@ -5155,6 +5225,16 @@
 				(justify left)
 			)
 		)
+		(pin "1V05_PG" input
+			(at 304.8 60.96 180)
+			(uuid "b046890d-c0e5-45cf-8eb8-25d162529720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185"
@@ -7260,7 +7340,7 @@
 			)
 		)
 		(pin "HVIO_ENABLE" output
-			(at 165.1 260.35 180)
+			(at 165.1 259.08 180)
 			(uuid "fe3dc17c-413d-4d78-bd0a-32cc7b9995a0")
 			(effects
 				(font
@@ -7382,7 +7462,7 @@
 			)
 		)
 		(pin "HVIO_ENABLE" input
-			(at 127 260.35 0)
+			(at 127 259.08 0)
 			(uuid "e64cf670-ec0e-4c10-a720-9045313707f0")
 			(effects
 				(font
@@ -7399,6 +7479,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "1V05_PG" output
+			(at 127 262.89 0)
+			(uuid "389bab46-f85e-435b-9728-621dbd3c5b63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
