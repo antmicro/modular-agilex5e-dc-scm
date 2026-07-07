@@ -638,6 +638,9 @@
       "/CLK/DC_SCM_CLK.CLK-": [
         "85Ohm-diff"
       ],
+      "/CLK/DC_SCM_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
       "/CLK/SOM_CLK+": [
         "85Ohm-diff"
       ],
@@ -2015,6 +2018,9 @@
       "Net-(U1104-B)": [
         "100Ohm-diff"
       ],
+      "Net-(U1501-AVDD33)": [
+        "PWR"
+      ],
       "Net-(U2503-A)": [
         "100Ohm-diff"
       ],
@@ -2357,6 +2363,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -2369,7 +2383,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "R2019,R2501-2502,R2510-2511,C2002-2006,C2009-2016,C2503-2506,C2515,C2518-2519,#PWR2003,#PWR2011,#PWR2019,#PWR2021-2025,#PWR2501-2503,#PWR2505,#PWR2511,#PWR2515-2518",
+    "used_designators": "#FLG503,#FLG1501",
     "variants": []
   },
   "sheets": [

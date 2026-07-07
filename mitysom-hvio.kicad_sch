@@ -9247,6 +9247,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:+1V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 15.24 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "+1V8"
+				(at -3.175 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 15.24 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 15.24 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 15.24 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicropower:+3V3"
 			(power global)
 			(pin_numbers
@@ -9650,145 +9811,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+1V8"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+1V8_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+1V8_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "SPI_SCMCNTRL.SCK to\nTXCLK capable HVIO!"
 		(exclude_from_sim no)
@@ -9875,6 +9897,18 @@
 		(uuid "255df87f-92e4-4188-97ff-32f56a2ae691")
 	)
 	(junction
+		(at 99.06 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3490823e-4ea0-4602-864f-ed21101e62a4")
+	)
+	(junction
+		(at 356.87 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d7b0c9b-12c9-4aa2-bb75-6a51f737975e")
+	)
+	(junction
 		(at 359.41 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9885,6 +9919,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "957fcd96-1bb3-4bb4-b3de-4658873762c4")
+	)
+	(junction
+		(at 99.06 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5a9ba86-1902-4c65-9e91-25ea27950a73")
 	)
 	(junction
 		(at 99.06 161.29)
@@ -9943,12 +9983,24 @@
 		(uuid "83b6bc74-272f-4083-9a14-1955c1646d1a")
 	)
 	(no_connect
+		(at 302.26 163.83)
+		(uuid "9aa377df-2447-4ec1-a68a-1d682514f5eb")
+	)
+	(no_connect
 		(at 96.52 147.32)
 		(uuid "a05e0e26-7927-4907-b6dd-7539965c9601")
 	)
 	(no_connect
+		(at 132.08 60.96)
+		(uuid "a0d2f61f-a2c0-447b-94fe-8955c3812c30")
+	)
+	(no_connect
 		(at 77.47 154.94)
 		(uuid "bc7a46b5-ccf1-4031-a2dd-0b463ecbd0c1")
+	)
+	(no_connect
+		(at 132.08 231.14)
+		(uuid "ead12e92-0109-4bf2-85a6-f84f5e12bc52")
 	)
 	(no_connect
 		(at 77.47 152.4)
@@ -11150,6 +11202,16 @@
 			(type default)
 		)
 		(uuid "1c9ccae4-3e75-4bbc-8cc4-cbc56e30feb6")
+	)
+	(wire
+		(pts
+			(xy 99.06 130.81) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d06c9b6-be04-489c-86c2-436a5a4b8cf6")
 	)
 	(wire
 		(pts
@@ -12673,6 +12735,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 120.65) (xy 99.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eccad8e-969f-4a28-b908-c2ef8668cdf4")
+	)
+	(wire
+		(pts
 			(xy 356.87 121.92) (xy 356.87 134.62)
 		)
 		(stroke
@@ -12740,6 +12812,16 @@
 			(type default)
 		)
 		(uuid "a663f0e7-df03-482c-85a8-d2296177dc47")
+	)
+	(wire
+		(pts
+			(xy 354.33 137.16) (xy 356.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a732b3d8-c86d-42bd-97e6-5259fade0863")
 	)
 	(wire
 		(pts
@@ -13143,6 +13225,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 137.16) (xy 356.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c86b99f1-d6ad-4a25-9087-2d7dae1f9014")
+	)
+	(wire
+		(pts
 			(xy 167.64 66.04) (xy 196.85 66.04)
 		)
 		(stroke
@@ -13333,7 +13425,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 118.11) (xy 99.06 130.81)
+			(xy 99.06 118.11) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -13570,6 +13662,16 @@
 			(type default)
 		)
 		(uuid "f23f692f-4aa3-4373-aa9c-a586a0229df4")
+	)
+	(wire
+		(pts
+			(xy 96.52 133.35) (xy 99.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f24c3b1e-145e-43fa-99bc-5793dfb19698")
 	)
 	(wire
 		(pts
@@ -18977,6 +19079,85 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 99.06 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ecf89b3-cb94-4f52-ad54-80b2d1cfbe8c")
+		(property "Reference" "#FLG0503"
+			(at 97.155 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.266 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "43e32608-dad8-42bf-9dc9-f2ed8ed89aaa")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/c1ff3762-7815-4072-9586-bdd6f23ff1ef"
+					(reference "#FLG0503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 356.87 167.64 0)
 		(unit 1)
@@ -20455,7 +20636,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "antmicropower:+1V8")
 		(at 101.6 110.49 0)
 		(unit 1)
 		(body_style 1)
@@ -20487,29 +20668,33 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 110.49 0)
+			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 110.49 0)
+			(at 116.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 101.6 110.49 0)
+			(at 116.84 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20517,6 +20702,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 116.84 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 116.84 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
@@ -21244,7 +21456,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "antmicropower:+1V8")
 		(at 330.2 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -21276,29 +21488,33 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 119.38 0)
+			(at 345.44 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 119.38 0)
+			(at 345.44 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 330.2 119.38 0)
+			(at 345.44 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21306,6 +21522,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 345.44 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 345.44 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"

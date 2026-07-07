@@ -4325,6 +4325,111 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "antmicropower:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "TODO: Swap RC with Power sequencing IC\n\n"
 		(exclude_from_sim no)
@@ -4543,6 +4648,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e5dcadb-0a46-4eee-bc4d-3b7f67ba8f5f")
+	)
+	(junction
+		(at 276.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8a63329-4767-4ed1-bae5-0bdc31e606b5")
+	)
+	(junction
+		(at 284.48 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac2b2379-69e2-47e8-942c-b5b9f2046e8d")
 	)
 	(junction
 		(at 308.61 101.6)
@@ -5068,6 +5185,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 101.6) (xy 284.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b6eec5-21fd-421c-b63b-b2b9fbab253c")
+	)
+	(wire
+		(pts
 			(xy 254 127) (xy 254 130.81)
 		)
 		(stroke
@@ -5168,7 +5295,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 101.6) (xy 241.3 102.87)
+			(xy 243.84 101.6) (xy 243.84 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5285,6 +5412,16 @@
 			(type default)
 		)
 		(uuid "25aae1d8-2d11-4374-825b-69d53c23751d")
+	)
+	(wire
+		(pts
+			(xy 284.48 100.33) (xy 284.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2736009f-e5c8-4cd9-a0e5-32e1beee58d2")
 	)
 	(wire
 		(pts
@@ -5968,6 +6105,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 101.6) (xy 288.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be35530-25b2-4d36-8b68-d9d907158fb2")
+	)
+	(wire
+		(pts
 			(xy 238.76 123.19) (xy 254 123.19)
 		)
 		(stroke
@@ -6578,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 100.33) (xy 276.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2478e3d-a98c-465a-9ad3-895c73718303")
+	)
+	(wire
+		(pts
 			(xy 308.61 85.09) (xy 308.61 86.36)
 		)
 		(stroke
@@ -6988,6 +7145,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 102.87) (xy 241.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a8f442-f053-4354-81eb-828e90627f62")
+	)
+	(wire
+		(pts
 			(xy 288.29 109.22) (xy 288.29 107.95)
 		)
 		(stroke
@@ -7358,7 +7525,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 101.6) (xy 288.29 101.6)
+			(xy 243.84 101.6) (xy 276.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8095,6 +8262,40 @@
 		)
 		(property "Component Class" ""
 			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 276.86 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a843542-db5b-4652-b1d9-3882da2727eb")
+		(property "Net Class" "PWR"
+			(at 275.59 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 554.99 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12899,6 +13100,84 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
 					(reference "C1510")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:PWR_FLAG")
+		(at 284.48 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7f5b8a03-fa93-45f7-ad87-91afe03458fa")
+		(property "Reference" "#FLG01501"
+			(at 284.48 98.425 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 284.48 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a7803eb9-4754-4976-94cf-670da2ebfe1a")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/438e9c44-46ce-4859-a53d-b917b2709c50"
+					(reference "#FLG01501")
 					(unit 1)
 				)
 			)
