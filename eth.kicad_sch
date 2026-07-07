@@ -5622,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 111.76 107.95)
+			(xy 129.54 107.95) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6402,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 105.41) (xy 111.76 105.41)
+			(xy 129.54 105.41) (xy 111.76 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 97.79) (xy 111.76 97.79)
+			(xy 129.54 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7291,7 +7291,7 @@
 		(uuid "289cc8d0-99a2-4baa-9be7-ab0c8f711845")
 	)
 	(label "GbE.MDIO"
-		(at 128.27 107.95 180)
+		(at 129.54 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,6 +7309,16 @@
 			(justify left bottom)
 		)
 		(uuid "2f86a517-1ea2-4e18-80c7-f5367fb8670a")
+	)
+	(label "~{GbE_RESET}"
+		(at 129.54 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fe96ab5-f064-4adc-b372-8da358a3a235")
 	)
 	(label "GbE.RXD3"
 		(at 148.59 140.97 0)
@@ -7349,16 +7359,6 @@
 			(justify left bottom)
 		)
 		(uuid "4bbf33be-9fee-4d74-8086-02ac02123068")
-	)
-	(label "GbE.~{RESET}"
-		(at 128.27 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4bc3018e-d512-4966-9359-e43b6dc01b6d")
 	)
 	(label "RXD3"
 		(at 176.53 140.97 0)
@@ -7469,16 +7469,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f325f81-061e-4bcb-82d1-65d4e4389415")
-	)
-	(label "GbE.~{RESET}"
-		(at 148.59 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fe238f4-6651-4202-ab4f-26f042747b7d")
 	)
 	(label "GbE.RX_CTL"
 		(at 148.59 130.81 0)
@@ -7611,7 +7601,7 @@
 		(uuid "cfc16d3c-992c-49be-9f8e-5d12b9a4744b")
 	)
 	(label "GbE.MDC"
-		(at 128.27 105.41 180)
+		(at 129.54 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7733,6 +7723,17 @@
 			(justify right)
 		)
 		(uuid "c4040a91-aedc-49e9-a526-c0f5989313aa")
+	)
+	(hierarchical_label "~{GbE_RESET}"
+		(shape input)
+		(at 148.59 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2913fb6-fe2b-4c05-860c-0c66dbcee5f8")
 	)
 	(hierarchical_label "GbE{RGMII}"
 		(shape bidirectional)

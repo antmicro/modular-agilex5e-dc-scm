@@ -1012,6 +1012,16 @@
 		)
 		(uuid "2c0eb740-2da1-40df-98e8-5a7c5812975f")
 	)
+	(wire
+		(pts
+			(xy 271.78 134.62) (xy 271.78 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30598d97-8c26-48d6-aa87-4424b304c14f")
+	)
 	(bus
 		(pts
 			(xy 76.2 177.8) (xy 165.1 177.8)
@@ -1311,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "5d02df1a-8bdf-4a5d-9631-650eabc2a743")
+	)
+	(wire
+		(pts
+			(xy 271.78 149.86) (xy 304.8 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4d7cd3-61a3-4ec0-b29b-04a22ee7e0d5")
 	)
 	(bus
 		(pts
@@ -1984,7 +2004,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 128.27) (xy 269.24 238.76)
+			(xy 269.24 137.16) (xy 269.24 238.76)
 		)
 		(stroke
 			(width 0)
@@ -2021,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "beb27dd3-c971-4023-93c0-9486b76e8228")
+	)
+	(wire
+		(pts
+			(xy 254 134.62) (xy 271.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2874fd-6f7b-4e3a-901e-17723ff36202")
 	)
 	(wire
 		(pts
@@ -2064,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 128.27) (xy 269.24 128.27)
+			(xy 254 137.16) (xy 269.24 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4541,7 +4571,7 @@
 	)
 	(sheet
 		(at 215.9 63.5)
-		(size 38.1 67.31)
+		(size 38.1 76.2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4567,7 +4597,7 @@
 			)
 		)
 		(property "Sheetfile" "mitysom-hps.kicad_sch"
-			(at 215.9 131.3946 0)
+			(at 215.9 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4608,7 +4638,7 @@
 			)
 		)
 		(pin "FAN_EN" output
-			(at 254 128.27 0)
+			(at 254 137.16 0)
 			(uuid "6b5842d1-4baf-446b-b775-59d809c064f9")
 			(effects
 				(font
@@ -4690,6 +4720,16 @@
 		(pin "LED2" output
 			(at 254 116.84 0)
 			(uuid "00c1f76a-7c35-465b-9252-e2b9937622bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{GbE_RESET}" output
+			(at 254 134.62 0)
+			(uuid "63e308a3-657d-45a7-b933-24c7a7cb7a40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,6 +6326,16 @@
 		(pin "GbE{RGMII}" bidirectional
 			(at 304.8 147.32 180)
 			(uuid "0737129a-54d4-496a-8742-42c27231b18c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GbE_RESET}" input
+			(at 304.8 149.86 180)
+			(uuid "16dd8209-98c7-45b5-a53c-2eed2e183796")
 			(effects
 				(font
 					(size 1.27 1.27)

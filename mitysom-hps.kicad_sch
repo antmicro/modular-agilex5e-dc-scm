@@ -7583,16 +7583,6 @@
 		)
 		(uuid "801a917c-a45f-436c-924e-689b9e101f79")
 	)
-	(text "ETH PHY RESET?"
-		(exclude_from_sim no)
-		(at 229.108 171.196 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5dac3f1-e1f7-4bbc-8669-ce38097b25b7")
-	)
 	(no_connect
 		(at 219.71 176.53)
 		(uuid "5c73fff3-c896-422f-93b5-2e807728f5d8")
@@ -8340,6 +8330,16 @@
 			(type default)
 		)
 		(uuid "8549a0b2-2b4a-46ee-8a16-c01eba6b7c54")
+	)
+	(wire
+		(pts
+			(xy 219.71 171.45) (xy 222.25 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d5b7b95-538f-4f1e-a787-36cf93c72424")
 	)
 	(wire
 		(pts
@@ -9242,6 +9242,17 @@
 			(justify right)
 		)
 		(uuid "0d2b1ca5-a9d0-4ef0-b4a7-25ab6c7efabb")
+	)
+	(hierarchical_label "~{GbE_RESET}"
+		(shape output)
+		(at 222.25 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "255d2e49-7256-41c2-b973-622aee69cd95")
 	)
 	(hierarchical_label "CLK_25MHz"
 		(shape output)
