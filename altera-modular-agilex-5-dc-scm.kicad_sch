@@ -2006,6 +2006,16 @@
 		)
 		(uuid "daa179c1-35bf-4634-842e-a87db062b2e7")
 	)
+	(bus
+		(pts
+			(xy 139.7 83.82) (xy 215.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc40e8cc-3af8-45c1-8605-618e77d45c91")
+	)
 	(wire
 		(pts
 			(xy 129.54 196.85) (xy 129.54 203.2)
@@ -3352,6 +3362,16 @@
 		(pin "CLK_25MHz" output
 			(at 215.9 78.74 180)
 			(uuid "ff439509-1a7c-439e-8d42-e51454d62c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I3C0{I3C}" bidirectional
+			(at 215.9 83.82 180)
+			(uuid "5e15c58b-6ac9-48f3-b665-1225edf15f38")
 			(effects
 				(font
 					(size 1.27 1.27)
