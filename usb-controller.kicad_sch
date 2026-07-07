@@ -5575,6 +5575,16 @@
 		)
 		(uuid "33bfee2b-7122-4e5c-980d-d2e72b9e323f")
 	)
+	(wire
+		(pts
+			(xy 180.34 97.79) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bc809f-7614-46b7-975e-37f5addd7d4c")
+	)
 	(bus
 		(pts
 			(xy 179.07 156.21) (xy 179.07 166.37)
@@ -6514,16 +6524,6 @@
 			(type default)
 		)
 		(uuid "9ba8dd07-23b8-4e7e-bbb3-42e673924fdd")
-	)
-	(wire
-		(pts
-			(xy 190.5 97.79) (xy 180.34 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6b7f2a-ddbc-4e3e-bb34-c654f7e270eb")
 	)
 	(wire
 		(pts
@@ -11157,7 +11157,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3355fae6-75dd-4eaa-ac29-76dcb3a65c35")
 		(property "Reference" "#PWR01503"
 			(at 130.81 100.33 0)
@@ -11171,7 +11170,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 130.81 91.44 0)
+			(at 130.81 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

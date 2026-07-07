@@ -229,7 +229,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -5.08 0)
 					(length 6.35)
 					(name "+1.8V"
@@ -247,7 +247,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -10.16 0)
 					(length 6.35)
 					(name "+1.1V"
@@ -9811,7 +9811,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" ""
 			(at 179.07 153.67 0)
 			(hide yes)
 			(show_name no)

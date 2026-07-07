@@ -6157,7 +6157,7 @@
 				(justify right)
 			)
 		)
-		(pin "USBSS4{USBSS}" bidirectional
+		(pin "USBSS{USBSS}" bidirectional
 			(at 250.19 154.94 0)
 			(uuid "ab9268d8-6763-4802-9ad3-7c2aa49461e9")
 			(effects
@@ -7331,16 +7331,6 @@
 				(justify left)
 			)
 		)
-		(pin "+12V_IN" input
-			(at 88.9 257.81 180)
-			(uuid "c7b5c920-6d86-4d41-b242-17a0b4b35441")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "HVIO_ENABLE" input
 			(at 127 260.35 0)
 			(uuid "e64cf670-ec0e-4c10-a720-9045313707f0")
@@ -7349,6 +7339,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "+12V" input
+			(at 88.9 257.81 180)
+			(uuid "bc827bad-d532-4ea7-b86e-4ff22600fdba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

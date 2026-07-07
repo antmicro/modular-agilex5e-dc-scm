@@ -2539,7 +2539,7 @@
 						)
 					)
 				)
-				(pin tri_state line
+				(pin input line
 					(at 17.78 -2.54 180)
 					(length 2.54)
 					(name "OE"
@@ -5750,6 +5750,10 @@
 		(uuid "3e8c970e-e038-46b4-b110-1b37da566267")
 	)
 	(no_connect
+		(at 194.31 162.56)
+		(uuid "43d4ad09-7914-43db-9737-ba9adf8b1317")
+	)
+	(no_connect
 		(at 234.95 172.72)
 		(uuid "496f1fd9-8fec-4a86-9459-9f8741456e4a")
 	)
@@ -7801,7 +7805,7 @@
 		)
 		(uuid "98fb069e-756b-40ab-b9e5-f41885444e01")
 	)
-	(label "+1V8"
+	(label "+1V8_FTDI"
 		(at 273.05 107.95 180)
 		(effects
 			(font
