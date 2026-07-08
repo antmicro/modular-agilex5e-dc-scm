@@ -6611,16 +6611,6 @@
 				(justify right)
 			)
 		)
-		(pin "DC_SCM_UART{UART}" bidirectional
-			(at 76.2 119.38 0)
-			(uuid "b89583b0-a45a-46e8-9d08-9b7ab0b3c0eb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DC_SCM_USB2{USB}" bidirectional
 			(at 76.2 27.94 0)
 			(uuid "1fb2832b-29cd-4bd1-afa4-06c25c771e08")
@@ -6674,6 +6664,16 @@
 		(pin "~{PCIE_HPM_SCM_PERST}" output
 			(at 76.2 43.18 0)
 			(uuid "4a3921ee-6fd0-4a88-a74a-cebdb87ac1e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC_SCM_UART_3V3{UART}" bidirectional
+			(at 76.2 119.38 0)
+			(uuid "4942ebbb-d9b1-458c-a111-c31b8767cd81")
 			(effects
 				(font
 					(size 1.27 1.27)
