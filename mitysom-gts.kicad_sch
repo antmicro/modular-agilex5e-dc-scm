@@ -7608,7 +7608,7 @@
 		)
 		(uuid "708d34e6-3359-4902-8a3b-4c3d85d74aed")
 	)
-	(text_box "USB SS RX/TX cross below"
+	(text_box "USB SS and PCIe\nRX/TX cross below"
 		(exclude_from_sim no)
 		(at 262.89 96.8771 0)
 		(size 31.75 5.9929)
@@ -8727,6 +8727,16 @@
 		)
 		(uuid "f7252dbf-f077-49aa-ac63-7f806222ab9c")
 	)
+	(label "SOM_PCIE_DEVICE.TX0+"
+		(at 287.02 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15b326a2-bd36-4ca8-9cc9-aec48f345a9c")
+	)
 	(label "DP_HS_CONN.TXD1+"
 		(at 162.56 166.37 0)
 		(effects
@@ -8807,16 +8817,6 @@
 		)
 		(uuid "4ac6e7b3-63a2-49c5-b614-3149f94bea9d")
 	)
-	(label "SOM_PCIE_DEVICE.TX0-"
-		(at 287.02 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4beb17ef-ac0e-4bba-8fa1-05b77b391060")
-	)
 	(label "USBSS_TX-"
 		(at 254 114.3 0)
 		(effects
@@ -8836,6 +8836,16 @@
 			(justify left bottom)
 		)
 		(uuid "53097129-7db0-417a-a20f-b354d9d83701")
+	)
+	(label "SOM_PCIE_DEVICE.RX0+"
+		(at 287.02 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "599cd034-ed35-4d36-a9b3-d3cf90342e32")
 	)
 	(label "ROOTPORT.TX0+"
 		(at 163.83 106.68 0)
@@ -8897,16 +8907,6 @@
 		)
 		(uuid "88a7d304-3b8f-42a8-81eb-97c79267052e")
 	)
-	(label "SOM_PCIE_DEVICE.RX0+"
-		(at 287.02 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95e49278-9cfc-458d-a134-915317c58f57")
-	)
 	(label "USBSS.TX-"
 		(at 287.02 135.89 0)
 		(effects
@@ -8916,16 +8916,6 @@
 			(justify left bottom)
 		)
 		(uuid "97e9de90-a696-412f-a055-3f76b4b9c7e9")
-	)
-	(label "SOM_PCIE_DEVICE.TX0+"
-		(at 287.02 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a07a6407-0f9a-480a-9ff4-3a0160be70ab")
 	)
 	(label "DP.TXD0+"
 		(at 287.02 116.84 0)
@@ -8946,16 +8936,6 @@
 			(justify left bottom)
 		)
 		(uuid "a7a08db8-b6fa-4a9c-9823-adfecb1d51f2")
-	)
-	(label "SOM_PCIE_DEVICE.RX0-"
-		(at 287.02 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8945128-27cf-4a8c-a038-d2619ef3e1bd")
 	)
 	(label "DP.TXD1+"
 		(at 287.02 121.92 0)
@@ -9017,6 +8997,16 @@
 		)
 		(uuid "c5089ef1-1629-403b-a455-972a4acaf78d")
 	)
+	(label "SOM_PCIE_DEVICE.RX0-"
+		(at 287.02 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c522c954-1055-42a2-bea7-d1b23ff329ac")
+	)
 	(label "150MHz_CLK.+"
 		(at 251.46 154.94 0)
 		(effects
@@ -9076,6 +9066,16 @@
 			(justify left bottom)
 		)
 		(uuid "e63f3b8c-e7e5-4933-b320-476e3af1ed25")
+	)
+	(label "SOM_PCIE_DEVICE.TX0-"
+		(at 287.02 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e79e1d45-3bb8-479c-ab8f-827ade8c336e")
 	)
 	(label "SFP.TX+"
 		(at 162.56 121.92 0)
