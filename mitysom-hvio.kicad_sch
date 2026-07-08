@@ -10000,10 +10000,6 @@
 		(uuid "bc7a46b5-ccf1-4031-a2dd-0b463ecbd0c1")
 	)
 	(no_connect
-		(at 132.08 231.14)
-		(uuid "ead12e92-0109-4bf2-85a6-f84f5e12bc52")
-	)
-	(no_connect
 		(at 77.47 152.4)
 		(uuid "febaab0b-53a1-44c9-9b64-cf1fe334cea8")
 	)
@@ -13036,6 +13032,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 231.14) (xy 132.08 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3ae535-f479-45e5-b896-b6d130c8e2f3")
+	)
+	(wire
+		(pts
 			(xy 374.65 121.92) (xy 372.11 121.92)
 		)
 		(stroke
@@ -15000,6 +15006,17 @@
 			(justify right)
 		)
 		(uuid "53f5fc2a-8f69-453f-beb7-705806c8d311")
+	)
+	(hierarchical_label "~{PECI_ALERT}"
+		(shape input)
+		(at 129.54 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5482c6f8-a9f3-4098-8001-5bfe5cdaf407")
 	)
 	(hierarchical_label "DC_SCM_I2C8{I2C}"
 		(shape bidirectional)

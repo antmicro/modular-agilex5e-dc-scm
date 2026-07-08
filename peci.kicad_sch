@@ -2865,10 +2865,10 @@
 		(uuid "3126c8fc-cab0-442a-aa25-1206d7310b4e")
 	)
 	(junction
-		(at 215.9 157.48)
+		(at 228.6 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d2f7623-b483-4ae0-b4f0-36aed15822ca")
+		(uuid "075df2bd-9148-4f61-bd2c-27087a40ef19")
 	)
 	(junction
 		(at 181.61 154.94)
@@ -2877,10 +2877,10 @@
 		(uuid "32c0322a-4799-4d28-827e-bd7508045541")
 	)
 	(junction
-		(at 200.66 157.48)
+		(at 267.97 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3602c130-0ff7-4545-a67c-6131e624e0c1")
+		(uuid "342ae6d7-df5b-471a-bd4b-cce53ed0231b")
 	)
 	(junction
 		(at 149.86 125.73)
@@ -2907,13 +2907,25 @@
 		(uuid "54b13b58-4370-4216-82e0-b15762139a22")
 	)
 	(junction
+		(at 252.73 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59c44fda-ec03-42ab-8cc5-0a5cbd72b09f")
+	)
+	(junction
 		(at 273.05 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64717ccb-e7d2-4595-a28c-427ab9e6fb6e")
 	)
 	(junction
-		(at 215.9 149.86)
+		(at 252.73 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a0dd499-5513-409b-8c94-257903a91702")
+	)
+	(junction
+		(at 267.97 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f522e4b-b76b-4bae-9060-7a77c0fa51aa")
@@ -2923,6 +2935,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d58465a6-e865-4b4f-804a-1e3c0aee09aa")
+	)
+	(junction
+		(at 228.6 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb079c1-3e18-4c62-a967-e52a7648f261")
 	)
 	(bus_entry
 		(at 289.56 140.97)
@@ -2954,13 +2972,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 149.86) (xy 209.55 149.86)
+			(xy 267.97 180.34) (xy 261.62 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "079f331f-3f56-468e-a243-f10e67e80bd4")
+	)
+	(wire
+		(pts
+			(xy 252.73 163.83) (xy 252.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c414287-83fb-411b-a97a-825ad6f60b74")
 	)
 	(wire
 		(pts
@@ -2974,7 +3002,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 157.48) (xy 215.9 156.21)
+			(xy 267.97 187.96) (xy 267.97 186.69)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +3022,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 157.48) (xy 237.49 157.48)
+			(xy 228.6 170.18) (xy 228.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185b026f-a7af-406a-9b8a-25eca1acd7fd")
+	)
+	(wire
+		(pts
+			(xy 283.21 187.96) (xy 292.1 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 157.48) (xy 187.96 157.48)
+			(xy 252.73 187.96) (xy 228.6 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3104,7 +3142,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 149.86) (xy 215.9 151.13)
+			(xy 210.82 171.45) (xy 210.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c03a34-dd21-4401-9dbe-c22032da7e52")
+	)
+	(wire
+		(pts
+			(xy 267.97 180.34) (xy 267.97 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3162,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 148.59) (xy 180.34 148.59)
+			(xy 208.28 148.59) (xy 180.34 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3161,6 +3209,16 @@
 			(type default)
 		)
 		(uuid "59f35e13-ca43-40eb-9dcf-1371e30f471f")
+	)
+	(wire
+		(pts
+			(xy 228.6 187.96) (xy 208.28 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a134684-05ed-4aa0-933c-6f8f9976b31e")
 	)
 	(wire
 		(pts
@@ -3224,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 157.48) (xy 215.9 157.48)
+			(xy 264.16 187.96) (xy 267.97 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3244,6 +3302,26 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 171.45) (xy 252.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee2ead9-6e75-4298-a6d6-e2cb8f4da78f")
+	)
+	(wire
+		(pts
+			(xy 228.6 186.69) (xy 228.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b7834c-6fbb-4681-b9dc-b10795a610f4")
+	)
+	(wire
+		(pts
 			(xy 246.38 124.46) (xy 246.38 137.16)
 		)
 		(stroke
@@ -3254,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 157.48) (xy 187.96 148.59)
+			(xy 208.28 187.96) (xy 208.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3271,6 +3349,16 @@
 			(type default)
 		)
 		(uuid "770f4a06-db6c-467f-8da8-9f5dd013b8b2")
+	)
+	(wire
+		(pts
+			(xy 252.73 170.18) (xy 252.73 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3d9ca8-6457-460c-9547-16b134d5b42a")
 	)
 	(wire
 		(pts
@@ -3344,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 148.59) (xy 200.66 151.13)
+			(xy 252.73 179.07) (xy 252.73 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3364,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 157.48) (xy 200.66 156.21)
+			(xy 252.73 187.96) (xy 252.73 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3434,13 +3522,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 149.86) (xy 209.55 151.13)
+			(xy 261.62 180.34) (xy 261.62 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b6852b11-73fc-4100-8cde-6d10ff3e2fb3")
+	)
+	(wire
+		(pts
+			(xy 210.82 146.05) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ad6e69-6125-423e-aea8-82905c9f2aea")
 	)
 	(wire
 		(pts
@@ -3454,6 +3552,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 171.45) (xy 210.82 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58fbad7-6850-4868-9bab-414cd0663642")
+	)
+	(wire
+		(pts
 			(xy 266.7 137.16) (xy 269.24 137.16)
 		)
 		(stroke
@@ -3464,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 157.48) (xy 224.79 157.48)
+			(xy 267.97 187.96) (xy 278.13 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3491,6 +3599,16 @@
 			(type default)
 		)
 		(uuid "d97fe24d-f653-4f8d-a8bd-52cc169c953d")
+	)
+	(wire
+		(pts
+			(xy 252.73 171.45) (xy 228.6 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc99aaea-f47e-47e8-95de-f9418f084497")
 	)
 	(bus
 		(pts
@@ -3534,7 +3652,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 157.48) (xy 200.66 157.48)
+			(xy 254 187.96) (xy 252.73 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3544,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 148.59) (xy 215.9 149.86)
+			(xy 267.97 179.07) (xy 267.97 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3753,9 +3871,20 @@
 		)
 		(uuid "05ff0254-8014-470a-887c-46e4dfdb6bef")
 	)
+	(hierarchical_label "~{ALERT}"
+		(shape output)
+		(at 292.1 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ea8174c-2eca-4f04-91ce-fb5f9909afd0")
+	)
 	(hierarchical_label "~{RESET}"
 		(shape input)
-		(at 237.49 157.48 0)
+		(at 292.1 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3777,7 +3906,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 215.9 156.21 90)
+		(at 267.97 186.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3787,7 +3916,7 @@
 		(dnp no)
 		(uuid "0b0caaf2-788c-4c08-8bb4-1eb6e18f52f3")
 		(property "Reference" "R1405"
-			(at 217.17 152.4 90)
+			(at 269.24 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3799,7 +3928,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 228.6 135.89 0)
+			(at 280.67 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +3941,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 231.14 135.89 0)
+			(at 283.21 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3954,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 233.68 135.89 0)
+			(at 285.75 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3838,7 +3967,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 215.9 156.21 0)
+			(at 267.97 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,7 +3978,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 236.22 135.89 0)
+			(at 288.29 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3991,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 238.76 135.89 0)
+			(at 290.83 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +4004,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 241.3 135.89 0)
+			(at 293.37 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +4017,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 243.84 135.89 0)
+			(at 295.91 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3901,7 +4030,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 217.17 154.94 90)
+			(at 269.24 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3913,7 +4042,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 226.06 135.89 0)
+			(at 278.13 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4691,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTransistorsFETsMOSFETsSingle:PJE138K")
-		(at 209.55 151.13 90)
+		(at 261.62 181.61 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4574,7 +4703,7 @@
 		(fields_autoplaced yes)
 		(uuid "48765687-6d41-42b8-99c1-35c1406cd34a")
 		(property "Reference" "Q1401"
-			(at 207.01 161.29 90)
+			(at 259.08 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4585,7 +4714,7 @@
 			)
 		)
 		(property "Value" "PJE138K"
-			(at 218.44 173.99 0)
+			(at 270.51 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4598,7 +4727,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:SOT-523"
-			(at 220.98 173.99 0)
+			(at 273.05 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4740,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/datasheet/2/1057/PJE138K-1876698.pdf"
-			(at 223.52 173.99 0)
+			(at 275.59 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4624,7 +4753,7 @@
 			)
 		)
 		(property "Description" "MOSFET, N Channel, 50V, 0.35A, 4.5 ohm, SOT-523, Surface Mount"
-			(at 236.22 173.99 0)
+			(at 288.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4636,7 +4765,7 @@
 			)
 		)
 		(property "MPN" "PJE138K_R1_00001"
-			(at 207.01 163.83 90)
+			(at 259.08 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4647,7 +4776,7 @@
 			)
 		)
 		(property "Manufacturer" "PANJIT"
-			(at 228.6 173.99 0)
+			(at 280.67 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4660,7 +4789,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 231.14 173.99 0)
+			(at 283.21 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4673,7 +4802,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 233.68 173.99 0)
+			(at 285.75 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4704,19 +4833,18 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
-		(at 200.66 156.21 270)
-		(mirror x)
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 228.6 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "50edebd6-d80b-4c0b-946c-fd0c7b1fe303")
-		(property "Reference" "R1404"
-			(at 199.39 152.4 90)
+		(uuid "48f026bf-7dd6-4be3-a261-46dfc228052d")
+		(property "Reference" "TP1401"
+			(at 228.6 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4724,11 +4852,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "R_10k_0402"
-			(at 187.96 135.89 0)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 232.41 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4740,8 +4867,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 185.42 135.89 0)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 234.95 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,8 +4880,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 182.88 135.89 0)
+		(property "Datasheet" ""
+			(at 241.3 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,8 +4893,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 200.66 156.21 0)
+		(property "Description" "SMT test point"
+			(at 242.57 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,10 +4902,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
-			(at 180.34 135.89 0)
+		(property "MPN" ""
+			(at 240.03 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,21 +4918,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
-			(at 177.8 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 175.26 135.89 0)
+		(property "Manufacturer" ""
+			(at 234.95 159.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,7 +4932,158 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 172.72 135.89 0)
+			(at 237.49 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 240.03 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7d51305d-2f66-4475-8d0e-a92e1ea79631")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "TP1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 252.73 186.69 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50edebd6-d80b-4c0b-946c-fd0c7b1fe303")
+		(property "Reference" "R1404"
+			(at 251.46 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 240.03 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 237.49 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 234.95 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 252.73 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 232.41 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 229.87 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 224.79 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4830,7 +5096,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 199.39 154.94 90)
+			(at 251.46 185.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4842,7 +5108,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 190.5 135.89 0)
+			(at 242.57 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5027,6 +5293,143 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 228.6 186.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b9625e3-0872-4309-844e-dbacde426524")
+		(property "Reference" "TP1402"
+			(at 228.6 181.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 232.41 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 234.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 242.57 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 240.03 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 237.49 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 240.03 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "547d85cb-0979-41b6-a2c2-25bb4ef484ae")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "TP1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:+0V5")
 		(at 149.86 124.46 0)
 		(unit 1)
@@ -5098,144 +5501,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
 					(reference "#PWR01402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 180.34 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a5b9bd7-a621-4333-b4a8-c136db3f40d3")
-		(property "Reference" "TP1401"
-			(at 185.42 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 190.5 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 190.5 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "SMT test point"
-			(at 180.34 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 191.135 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 191.135 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 190.5 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 190.5 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "ce25077c-c5df-404f-9f08-a45d1e08e8a9")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
-					(reference "TP1401")
 					(unit 1)
 				)
 			)
@@ -5421,7 +5686,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
-		(at 224.79 157.48 0)
+		(at 278.13 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5431,7 +5696,7 @@
 		(dnp no)
 		(uuid "955487e7-88ed-454e-b3a2-0d6e549622d9")
 		(property "Reference" "R1406"
-			(at 229.87 156.21 0)
+			(at 280.67 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5439,11 +5704,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R_0R_0402"
-			(at 245.11 170.18 0)
+			(at 298.45 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5720,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 245.11 172.72 0)
+			(at 298.45 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5733,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf"
-			(at 245.11 175.26 0)
+			(at 298.45 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +5746,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, Jumper, 0 ohm, 100 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 224.79 157.48 0)
+			(at 278.13 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,7 +5757,7 @@
 			)
 		)
 		(property "MPN" "ERJ2GE0R00X"
-			(at 245.11 177.8 0)
+			(at 298.45 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5770,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 245.11 180.34 0)
+			(at 298.45 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5519,7 +5783,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 245.11 182.88 0)
+			(at 298.45 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,7 +5796,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 245.11 185.42 0)
+			(at 298.45 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5545,7 +5809,7 @@
 			)
 		)
 		(property "Val" "0R"
-			(at 224.79 156.21 0)
+			(at 280.67 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5553,11 +5817,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Tolerance" ""
-			(at 245.11 167.64 0)
+			(at 298.45 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,7 +5832,7 @@
 			)
 		)
 		(property "Current" "1A"
-			(at 245.11 187.96 0)
+			(at 298.45 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,6 +6428,116 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
 					(reference "#PWR01414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3V3")
+		(at 252.73 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad5f740f-05ba-4741-90b4-b0e64378e7fc")
+		(property "Reference" "#PWR01415"
+			(at 267.97 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 252.73 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 267.97 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 267.97 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7ccb7ef1-a889-4a7e-9d24-48ee26e24974")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "#PWR01415")
 					(unit 1)
 				)
 			)
@@ -7135,7 +7508,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+3V3")
-		(at 200.66 148.59 0)
+		(at 252.73 179.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7145,7 +7518,7 @@
 		(dnp no)
 		(uuid "eafe2a42-e046-4fd1-81e2-3e86635d7a67")
 		(property "Reference" "#PWR01405"
-			(at 215.9 148.59 0)
+			(at 267.97 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7158,7 +7531,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 200.66 144.78 0)
+			(at 252.73 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7169,7 +7542,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 156.21 0)
+			(at 267.97 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7182,7 +7555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 158.75 0)
+			(at 267.97 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +7568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 148.59 0)
+			(at 252.73 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7206,7 +7579,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 215.9 151.13 0)
+			(at 267.97 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7219,7 +7592,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 215.9 153.67 0)
+			(at 267.97 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7618,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+1V8")
-		(at 215.9 148.59 0)
+		(at 267.97 179.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7256,7 +7629,7 @@
 		(dnp no)
 		(uuid "eb9ccd22-d7dd-4191-9a3c-b81d74c3a2b8")
 		(property "Reference" "#PWR01406"
-			(at 200.66 151.13 0)
+			(at 252.73 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7269,7 +7642,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 215.9 144.78 0)
+			(at 267.97 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7280,7 +7653,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 156.21 0)
+			(at 252.73 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7293,7 +7666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 158.75 0)
+			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7306,7 +7679,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 148.59 0)
+			(at 267.97 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7317,7 +7690,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 200.66 153.67 0)
+			(at 252.73 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,7 +7703,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 200.66 156.21 0)
+			(at 252.73 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7624,6 +7997,171 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
 					(reference "U1401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0402:R_10k_0402")
+		(at 252.73 170.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efc8a916-2ee1-4844-a784-ba8037d0b8bc")
+		(property "Reference" "R1408"
+			(at 251.46 166.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 240.03 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+			(at 237.49 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 234.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 252.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 232.41 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 229.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 227.33 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 224.79 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "10k"
+			(at 251.46 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 242.57 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "ef39b198-aa65-49d0-a65b-48bba3575195")
+		)
+		(pin "1"
+			(uuid "34ce55ce-af2a-47d5-b0de-c7f9e53f4d65")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/b18fedc8-291b-45fb-9413-07ab4e9140fd"
+					(reference "R1408")
 					(unit 1)
 				)
 			)
