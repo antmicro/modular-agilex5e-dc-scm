@@ -1347,7 +1347,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 241.3) (xy 127 241.3)
+			(xy 127 241.3) (xy 165.1 241.3)
 		)
 		(stroke
 			(width 0)
@@ -1887,16 +1887,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 236.22) (xy 135.89 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c903e58-590e-45ec-ab6a-2243a6d495c8")
-	)
-	(wire
-		(pts
 			(xy 248.92 251.46) (xy 271.78 251.46)
 		)
 		(stroke
@@ -2024,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "7e773947-a28e-4de2-b466-64d95e765a81")
+	)
+	(wire
+		(pts
+			(xy 127 236.22) (xy 165.1 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8037a460-a5dd-4279-8d07-243c0c77d276")
 	)
 	(wire
 		(pts
@@ -2984,16 +2984,6 @@
 			(type default)
 		)
 		(uuid "f4ad973d-d49d-4140-b3b3-28fa2c8489ee")
-	)
-	(wire
-		(pts
-			(xy 135.89 236.22) (xy 135.89 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f629a84b-1dd5-4709-a4c2-90d28e88d254")
 	)
 	(wire
 		(pts
@@ -6082,8 +6072,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 236.22)
-		(size 38.1 7.62)
+		(at 88.9 233.68)
+		(size 38.1 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6098,7 +6088,7 @@
 		)
 		(uuid "4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195")
 		(property "Sheetname" "BIOS"
-			(at 88.9 235.5084 0)
+			(at 88.9 232.9684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6142,6 +6132,16 @@
 		(pin "BIOS{QSPI}" bidirectional
 			(at 127 238.76 0)
 			(uuid "0da93876-9719-491e-b61f-a2ef5fd4f7b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BIOS_RST}" input
+			(at 127 236.22 0)
+			(uuid "47a91ea7-4f57-4fa2-8714-d913a348930f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7367,7 +7367,7 @@
 	)
 	(sheet
 		(at 165.1 114.3)
-		(size 36.83 127)
+		(size 36.83 129.54)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7393,7 +7393,7 @@
 			)
 		)
 		(property "Sheetfile" "mitysom-hvio.kicad_sch"
-			(at 165.1 241.8846 0)
+			(at 165.1 244.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7904,7 +7904,7 @@
 			)
 		)
 		(pin "QSPI_ISO_SW" output
-			(at 165.1 236.22 180)
+			(at 165.1 241.3 180)
 			(uuid "db2dec04-e747-4639-b903-b40dc55fc4cf")
 			(effects
 				(font
@@ -7916,6 +7916,16 @@
 		(pin "~{PECI_ALERT}" input
 			(at 165.1 199.39 180)
 			(uuid "5972370a-9739-413a-8278-986906d57b9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{BIOS_RST}" output
+			(at 165.1 236.22 180)
+			(uuid "dc2af30a-7795-4b62-9a26-183c12e67def")
 			(effects
 				(font
 					(size 1.27 1.27)

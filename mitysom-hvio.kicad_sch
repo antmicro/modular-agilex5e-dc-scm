@@ -9984,10 +9984,6 @@
 		(uuid "83b6bc74-272f-4083-9a14-1955c1646d1a")
 	)
 	(no_connect
-		(at 302.26 163.83)
-		(uuid "9aa377df-2447-4ec1-a68a-1d682514f5eb")
-	)
-	(no_connect
 		(at 96.52 147.32)
 		(uuid "a05e0e26-7927-4907-b6dd-7539965c9601")
 	)
@@ -12742,6 +12738,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 163.83) (xy 322.58 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f91a793-ffd2-48f5-b94e-b29f3b3e6b88")
+	)
+	(wire
+		(pts
 			(xy 356.87 121.92) (xy 356.87 134.62)
 		)
 		(stroke
@@ -15094,6 +15100,17 @@
 			(justify left)
 		)
 		(uuid "69af86d0-9506-4c72-aa6e-6d23a7c40174")
+	)
+	(hierarchical_label "~{BIOS_RST}"
+		(shape output)
+		(at 322.58 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6dbe7120-f134-4544-87c2-b9fe777a0d9d")
 	)
 	(hierarchical_label "DC_SCM_NC-SI{NC-SI}"
 		(shape bidirectional)
