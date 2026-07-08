@@ -622,6 +622,15 @@
       "/BIOS/BIOS.SCK": [
         "50Ohm-se"
       ],
+      "/BIOS/BIOS.~{CS0}": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS.~{CS1}": [
+        "50Ohm-se"
+      ],
+      "/BIOS/BIOS{QSPI}": [
+        "50Ohm-se"
+      ],
       "/BIOS/QSPI_HPMCNTRL.IO0": [
         "50Ohm-se"
       ],
@@ -945,6 +954,54 @@
       ],
       "/ETH PHY/ETHERNET{ETHERNET}": [
         "100Ohm-diff"
+      ],
+      "/ETH PHY/GbE.MDC": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.MDIO": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RXD0": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RXD1": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RXD2": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RXD3": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RX_CLK": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.RX_CTL": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TXD0": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TXD1": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TXD2": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TXD3": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TX_CLK": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE.TX_CTL": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE{MDIO}": [
+        "50Ohm-se"
+      ],
+      "/ETH PHY/GbE{RGMII}": [
+        "50Ohm-se"
       ],
       "/Front panel DisplayPort/AUX+": [
         "100Ohm-diff"
@@ -2002,6 +2059,24 @@
       "Net-(C1110-Pad2)": [
         "100Ohm-diff"
       ],
+      "Net-(J100G-HVIO_6C_13)": [
+        "50Ohm-se"
+      ],
+      "Net-(J100G-HVIO_6C_14)": [
+        "50Ohm-se"
+      ],
+      "Net-(J100G-HVIO_6C_15)": [
+        "50Ohm-se"
+      ],
+      "Net-(J100G-HVIO_6C_16)": [
+        "50Ohm-se"
+      ],
+      "Net-(J100G-HVIO_6C_17)": [
+        "50Ohm-se"
+      ],
+      "Net-(J100G-HVIO_6C_18)": [
+        "50Ohm-se"
+      ],
       "Net-(J1101-AUX+)": [
         "100Ohm-diff"
       ],
@@ -2131,11 +2206,53 @@
       "Net-(U1001-COM2)": [
         "50Ohm-se"
       ],
+      "Net-(U1001-D1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1001-D2)": [
+        "50Ohm-se"
+      ],
       "Net-(U1104-A)": [
         "100Ohm-diff"
       ],
       "Net-(U1104-B)": [
         "100Ohm-diff"
+      ],
+      "Net-(U1202-SCK)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1202-SI{slash}IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1202-SO{slash}IO1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1202-~{CS})": [
+        "50Ohm-se"
+      ],
+      "Net-(U1202-~{HOLD{slash}IO3})": [
+        "50Ohm-se"
+      ],
+      "Net-(U1202-~{WP{slash}IO2})": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-SCK)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-SI{slash}IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-SO{slash}IO1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-~{CS})": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-~{HOLD{slash}IO3})": [
+        "50Ohm-se"
+      ],
+      "Net-(U1205-~{WP{slash}IO2})": [
+        "50Ohm-se"
       ],
       "Net-(U1501-AVDD33)": [
         "PWR"
