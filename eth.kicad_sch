@@ -8218,16 +8218,6 @@
 		)
 		(uuid "89c7ffe5-2d90-4abf-881b-160f37c8f361")
 	)
-	(label "GbE.~{INT}"
-		(at 198.12 236.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bee9047-1d8e-4313-8431-c924bc02dd28")
-	)
 	(label "LED2"
 		(at 198.12 229.87 0)
 		(effects
@@ -8248,7 +8238,17 @@
 		)
 		(uuid "945ef6c4-c161-4897-8f8d-2309802dfd0b")
 	)
-	(label "GbE.~{INT}"
+	(label "~{GbE_INT}"
+		(at 198.12 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ceb8c92-e9d6-4778-8a68-0f555fd5bfa3")
+	)
+	(label "~{GbE_INT}"
 		(at 147.32 119.38 0)
 		(effects
 			(font
@@ -8844,7 +8844,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "09c116e6-0f42-43ce-9e83-3bbcd1f11f2a")
 		(property "Reference" "R1926"
 			(at 184.15 234.95 0)
