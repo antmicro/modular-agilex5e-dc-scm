@@ -1219,7 +1219,7 @@
 			(symbol "Plug_Samtec_SEAM-50-02.0-L-08-2-A-K-TR_CUSTOM_MitySOM-A5E_Mini_3_1"
 				(rectangle
 					(start 3.81 2.54)
-					(end 60.96 -107.95)
+					(end 54.61 -107.95)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1230,100 +1230,100 @@
 					)
 				)
 				(text "GTSL1C is bank nearest HPS"
-					(at 25.4 -55.88 0)
+					(at 24.13 -55.118 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C is named GTSL1A on 85/138 KLE"
-					(at 25.4 -58.42 0)
+					(at 24.13 -57.658 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C is named GTSL1B on 282 KLE"
-					(at 25.4 -60.96 0)
+					(at 24.13 -60.198 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "PCIe placement :"
-					(at 25.4 -66.04 0)
+					(at 24.13 -64.008 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "Ethernet MAC Hard IP on CH3"
-					(at 25.4 -78.74 0)
+					(at 24.13 -72.898 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "Hardened USB3.1 IP on CH1 or CH2 of"
-					(at 25.4 -83.82 0)
+					(at 24.13 -76.708 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C (GTSL1A 85/138 KLE)"
-					(at 25.4 -86.36 0)
+					(at 24.13 -79.248 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1B not available on 83,138"
-					(at 25.4 -91.44 0)
+					(at 24.13 -83.058 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSR4C not available on 83,138"
-					(at 25.4 -93.98 0)
+					(at 24.13 -85.598 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "x2 : CH0+CH1"
-					(at 27.94 -71.12 0)
+					(at 25.4 -66.548 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "x4 : CH0->CH3"
-					(at 27.94 -73.66 0)
+					(at 25.4 -69.088 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
@@ -1401,7 +1401,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -29.21 180)
+					(at 58.42 -29.21 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH1_N"
 						(effects
@@ -1419,7 +1419,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -26.67 180)
+					(at 58.42 -26.67 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH1_P"
 						(effects
@@ -1437,7 +1437,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -39.37 180)
+					(at 58.42 -39.37 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH3_N"
 						(effects
@@ -1455,7 +1455,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -36.83 180)
+					(at 58.42 -36.83 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH3_P"
 						(effects
@@ -1473,7 +1473,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -7.62 180)
+					(at 58.42 -7.62 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH1_N"
 						(effects
@@ -1491,7 +1491,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -5.08 180)
+					(at 58.42 -5.08 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH1_P"
 						(effects
@@ -1509,7 +1509,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -12.7 180)
+					(at 58.42 -12.7 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH2_N"
 						(effects
@@ -1527,7 +1527,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -10.16 180)
+					(at 58.42 -10.16 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH2_P"
 						(effects
@@ -1545,7 +1545,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -17.78 180)
+					(at 58.42 -17.78 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH3_N"
 						(effects
@@ -1563,7 +1563,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -15.24 180)
+					(at 58.42 -15.24 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH3_P"
 						(effects
@@ -1581,7 +1581,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -34.29 180)
+					(at 58.42 -34.29 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH2_N"
 						(effects
@@ -1599,7 +1599,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -31.75 180)
+					(at 58.42 -31.75 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH2_P"
 						(effects
@@ -1653,7 +1653,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -43.18 180)
+					(at 58.42 -43.18 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_CH1_P"
 						(effects
@@ -1671,7 +1671,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -45.72 180)
+					(at 58.42 -45.72 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_CH1_N"
 						(effects
@@ -1797,7 +1797,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -48.26 180)
+					(at 58.42 -48.26 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_RX_P"
 						(effects
@@ -1815,7 +1815,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -50.8 180)
+					(at 58.42 -50.8 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_RX_N"
 						(effects
@@ -1977,7 +1977,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -2.54 180)
+					(at 58.42 -2.54 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH0_N"
 						(effects
@@ -1995,7 +1995,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 0 180)
+					(at 58.42 0 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH0_P"
 						(effects
@@ -2085,7 +2085,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -24.13 180)
+					(at 58.42 -24.13 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH0_N"
 						(effects
@@ -2103,7 +2103,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -21.59 180)
+					(at 58.42 -21.59 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH0_P"
 						(effects
@@ -5060,7 +5060,7 @@
 			(symbol "Plug_Samtec_SEAM-50-02.0-L-08-2-A-K-TR_CUSTOM_MitySOM-A5E_Mini_8_1"
 				(rectangle
 					(start 3.81 2.54)
-					(end 21.59 -30.48)
+					(end 22.86 -30.48)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5091,7 +5091,7 @@
 				(pin input line
 					(at 0 -22.86 0)
 					(length 3.81)
-					(name "HPS_COLD_nRESET"
+					(name "~{HPS_COLD_RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 				(pin output line
 					(at 0 -19.05 0)
 					(length 3.81)
-					(name "nSTATUS"
+					(name "~{STATUS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 				(pin input line
 					(at 0 -11.43 0)
 					(length 3.81)
-					(name "nCONFIG"
+					(name "~{CONFIG}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7610,7 +7610,7 @@
 	)
 	(text_box "USB SS and PCIe\nRX/TX cross below"
 		(exclude_from_sim no)
-		(at 262.89 96.8771 0)
+		(at 256.54 96.8771 0)
 		(size 31.75 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7656,7 +7656,7 @@
 		(uuid "2bb3453e-4b56-486b-bfdc-fc6abf11d4dc")
 	)
 	(no_connect
-		(at 248.92 138.43)
+		(at 242.57 138.43)
 		(uuid "358132d2-9ea2-4a89-9ba5-65e0cd5d3b47")
 	)
 	(no_connect
@@ -7688,7 +7688,7 @@
 		(uuid "51def154-e2ce-43ee-adb1-cada045d62a0")
 	)
 	(no_connect
-		(at 248.92 146.05)
+		(at 242.57 146.05)
 		(uuid "530574b4-3ccb-4f15-9536-95eb338acafb")
 	)
 	(no_connect
@@ -7696,7 +7696,7 @@
 		(uuid "6d0e2b22-78fa-404c-af04-5406b3cbddb2")
 	)
 	(no_connect
-		(at 248.92 140.97)
+		(at 242.57 140.97)
 		(uuid "7b91615a-16b6-47a6-93c4-0e805ce0e7d4")
 	)
 	(no_connect
@@ -7732,7 +7732,7 @@
 		(uuid "f6501f64-bd7c-4e5d-90ae-c49646bbf872")
 	)
 	(no_connect
-		(at 248.92 143.51)
+		(at 242.57 143.51)
 		(uuid "fafc9407-2b33-43a5-afb0-fb4862141682")
 	)
 	(no_connect
@@ -7749,7 +7749,7 @@
 		(uuid "067b5e03-3ccd-49f8-be6e-fe88ad1a6a3f")
 	)
 	(bus_entry
-		(at 281.94 148.59)
+		(at 275.59 148.59)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7776,7 +7776,7 @@
 		(uuid "19effa2c-8fd1-45fc-acb3-231cafe1066e")
 	)
 	(bus_entry
-		(at 314.96 115.57)
+		(at 308.61 115.57)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7785,7 +7785,7 @@
 		(uuid "206946b6-8ce8-4a56-a22f-1c5b4a06aee4")
 	)
 	(bus_entry
-		(at 312.42 132.08)
+		(at 306.07 132.08)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7803,7 +7803,7 @@
 		(uuid "36572876-7203-4e35-a3ab-16da92397dd5")
 	)
 	(bus_entry
-		(at 317.5 127)
+		(at 311.15 127)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7812,7 +7812,7 @@
 		(uuid "37bd53b6-1565-4e50-a58d-dd8bf769bdd9")
 	)
 	(bus_entry
-		(at 281.94 153.67)
+		(at 275.59 153.67)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7821,7 +7821,7 @@
 		(uuid "38f164a7-37f1-4a5f-b509-a544201e1b56")
 	)
 	(bus_entry
-		(at 317.5 107.95)
+		(at 311.15 107.95)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7830,7 +7830,7 @@
 		(uuid "3a693747-b15b-4cdc-bbe3-2d63d08de8d2")
 	)
 	(bus_entry
-		(at 312.42 110.49)
+		(at 306.07 110.49)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7848,7 +7848,7 @@
 		(uuid "4671e615-c41a-407b-b99f-7ff6db58d315")
 	)
 	(bus_entry
-		(at 317.5 129.54)
+		(at 311.15 129.54)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7857,7 +7857,7 @@
 		(uuid "49713a13-993f-4191-b030-6d38e1d35808")
 	)
 	(bus_entry
-		(at 314.96 118.11)
+		(at 308.61 118.11)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7884,7 +7884,7 @@
 		(uuid "650cedcf-84e7-4ced-b709-cb2623ce9fe8")
 	)
 	(bus_entry
-		(at 314.96 123.19)
+		(at 308.61 123.19)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7893,7 +7893,7 @@
 		(uuid "6636ec9e-87e5-419c-bb06-354641bdb407")
 	)
 	(bus_entry
-		(at 312.42 113.03)
+		(at 306.07 113.03)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7902,7 +7902,7 @@
 		(uuid "7da97f59-6728-47e6-8138-ec0b6ad31ea1")
 	)
 	(bus_entry
-		(at 317.5 105.41)
+		(at 311.15 105.41)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7911,7 +7911,7 @@
 		(uuid "7db88824-65fd-40e9-840e-c55a17f708e5")
 	)
 	(bus_entry
-		(at 281.94 156.21)
+		(at 275.59 156.21)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7938,7 +7938,7 @@
 		(uuid "902884bf-caa6-409a-ae72-291acbe87cac")
 	)
 	(bus_entry
-		(at 312.42 134.62)
+		(at 306.07 134.62)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7956,7 +7956,7 @@
 		(uuid "9af6ee44-168e-4c26-9c88-2a72234a47d9")
 	)
 	(bus_entry
-		(at 281.94 151.13)
+		(at 275.59 151.13)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -7965,7 +7965,7 @@
 		(uuid "affbfefd-98ca-4c41-a295-2d6f0d5d6465")
 	)
 	(bus_entry
-		(at 314.96 120.65)
+		(at 308.61 120.65)
 		(size -1.27 1.27)
 		(stroke
 			(width 0)
@@ -8029,7 +8029,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 116.84) (xy 313.69 116.84)
+			(xy 242.57 116.84) (xy 307.34 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8039,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 130.81) (xy 316.23 130.81)
+			(xy 242.57 130.81) (xy 309.88 130.81)
 		)
 		(stroke
 			(width 0)
@@ -8049,7 +8049,7 @@
 	)
 	(bus
 		(pts
-			(xy 281.94 151.13) (xy 281.94 148.59)
+			(xy 275.59 151.13) (xy 275.59 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8079,7 +8079,7 @@
 	)
 	(bus
 		(pts
-			(xy 314.96 118.11) (xy 314.96 123.19)
+			(xy 308.61 118.11) (xy 308.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8099,7 +8099,7 @@
 	)
 	(bus
 		(pts
-			(xy 314.96 115.57) (xy 314.96 118.11)
+			(xy 308.61 115.57) (xy 308.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8109,7 +8109,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 135.89) (xy 311.15 135.89)
+			(xy 275.59 135.89) (xy 304.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8119,7 +8119,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 133.35) (xy 311.15 133.35)
+			(xy 267.97 133.35) (xy 304.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8139,7 +8139,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 114.3) (xy 311.15 114.3)
+			(xy 275.59 114.3) (xy 304.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8169,7 +8169,7 @@
 	)
 	(bus
 		(pts
-			(xy 281.94 156.21) (xy 281.94 153.67)
+			(xy 275.59 156.21) (xy 275.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8189,7 +8189,7 @@
 	)
 	(bus
 		(pts
-			(xy 317.5 127) (xy 317.5 129.54)
+			(xy 311.15 127) (xy 311.15 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8199,7 +8199,7 @@
 	)
 	(bus
 		(pts
-			(xy 317.5 105.41) (xy 317.5 107.95)
+			(xy 311.15 105.41) (xy 311.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8219,7 +8219,7 @@
 	)
 	(bus
 		(pts
-			(xy 318.77 104.14) (xy 317.5 105.41)
+			(xy 312.42 104.14) (xy 311.15 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8229,7 +8229,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 128.27) (xy 316.23 128.27)
+			(xy 242.57 128.27) (xy 309.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8269,7 +8269,7 @@
 	)
 	(bus
 		(pts
-			(xy 284.48 147.32) (xy 283.21 147.32)
+			(xy 278.13 147.32) (xy 276.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8279,7 +8279,7 @@
 	)
 	(bus
 		(pts
-			(xy 316.23 99.06) (xy 320.04 99.06)
+			(xy 309.88 99.06) (xy 313.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8289,7 +8289,7 @@
 	)
 	(bus
 		(pts
-			(xy 283.21 152.4) (xy 281.94 153.67)
+			(xy 276.86 152.4) (xy 275.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8299,7 +8299,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 152.4) (xy 280.67 152.4)
+			(xy 242.57 152.4) (xy 274.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8309,7 +8309,7 @@
 	)
 	(bus
 		(pts
-			(xy 318.77 104.14) (xy 320.04 104.14)
+			(xy 312.42 104.14) (xy 313.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8329,7 +8329,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.46) (xy 313.69 124.46)
+			(xy 242.57 124.46) (xy 307.34 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8339,7 +8339,7 @@
 	)
 	(bus
 		(pts
-			(xy 312.42 102.87) (xy 312.42 134.62)
+			(xy 306.07 102.87) (xy 306.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -8359,7 +8359,7 @@
 	)
 	(bus
 		(pts
-			(xy 317.5 107.95) (xy 317.5 127)
+			(xy 311.15 107.95) (xy 311.15 127)
 		)
 		(stroke
 			(width 0)
@@ -8389,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 135.89) (xy 276.86 135.89)
+			(xy 242.57 135.89) (xy 270.51 135.89)
 		)
 		(stroke
 			(width 0)
@@ -8429,7 +8429,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 119.38) (xy 313.69 119.38)
+			(xy 242.57 119.38) (xy 307.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8449,7 +8449,7 @@
 	)
 	(bus
 		(pts
-			(xy 314.96 104.14) (xy 314.96 115.57)
+			(xy 308.61 104.14) (xy 308.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -8459,7 +8459,7 @@
 	)
 	(bus
 		(pts
-			(xy 284.48 152.4) (xy 283.21 152.4)
+			(xy 278.13 152.4) (xy 276.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8479,7 +8479,7 @@
 	)
 	(bus
 		(pts
-			(xy 316.23 99.06) (xy 312.42 102.87)
+			(xy 309.88 99.06) (xy 306.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8489,7 +8489,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 109.22) (xy 316.23 109.22)
+			(xy 242.57 109.22) (xy 309.88 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8499,7 +8499,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 111.76) (xy 269.24 111.76)
+			(xy 242.57 111.76) (xy 262.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8509,7 +8509,7 @@
 	)
 	(bus
 		(pts
-			(xy 314.96 104.14) (xy 317.5 101.6)
+			(xy 308.61 104.14) (xy 311.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8539,7 +8539,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 121.92) (xy 313.69 121.92)
+			(xy 242.57 121.92) (xy 307.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8589,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 106.68) (xy 316.23 106.68)
+			(xy 242.57 106.68) (xy 309.88 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8599,7 +8599,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 157.48) (xy 280.67 157.48)
+			(xy 242.57 157.48) (xy 274.32 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8609,7 @@
 	)
 	(bus
 		(pts
-			(xy 317.5 101.6) (xy 320.04 101.6)
+			(xy 311.15 101.6) (xy 313.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8639,7 +8639,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 111.76) (xy 311.15 111.76)
+			(xy 267.97 111.76) (xy 304.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8649,7 +8649,7 @@
 	)
 	(bus
 		(pts
-			(xy 281.94 148.59) (xy 283.21 147.32)
+			(xy 275.59 148.59) (xy 276.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8659,7 +8659,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 154.94) (xy 280.67 154.94)
+			(xy 242.57 154.94) (xy 274.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8699,7 +8699,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 280.67 149.86)
+			(xy 242.57 149.86) (xy 274.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8709,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 133.35) (xy 269.24 133.35)
+			(xy 242.57 133.35) (xy 262.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8719,7 +8719,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 114.3) (xy 276.86 114.3)
+			(xy 242.57 114.3) (xy 270.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8728,7 +8728,7 @@
 		(uuid "f7252dbf-f077-49aa-ac63-7f806222ab9c")
 	)
 	(label "SOM_PCIE_DEVICE.TX0+"
-		(at 287.02 128.27 0)
+		(at 280.67 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8778,7 +8778,7 @@
 		(uuid "336e1c1f-1736-480b-8cce-64a4eb2c4120")
 	)
 	(label "USBSS.RX-"
-		(at 287.02 114.3 0)
+		(at 280.67 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8788,7 +8788,7 @@
 		(uuid "34cef8c8-2516-4b74-9252-e600d88c8acb")
 	)
 	(label "USBSS.RX+"
-		(at 287.02 111.76 0)
+		(at 280.67 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8808,7 +8808,7 @@
 		(uuid "45858a80-7921-4297-8882-40ff4beb84bc")
 	)
 	(label "USBSS.TX+"
-		(at 287.02 133.35 0)
+		(at 280.67 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8818,7 +8818,7 @@
 		(uuid "4ac6e7b3-63a2-49c5-b614-3149f94bea9d")
 	)
 	(label "USBSS_TX-"
-		(at 254 114.3 0)
+		(at 247.65 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8828,7 +8828,7 @@
 		(uuid "4bfb5a57-edba-4ba6-9354-88f17abf46e5")
 	)
 	(label "USBSS_RX-"
-		(at 254 135.89 0)
+		(at 247.65 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8838,7 +8838,7 @@
 		(uuid "53097129-7db0-417a-a20f-b354d9d83701")
 	)
 	(label "SOM_PCIE_DEVICE.RX0+"
-		(at 287.02 106.68 0)
+		(at 280.67 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8858,7 +8858,7 @@
 		(uuid "5c6ec3af-8fe6-44b8-8dc3-7c8ee675c079")
 	)
 	(label "USBSS_TX+"
-		(at 254 111.76 0)
+		(at 247.65 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8878,7 +8878,7 @@
 		(uuid "5fe4a2ce-fafb-416c-945c-c34f6c74dfa8")
 	)
 	(label "150MHz_CLK.-"
-		(at 251.46 157.48 0)
+		(at 245.11 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8888,7 +8888,7 @@
 		(uuid "61e11fcc-ec2a-4a47-b906-933065dc83c6")
 	)
 	(label "DP.TXD0-"
-		(at 287.02 119.38 0)
+		(at 280.67 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8898,7 +8898,7 @@
 		(uuid "70b6c199-47a5-4cfa-a25f-a643890732da")
 	)
 	(label "SOM_CLK.CLK+"
-		(at 251.46 149.86 0)
+		(at 245.11 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8908,7 +8908,7 @@
 		(uuid "88a7d304-3b8f-42a8-81eb-97c79267052e")
 	)
 	(label "USBSS.TX-"
-		(at 287.02 135.89 0)
+		(at 280.67 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8918,7 +8918,7 @@
 		(uuid "97e9de90-a696-412f-a055-3f76b4b9c7e9")
 	)
 	(label "DP.TXD0+"
-		(at 287.02 116.84 0)
+		(at 280.67 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8928,7 +8928,7 @@
 		(uuid "a340b073-7d0d-4e37-b1ed-08dae1b624cb")
 	)
 	(label "DP.TXD1-"
-		(at 287.02 124.46 0)
+		(at 280.67 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8938,7 +8938,7 @@
 		(uuid "a7a08db8-b6fa-4a9c-9823-adfecb1d51f2")
 	)
 	(label "DP.TXD1+"
-		(at 287.02 121.92 0)
+		(at 280.67 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8958,7 +8958,7 @@
 		(uuid "bbb049c3-6a15-4cb1-a03c-2bb2d4d1f5c9")
 	)
 	(label "USBSS_RX+"
-		(at 254 133.35 0)
+		(at 247.65 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8998,7 +8998,7 @@
 		(uuid "c5089ef1-1629-403b-a455-972a4acaf78d")
 	)
 	(label "SOM_PCIE_DEVICE.RX0-"
-		(at 287.02 109.22 0)
+		(at 280.67 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9008,7 +9008,7 @@
 		(uuid "c522c954-1055-42a2-bea7-d1b23ff329ac")
 	)
 	(label "150MHz_CLK.+"
-		(at 251.46 154.94 0)
+		(at 245.11 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9058,7 +9058,7 @@
 		(uuid "e4dda066-8bdd-4299-99d0-9b7249be9bbb")
 	)
 	(label "SOM_CLK.CLK-"
-		(at 251.46 152.4 0)
+		(at 245.11 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9068,7 +9068,7 @@
 		(uuid "e63f3b8c-e7e5-4933-b320-476e3af1ed25")
 	)
 	(label "SOM_PCIE_DEVICE.TX0-"
-		(at 287.02 130.81 0)
+		(at 280.67 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9089,7 +9089,7 @@
 	)
 	(hierarchical_label "DP{DP}"
 		(shape output)
-		(at 320.04 101.6 0)
+		(at 313.69 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9122,7 +9122,7 @@
 	)
 	(hierarchical_label "USBSS{USBSS}"
 		(shape bidirectional)
-		(at 320.04 99.06 0)
+		(at 313.69 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9144,7 +9144,7 @@
 	)
 	(hierarchical_label "SOM_PCIE_DEVICE{PCIE}"
 		(shape bidirectional)
-		(at 320.04 104.14 0)
+		(at 313.69 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9155,7 +9155,7 @@
 	)
 	(hierarchical_label "SOM_CLK{PCIeREFCLK}"
 		(shape input)
-		(at 284.48 147.32 0)
+		(at 278.13 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9177,7 +9177,7 @@
 	)
 	(hierarchical_label "150MHz_CLK{+ -}"
 		(shape input)
-		(at 284.48 152.4 0)
+		(at 278.13 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9204,7 +9204,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 250.19 137.16) (xy 252.73 137.16) (xy 252.73 132.08) (xy 250.19 132.08)
+				(xy 243.84 137.16) (xy 246.38 137.16) (xy 246.38 132.08) (xy 243.84 132.08)
 			)
 			(stroke
 				(width 0)
@@ -9223,7 +9223,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 250.19 115.57) (xy 252.73 115.57) (xy 252.73 110.49) (xy 250.19 110.49)
+				(xy 243.84 115.57) (xy 246.38 115.57) (xy 246.38 110.49) (xy 243.84 110.49)
 			)
 			(stroke
 				(width 0)
@@ -9238,7 +9238,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 252.73 137.16 180)
+		(at 246.38 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9248,7 +9248,7 @@
 		)
 		(uuid "64010f2d-2238-4113-bc3c-cbd017b67149")
 		(property "Net Class" "90Ohm-diff"
-			(at 253.4285 139.7 0)
+			(at 247.0785 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9259,7 +9259,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 105.41 -33.02 0)
+			(at 99.06 -33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9273,7 +9273,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 252.73 115.57 180)
+		(at 246.38 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9283,7 +9283,7 @@
 		)
 		(uuid "848c37c8-9cf3-4c10-bcbe-a984c6602c6d")
 		(property "Net Class" "90Ohm-diff"
-			(at 253.4285 118.11 0)
+			(at 247.0785 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9294,7 +9294,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 105.41 -54.61 0)
+			(at 99.06 -54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9342,7 +9342,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 274.32 111.76 180)
+		(at 267.97 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9352,7 +9352,7 @@
 		(dnp no)
 		(uuid "481c8178-500f-4317-b2bc-db06532ce1ba")
 		(property "Reference" "C601"
-			(at 273.05 110.49 0)
+			(at 266.7 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9363,7 +9363,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 254 101.6 0)
+			(at 247.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9376,7 +9376,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 254 99.06 0)
+			(at 247.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +9389,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 254 96.52 0)
+			(at 247.65 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +9402,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 274.32 111.76 0)
+			(at 267.97 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9413,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 254 91.44 0)
+			(at 247.65 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9426,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 254 93.98 0)
+			(at 247.65 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9439,7 +9439,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 270.51 110.49 0)
+			(at 264.16 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9451,7 +9451,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 254 88.9 0)
+			(at 247.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9464,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 254 86.36 0)
+			(at 247.65 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9477,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 254 83.82 0)
+			(at 247.65 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,7 +9489,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 254 81.28 0)
+			(at 247.65 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9517,7 +9517,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 281.94 114.3 180)
+		(at 275.59 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9527,7 +9527,7 @@
 		(dnp no)
 		(uuid "6f786900-11ce-404d-a583-d4360d9d2517")
 		(property "Reference" "C602"
-			(at 280.67 113.03 0)
+			(at 274.32 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9538,7 +9538,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 261.62 104.14 0)
+			(at 255.27 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9551,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 261.62 101.6 0)
+			(at 255.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9564,7 +9564,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 261.62 99.06 0)
+			(at 255.27 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9577,7 +9577,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 281.94 114.3 0)
+			(at 275.59 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9588,7 +9588,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 261.62 93.98 0)
+			(at 255.27 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9601,7 +9601,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 261.62 96.52 0)
+			(at 255.27 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9614,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 278.13 113.03 0)
+			(at 271.78 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9626,7 +9626,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 261.62 91.44 0)
+			(at 255.27 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9639,7 +9639,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 261.62 88.9 0)
+			(at 255.27 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9652,7 +9652,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 261.62 86.36 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +9664,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 261.62 83.82 0)
+			(at 255.27 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +9692,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 274.32 133.35 180)
+		(at 267.97 133.35 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9702,7 +9702,7 @@
 		(dnp no)
 		(uuid "703d927c-5c3b-4e65-88f2-764b96f2ab4b")
 		(property "Reference" "C603"
-			(at 273.05 132.08 0)
+			(at 266.7 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9713,7 +9713,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 254 123.19 0)
+			(at 247.65 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 254 120.65 0)
+			(at 247.65 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,7 +9739,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 254 118.11 0)
+			(at 247.65 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,7 +9752,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 274.32 133.35 0)
+			(at 267.97 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9763,7 +9763,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 254 113.03 0)
+			(at 247.65 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +9776,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 254 115.57 0)
+			(at 247.65 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9789,7 +9789,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 270.51 132.08 0)
+			(at 264.16 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9801,7 +9801,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 254 110.49 0)
+			(at 247.65 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9814,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 254 107.95 0)
+			(at 247.65 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9827,7 +9827,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 254 105.41 0)
+			(at 247.65 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9839,7 +9839,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 254 102.87 0)
+			(at 247.65 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9867,7 +9867,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
-		(at 281.94 135.89 180)
+		(at 275.59 135.89 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9877,7 +9877,7 @@
 		(dnp no)
 		(uuid "a995ab2b-2361-498b-8406-c8f98b7bdd39")
 		(property "Reference" "C604"
-			(at 280.67 134.62 0)
+			(at 274.32 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9888,7 +9888,7 @@
 			)
 		)
 		(property "Value" "C_100n_0402"
-			(at 261.62 125.73 0)
+			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9901,7 +9901,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 261.62 123.19 0)
+			(at 255.27 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9914,7 +9914,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
-			(at 261.62 120.65 0)
+			(at 255.27 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9927,7 +9927,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
-			(at 281.94 135.89 0)
+			(at 275.59 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9938,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 261.62 115.57 0)
+			(at 255.27 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9951,7 +9951,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 261.62 118.11 0)
+			(at 255.27 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9964,7 +9964,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 278.13 134.62 0)
+			(at 271.78 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9976,7 +9976,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 261.62 113.03 0)
+			(at 255.27 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,7 +9989,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 261.62 110.49 0)
+			(at 255.27 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10002,7 +10002,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 261.62 107.95 0)
+			(at 255.27 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +10014,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 261.62 105.41 0)
+			(at 255.27 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10053,7 +10053,7 @@
 		(fields_autoplaced yes)
 		(uuid "e26504d8-6318-460e-a6d1-e6b1e1159dda")
 		(property "Reference" "J100"
-			(at 219.0619 99.06 0)
+			(at 213.36 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10111,7 +10111,7 @@
 			)
 		)
 		(property "MPN" "SEAM-50-02.0-L-08-2-A-K-TR"
-			(at 219.0619 101.6 0)
+			(at 213.36 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
