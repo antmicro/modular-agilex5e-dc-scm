@@ -951,6 +951,12 @@
 		(color 0 0 0 0)
 		(uuid "da18890a-d6d2-429e-93f0-7cdb67c7f8f3")
 	)
+	(junction
+		(at 261.62 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df07ad9a-026b-4c9b-b7ac-3ac98dcd2efe")
+	)
 	(no_connect
 		(at 342.9 43.18)
 		(uuid "0860392e-c103-4e67-8810-4e13f5bd7396")
@@ -1405,6 +1411,16 @@
 		)
 		(uuid "266c098d-3758-469c-b25d-59247955efbb")
 	)
+	(wire
+		(pts
+			(xy 261.62 261.62) (xy 271.78 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2919ddcc-f904-46a3-8175-36489798fb9a")
+	)
 	(bus
 		(pts
 			(xy 139.7 66.04) (xy 142.24 66.04)
@@ -1417,7 +1433,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 134.62) (xy 271.78 149.86)
+			(xy 271.78 134.62) (xy 271.78 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1735,6 +1751,16 @@
 		)
 		(uuid "5b69376c-5312-41d1-ac5e-4e28349587f1")
 	)
+	(wire
+		(pts
+			(xy 304.8 149.86) (xy 261.62 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba3966a-aaef-4315-bc1d-057c9b6ea307")
+	)
 	(bus
 		(pts
 			(xy 342.9 58.42) (xy 355.6 58.42)
@@ -1757,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 149.86) (xy 304.8 149.86)
+			(xy 271.78 142.24) (xy 304.8 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 261.62) (xy 271.78 261.62)
+			(xy 241.3 261.62) (xy 261.62 261.62)
 		)
 		(stroke
 			(width 0)
@@ -2924,6 +2950,16 @@
 			(type default)
 		)
 		(uuid "ed8fd185-7379-4d13-9e6d-4a1deeedfb97")
+	)
+	(wire
+		(pts
+			(xy 261.62 149.86) (xy 261.62 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edae6f10-8bfb-4308-b929-248a27d9aaa5")
 	)
 	(wire
 		(pts
@@ -5503,9 +5539,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{GbE_RESET}" output
+		(pin "~{GbE_PHY_RESET}" output
 			(at 254 134.62 0)
-			(uuid "63e308a3-657d-45a7-b933-24c7a7cb7a40")
+			(uuid "9304701e-c6a3-44fe-9bb4-8ea08be8e572")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,16 +5983,6 @@
 				(justify left top)
 			)
 		)
-		(pin "~{RESET_BTN}" input
-			(at 241.3 261.62 0)
-			(uuid "03eee28a-f1df-4d91-923a-3ade137f208f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{CONFIG_BTN}" input
 			(at 241.3 264.16 0)
 			(uuid "ec8adffb-06dc-4368-a810-dc8069e7cef6")
@@ -5970,6 +5996,16 @@
 		(pin "SDM{JTAG}" input
 			(at 241.3 256.54 0)
 			(uuid "471ff071-d24c-408d-b085-2cddecdf3cca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HPS_COLD_RESET}" input
+			(at 241.3 261.62 0)
+			(uuid "cdca83e0-0dd6-4901-a6c7-467f99c8b9d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,9 +7125,19 @@
 				(justify left)
 			)
 		)
-		(pin "~{GbE_RESET}" input
+		(pin "~{COLD_RESET}" input
 			(at 304.8 149.86 180)
-			(uuid "16dd8209-98c7-45b5-a53c-2eed2e183796")
+			(uuid "117c52e5-8f9d-4480-a14f-60de14caa866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GbE_PHY_RESET}" input
+			(at 304.8 142.24 180)
+			(uuid "c01e34d1-9fac-4dc7-81e8-231590896110")
 			(effects
 				(font
 					(size 1.27 1.27)
