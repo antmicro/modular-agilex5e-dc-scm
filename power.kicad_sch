@@ -4690,6 +4690,16 @@
 		)
 		(uuid "c08459f1-9a46-4bdf-b086-f7d12e6fcee6")
 	)
+	(text "VCC_SCM_HPM_FRU \n+3V3 +/- 5%\n0.627W"
+		(exclude_from_sim no)
+		(at 335.28 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c840c94f-7282-4447-b1a9-22c42c2dfa9a")
+	)
 	(text "5V internal LDO"
 		(exclude_from_sim no)
 		(at 191.008 44.958 0)
@@ -4729,16 +4739,6 @@
 			)
 		)
 		(uuid "e62c3ede-b47e-460b-904c-66b5a930123a")
-	)
-	(text "VCC_SCM_HPM_FRU \n+3V3 +/- 5%\n0.627W"
-		(exclude_from_sim no)
-		(at 335.28 175.006 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e7a742c6-3a8e-484f-925f-6cc57c177882")
 	)
 	(text "V_{OUT} = 0.6 x (1 + R_{H}/R_{L}) [V]"
 		(exclude_from_sim no)
@@ -4857,6 +4857,12 @@
 		(uuid "3472c143-b2ed-4729-8e7c-96b0f56a96da")
 	)
 	(junction
+		(at 314.96 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35ec61f6-c92d-4a03-9f6a-b7192128bbdb")
+	)
+	(junction
 		(at 181.61 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4903,12 +4909,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a14f094-8fce-4411-9381-60d1e69e1179")
-	)
-	(junction
-		(at 314.96 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f88fde2-1a9f-4b20-a418-6491fd9b6ad8")
 	)
 	(junction
 		(at 116.84 50.8)
@@ -5248,6 +5248,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 114.3) (xy 326.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2b8c27-0481-48df-8b3c-158bf2e07c48")
+	)
+	(wire
+		(pts
 			(xy 223.52 231.14) (xy 223.52 229.87)
 		)
 		(stroke
@@ -5318,7 +5328,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 153.67) (xy 314.96 153.67)
+			(xy 311.15 153.67) (xy 318.77 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5568,6 +5578,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 114.3) (xy 314.96 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b9dad1-9ce7-45e5-a745-a73decd5f5c5")
+	)
+	(wire
+		(pts
 			(xy 160.02 111.76) (xy 160.02 116.84)
 		)
 		(stroke
@@ -5595,16 +5615,6 @@
 			(type default)
 		)
 		(uuid "27e4bd5c-1f97-486d-8d49-702a4e518f98")
-	)
-	(wire
-		(pts
-			(xy 318.77 168.91) (xy 314.96 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28be65ce-51ab-4dc3-86a3-e94f9a5a218c")
 	)
 	(wire
 		(pts
@@ -5995,16 +6005,6 @@
 			(type default)
 		)
 		(uuid "55fb975a-1a43-4f55-998a-baa57b80e075")
-	)
-	(wire
-		(pts
-			(xy 323.85 168.91) (xy 326.39 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55fcaaf3-b27b-4c5b-9a69-870178db69af")
 	)
 	(wire
 		(pts
@@ -6678,7 +6678,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 100.33) (xy 318.77 100.33)
+			(xy 311.15 100.33) (xy 314.96 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7078,6 +7078,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 114.3) (xy 314.96 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b5c23b-a327-45a6-910c-099470bcfe0c")
+	)
+	(wire
+		(pts
 			(xy 242.57 40.64) (xy 251.46 40.64)
 		)
 		(stroke
@@ -7148,6 +7158,16 @@
 	)
 	(wire
 		(pts
+			(xy 314.96 100.33) (xy 318.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07f08b9-bfde-4cd1-8449-e38bd9a0a9cc")
+	)
+	(wire
+		(pts
 			(xy 214.63 168.91) (xy 223.52 168.91)
 		)
 		(stroke
@@ -7175,16 +7195,6 @@
 			(type default)
 		)
 		(uuid "e2df9dc7-2cab-4d51-a4db-23226b35b510")
-	)
-	(wire
-		(pts
-			(xy 314.96 168.91) (xy 314.96 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e693c1fb-e99c-4479-a48e-2bca602b6b7e")
 	)
 	(wire
 		(pts
@@ -7255,16 +7265,6 @@
 			(type default)
 		)
 		(uuid "f0bccf60-07c5-44a0-844b-f0c1e8b567fd")
-	)
-	(wire
-		(pts
-			(xy 314.96 153.67) (xy 318.77 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fe804e-07ab-4508-a05f-eb19be10f15e")
 	)
 	(wire
 		(pts
@@ -7845,17 +7845,6 @@
 		)
 		(uuid "f79161e6-e207-44c2-af01-8aa9e7ae64c3")
 	)
-	(hierarchical_label "+3V3_HPM_FRU"
-		(shape output)
-		(at 326.39 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "310810e8-1fc1-49d6-9602-e7b94d5abdc6")
-	)
 	(hierarchical_label "1V05_PG"
 		(shape output)
 		(at 186.69 173.99 0)
@@ -7877,6 +7866,17 @@
 			(justify right)
 		)
 		(uuid "c24992a7-9fce-46fc-9bca-d5051e5bfb0b")
+	)
+	(hierarchical_label "+3V3_HPM_FRU"
+		(shape output)
+		(at 326.39 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cef6bb5a-7688-4969-bac6-b97990a41a88")
 	)
 	(hierarchical_label "+12V"
 		(shape input)
@@ -18259,180 +18259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
-		(at 318.77 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84c8bb2b-e3fd-49f7-9099-028f02d53f5b")
-		(property "Reference" "R88"
-			(at 321.31 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "R_0R_22.4A_0603"
-			(at 334.01 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
-			(at 334.01 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
-			(at 334.01 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "SMD Chip Resistor"
-			(at 334.01 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "PMR03EZPJ000"
-			(at 334.01 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 334.01 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "0R"
-			(at 321.31 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Max. Curr." "22.4A"
-			(at 321.31 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 334.01 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 334.01 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Tolerance" "template_tolerance"
-			(at 339.09 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "8f0b8de5-ed5d-446a-816f-bf75f3fe9aee")
-		)
-		(pin "2"
-			(uuid "8bded95f-d949-4eee-a9d6-ff43bf586d4a")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
-					(reference "R88")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 226.06 219.71 90)
 		(unit 1)
@@ -25715,6 +25541,180 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
 					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistors0603:R_0R_22.4A_0603")
+		(at 318.77 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdbd9cf2-d199-4aaf-a57d-a08dae777a11")
+		(property "Reference" "R88"
+			(at 321.31 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_0R_22.4A_0603"
+			(at 334.01 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+			(at 334.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"
+			(at 334.01 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Chip Resistor"
+			(at 334.01 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "PMR03EZPJ000"
+			(at 334.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 334.01 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "0R"
+			(at 321.31 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Max. Curr." "22.4A"
+			(at 321.31 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 334.01 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 334.01 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Tolerance" "template_tolerance"
+			(at 339.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3152ee7a-b5fa-45b6-8778-162753d6e88d")
+		)
+		(pin "2"
+			(uuid "ad665f9c-e529-4e7a-984d-acd6004259f0")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
+					(reference "R88")
 					(unit 1)
 				)
 			)
