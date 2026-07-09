@@ -2125,6 +2125,24 @@
       "Net-(J1902-Pad6)": [
         "100Ohm-diff"
       ],
+      "Net-(J1G-HVIO_6C_13)": [
+        "50Ohm-se"
+      ],
+      "Net-(J1G-HVIO_6C_14)": [
+        "50Ohm-se"
+      ],
+      "Net-(J1G-HVIO_6C_15)": [
+        "50Ohm-se"
+      ],
+      "Net-(J1G-HVIO_6C_16)": [
+        "50Ohm-se"
+      ],
+      "Net-(J1G-HVIO_6C_17)": [
+        "50Ohm-se"
+      ],
+      "Net-(J1G-HVIO_6C_18)": [
+        "50Ohm-se"
+      ],
       "Net-(J2001-Pad10)": [
         "100Ohm-diff"
       ],
@@ -2173,6 +2191,33 @@
       "Net-(J2501-TXD3-)": [
         "100Ohm-diff"
       ],
+      "Net-(J3B-SPI_HPMCNTRL_TPM_CLK)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_HPMCNTRL_TPM_CS_N)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_HPMCNTRL_TPM_DI_IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_HPMCNTRL_TPM_DO_IO1)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_SCMCNTRL_CLK)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_SCMCNTRL_CS0_N)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_SCMCNTRL_CS1_N)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_SCMCNTRL_DI_IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(J3B-SPI_SCMCNTRL_DO_IO1)": [
+        "50Ohm-se"
+      ],
       "Net-(J701B-SPI_HPMCNTRL_TPM_CLK)": [
         "50Ohm-se"
       ],
@@ -2210,6 +2255,12 @@
         "50Ohm-se"
       ],
       "Net-(U1001-D2)": [
+        "50Ohm-se"
+      ],
+      "Net-(U11-D1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U11-D2)": [
         "50Ohm-se"
       ],
       "Net-(U1104-A)": [
@@ -2254,7 +2305,46 @@
       "Net-(U1205-~{WP{slash}IO2})": [
         "50Ohm-se"
       ],
+      "Net-(U14-SCK)": [
+        "50Ohm-se"
+      ],
+      "Net-(U14-SI{slash}IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(U14-SO{slash}IO1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U14-~{CS})": [
+        "50Ohm-se"
+      ],
+      "Net-(U14-~{HOLD{slash}IO3})": [
+        "50Ohm-se"
+      ],
+      "Net-(U14-~{WP{slash}IO2})": [
+        "50Ohm-se"
+      ],
       "Net-(U1501-AVDD33)": [
+        "PWR"
+      ],
+      "Net-(U16-SCK)": [
+        "50Ohm-se"
+      ],
+      "Net-(U16-SI{slash}IO0)": [
+        "50Ohm-se"
+      ],
+      "Net-(U16-SO{slash}IO1)": [
+        "50Ohm-se"
+      ],
+      "Net-(U16-~{CS})": [
+        "50Ohm-se"
+      ],
+      "Net-(U16-~{HOLD{slash}IO3})": [
+        "50Ohm-se"
+      ],
+      "Net-(U16-~{WP{slash}IO2})": [
+        "50Ohm-se"
+      ],
+      "Net-(U19-AVDD33)": [
         "PWR"
       ],
       "Net-(U2503-A)": [
@@ -2294,7 +2384,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 1,
+      "method": 0,
       "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -2619,7 +2709,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "R701,R703-708,R754,C601-604",
+    "used_designators": "TP1-29,C1-256,C601-604,U1-46,D1-15,R1-319,R701,R703-708,R754,#FLG1-19,Y1-6,T1-6,#PWR1-444,BT1,H1-5,F1-2,Q1-7,J1-12,FB1-3,L1-4,SW1-5",
     "variants": []
   },
   "sheets": [
