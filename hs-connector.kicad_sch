@@ -2337,6 +2337,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 165.1) (xy 248.92 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094c3ff9-2960-47f3-b8b3-025fd9d04ca2")
+	)
+	(wire
+		(pts
 			(xy 231.14 123.19) (xy 220.98 123.19)
 		)
 		(stroke
@@ -2527,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 162.56) (xy 248.92 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9549d9-4d18-4068-9ef4-35551388dcc2")
+	)
+	(wire
+		(pts
 			(xy 212.09 147.32) (xy 248.92 147.32)
 		)
 		(stroke
@@ -2604,6 +2624,16 @@
 			(type default)
 		)
 		(uuid "84b37ec4-5f70-4039-b303-47b42045da84")
+	)
+	(wire
+		(pts
+			(xy 242.57 167.64) (xy 248.92 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b950bf8-7749-46f1-bfa1-4590eae7fa76")
 	)
 	(wire
 		(pts
@@ -2694,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "ad5094e1-1288-40bf-a729-a069a079ead9")
+	)
+	(wire
+		(pts
+			(xy 242.57 170.18) (xy 248.92 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b017abc3-ce2b-444a-9ccc-50419f53b945")
 	)
 	(wire
 		(pts
@@ -2906,6 +2946,50 @@
 			(justify right)
 		)
 		(uuid "41313b3d-ad09-4f75-8652-ad1658504dd8")
+	)
+	(hierarchical_label "PCIE_PWR_EN"
+		(shape input)
+		(at 242.57 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fbabb37-15ed-4216-a07a-3106f717ffba")
+	)
+	(hierarchical_label "PCIE_CLKREQ_N"
+		(shape input)
+		(at 242.57 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fd1123e-e63c-4b22-99f7-e924b99bd708")
+	)
+	(hierarchical_label "PCIE_DET_WAKE"
+		(shape input)
+		(at 242.57 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e216b9c-a0e1-4e99-a7a7-b8d94ba41867")
+	)
+	(hierarchical_label "PCIE_RST_B"
+		(shape input)
+		(at 242.57 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b74cfdcc-4eaa-42a3-b552-5f9574503691")
 	)
 	(rule_area
 		(exclude_from_sim no)
@@ -3736,6 +3820,143 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G")
+		(at 190.5 123.19 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23435d33-6ada-4125-92a8-b3b7a8914f48")
+		(property "Reference" "D23"
+			(at 187.96 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "RB521S30T1G"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:SOD-523"
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+			(at 167.64 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
+			(at 190.5 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RB521S30T1G"
+			(at 187.96 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 167.64 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 167.64 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 167.64 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "47f9396f-bb08-46f2-abf2-aa014b99057c")
+		)
+		(pin "2"
+			(uuid "d6f34ce6-0ff7-472a-8b89-f3ecf04cc17f")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/24358ccd-38f4-4473-b406-ebc28282868f"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 220.98 132.08 0)
 		(unit 1)
@@ -4136,143 +4357,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/24358ccd-38f4-4473-b406-ebc28282868f"
 					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G")
-		(at 190.5 123.19 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "63463fca-cff4-4add-97ea-14af1c49d926")
-		(property "Reference" "D19"
-			(at 187.96 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "RB521S30T1G"
-			(at 167.64 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
-			(at 167.64 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
-			(at 167.64 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
-			(at 190.5 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RB521S30T1G"
-			(at 187.96 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "ON Semiconductor"
-			(at 167.64 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 167.64 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 167.64 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "31e2f7fc-d4df-4eb7-9c49-a010d8c8063f")
-		)
-		(pin "2"
-			(uuid "635f3d6c-dbf5-4716-a6a4-b31588bd9835")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/24358ccd-38f4-4473-b406-ebc28282868f"
-					(reference "D19")
 					(unit 1)
 				)
 			)
