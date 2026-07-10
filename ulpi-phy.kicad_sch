@@ -3270,6 +3270,12 @@
 		(uuid "ff08f611-40fc-4cc8-9bb3-def5fc661c3c")
 	)
 	(junction
+		(at 187.96 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "072737af-0186-4853-b055-0b8e97a8a8a4")
+	)
+	(junction
 		(at 262.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3582,16 +3588,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 157.48) (xy 191.77 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a03b884-e175-4275-96bd-7e647f406880")
-	)
-	(wire
-		(pts
 			(xy 168.91 127) (xy 171.45 127)
 		)
 		(stroke
@@ -3762,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 156.21) (xy 187.96 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "661b5f45-e9ed-4172-92ec-ca64d6dff0a0")
+	)
+	(wire
+		(pts
 			(xy 238.76 147.32) (xy 222.25 147.32)
 		)
 		(stroke
@@ -3849,6 +3855,16 @@
 			(type default)
 		)
 		(uuid "7aa0c3ef-0d4e-4e7c-a5c9-f31c31d26f8a")
+	)
+	(wire
+		(pts
+			(xy 187.96 157.48) (xy 191.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7def3a5f-6338-4ed9-bcb5-d76cd068ce70")
 	)
 	(wire
 		(pts
@@ -4170,6 +4186,16 @@
 		)
 		(uuid "c884b2d4-9344-4f2c-8cf1-e3379d4e1dac")
 	)
+	(wire
+		(pts
+			(xy 156.21 157.48) (xy 187.96 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d10008-fdbb-431a-88c6-c501b1911dd8")
+	)
 	(bus
 		(pts
 			(xy 173.99 132.08) (xy 173.99 182.88)
@@ -4242,7 +4268,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 160.02) (xy 163.83 160.02)
+			(xy 156.21 160.02) (xy 163.83 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4591,16 +4617,6 @@
 		)
 		(uuid "72f5685f-a77a-4d54-9364-8a43f6547b7b")
 	)
-	(label "CPEN"
-		(at 185.42 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c0dfa53-6ab3-4d4c-b76f-2ed1f3a7503d")
-	)
 	(label "RBIAS"
 		(at 179.07 127 0)
 		(effects
@@ -4683,7 +4699,7 @@
 	)
 	(hierarchical_label "USB_VBUS_DET"
 		(shape input)
-		(at 161.29 160.02 180)
+		(at 156.21 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4691,6 +4707,17 @@
 			(justify right)
 		)
 		(uuid "338b72c4-7224-492c-850b-bb2968e5f711")
+	)
+	(hierarchical_label "CPEN"
+		(shape output)
+		(at 156.21 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6321686a-bf44-483d-874f-a94c4d5dc6a8")
 	)
 	(hierarchical_label "USB_OTG_ID"
 		(shape input)
@@ -6081,7 +6108,7 @@
 		(dnp no)
 		(uuid "5249bb7b-650f-40b8-83bf-8d1da65b29dc")
 		(property "Reference" "R181"
-			(at 166.37 157.48 0)
+			(at 163.83 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6089,6 +6116,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "R_10k_0402"
@@ -6195,7 +6223,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 166.37 162.56 0)
+			(at 168.91 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6203,6 +6231,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
@@ -6811,7 +6840,7 @@
 	)
 	(symbol
 		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
-		(at 185.42 157.48 180)
+		(at 187.96 156.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6821,7 +6850,7 @@
 		(dnp no)
 		(uuid "7c2f7bf7-7a1f-4158-8362-a1c4223d41d7")
 		(property "Reference" "TP23"
-			(at 181.61 157.48 0)
+			(at 187.96 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6829,11 +6858,10 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TP_0.75mm_SMD"
-			(at 175.26 153.67 0)
+			(at 191.77 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6846,7 +6874,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
-			(at 175.26 151.13 0)
+			(at 194.31 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +6887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 144.78 0)
+			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6872,7 +6900,7 @@
 			)
 		)
 		(property "Description" "SMT test point"
-			(at 174.625 143.51 0)
+			(at 201.93 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,7 +6912,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 174.625 146.05 0)
+			(at 199.39 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6897,7 +6925,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 174.625 151.13 0)
+			(at 194.31 145.415 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6910,7 +6938,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 175.26 148.59 0)
+			(at 196.85 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6923,7 +6951,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 175.26 146.05 0)
+			(at 199.39 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

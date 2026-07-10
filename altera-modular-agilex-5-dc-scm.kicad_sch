@@ -866,16 +866,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Check if\nUSB_VBUS_DET needs\nconnection to\nUSBCTRL_PPON4"
-		(exclude_from_sim no)
-		(at 282.194 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4e55e468-9d7b-49a1-8fde-fbf694eea281")
-	)
 	(text "HOST"
 		(exclude_from_sim no)
 		(at 287.02 87.63 0)
@@ -970,6 +960,10 @@
 	(no_connect
 		(at 342.9 68.58)
 		(uuid "0860392e-c103-4e67-8810-4e13f5bd7396")
+	)
+	(no_connect
+		(at 290.83 68.58)
+		(uuid "0d6816b1-e5bb-4b29-8d4d-eb15c885bdb8")
 	)
 	(no_connect
 		(at 304.8 40.64)
@@ -1069,7 +1063,7 @@
 	)
 	(bus
 		(pts
-			(xy 290.83 69.85) (xy 293.37 69.85)
+			(xy 290.83 71.12) (xy 304.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1396,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "27e3d2c5-6890-460f-8dae-7e9b8272883f")
+	)
+	(wire
+		(pts
+			(xy 290.83 93.98) (xy 304.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2882ece0-4efc-411e-85ab-8814f1a90b8f")
 	)
 	(wire
 		(pts
@@ -2109,17 +2113,7 @@
 	)
 	(bus
 		(pts
-			(xy 304.8 71.12) (xy 293.37 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83ee8d68-2fdb-4845-a745-2e13ca57e4bd")
-	)
-	(bus
-		(pts
-			(xy 290.83 95.25) (xy 304.8 95.25)
+			(xy 290.83 96.52) (xy 304.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2976,16 +2970,6 @@
 			(type default)
 		)
 		(uuid "e89ba630-a27d-4a81-9d28-844b32c49bf8")
-	)
-	(bus
-		(pts
-			(xy 293.37 71.12) (xy 293.37 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93b9ba5-a3dd-42fc-9c8f-2de21f08c8ad")
 	)
 	(wire
 		(pts
@@ -5382,7 +5366,7 @@
 			)
 		)
 		(pin "USB_HOST{USB}" bidirectional
-			(at 304.8 95.25 180)
+			(at 304.8 96.52 180)
 			(uuid "3d7ed199-7e71-46a7-be01-557fb54557bf")
 			(effects
 				(font
@@ -5409,6 +5393,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "VBUS_DET" input
+			(at 304.8 93.98 180)
+			(uuid "6afa15f3-d06b-475a-9151-b6f04f7375ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -5856,8 +5850,18 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 290.83 69.85 0)
+			(at 290.83 71.12 0)
 			(uuid "da30c15f-978e-49e8-8ec5-42d5290bf327")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPEN" output
+			(at 290.83 68.58 0)
+			(uuid "92c9c64e-fbbb-4a07-8d5f-326b13650d53")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,8 +7204,18 @@
 			)
 		)
 		(pin "USB{USB}" bidirectional
-			(at 290.83 95.25 0)
+			(at 290.83 96.52 0)
 			(uuid "c2f58825-6c74-4298-bbc5-2320ffd124e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CPEN" output
+			(at 290.83 93.98 0)
+			(uuid "254ab298-fa7c-4e92-b867-1e887b3cb456")
 			(effects
 				(font
 					(size 1.27 1.27)
