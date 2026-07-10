@@ -5959,59 +5959,59 @@
 				(justify left)
 			)
 		)
-		(pin "~{PCIE_PERSTB}" input
-			(at 304.8 43.18 180)
-			(uuid "91b687ff-517b-4182-81b8-f2b122695757")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{PCIE_WAKEB}" bidirectional
-			(at 304.8 40.64 180)
-			(uuid "544132a1-7931-466b-af26-ee5b694c242b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{USBCTRL_OCI1B}" input
-			(at 342.9 40.64 0)
-			(uuid "136f75ce-9aec-4729-82a8-4bca2d001dec")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{USBCTRL_OCI2B}" input
-			(at 342.9 53.34 0)
-			(uuid "e8e48974-888e-49ed-8f7d-6cfa4e9d4381")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{USBCTRL_OCI4B}" input
-			(at 304.8 66.04 180)
-			(uuid "acc4caab-9a1c-4d30-b79f-4a0b338d0bab")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "1V05_PG" input
 			(at 304.8 60.96 180)
 			(uuid "b046890d-c0e5-45cf-8eb8-25d162529720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_PERST}" input
+			(at 304.8 43.18 180)
+			(uuid "b8379127-5a1c-49de-86d9-6aae45478c6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{PCIE_WAKE}" bidirectional
+			(at 304.8 40.64 180)
+			(uuid "87094912-c26a-405d-b855-8cc0e4408f3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{USBCTRL_OCI1}" input
+			(at 342.9 40.64 0)
+			(uuid "bdbb667f-9082-4f63-9a9d-60dbdb8c1f73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{USBCTRL_OCI2}" input
+			(at 342.9 53.34 0)
+			(uuid "dc767548-39ab-411d-b50a-bdfd422efe92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{USBCTRL_OCI4}" input
+			(at 304.8 66.04 180)
+			(uuid "463a6359-59d3-42a0-a258-6d0a484148d3")
 			(effects
 				(font
 					(size 1.27 1.27)
