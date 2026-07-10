@@ -5645,7 +5645,7 @@
 		(at 116.84 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6212f9eb-8c96-42fa-b806-5cdb28446e4a")
+		(uuid "61bc478a-52e6-4b7b-ab16-3aed2f17ff26")
 	)
 	(junction
 		(at 128.27 100.33)
@@ -5724,6 +5724,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87903418-68d6-45c3-b2c6-1a06d9e31249")
+	)
+	(junction
+		(at 107.95 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "889b12a5-ad38-4dcc-b24e-7a03cc0b2cda")
 	)
 	(junction
 		(at 325.12 100.33)
@@ -6269,13 +6275,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 119.38 40.64)
+			(xy 88.9 40.64) (xy 116.84 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ffb103e-6d01-41dc-93ae-933d53aaf119")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20e78374-810f-4628-b0e3-0c7bafecf2e0")
 	)
 	(wire
 		(pts
@@ -6446,6 +6462,16 @@
 			(type default)
 		)
 		(uuid "2b13306c-2a2f-430f-aff7-27b705c14ce2")
+	)
+	(wire
+		(pts
+			(xy 107.95 39.37) (xy 107.95 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2beb13db-351c-43f9-ab9c-2762611b7a13")
 	)
 	(wire
 		(pts
@@ -7299,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 39.37) (xy 116.84 40.64)
+			(xy 116.84 38.1) (xy 116.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -15214,6 +15240,143 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 107.95 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fdad445-a91a-422e-9961-c231164af051")
+		(property "Reference" "TP36"
+			(at 107.95 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 111.76 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 114.3 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 121.92 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 119.38 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 114.3 28.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 116.84 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 119.38 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "55d4b14e-1811-4fbf-a4a9-959a27cd62c1")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -27785,7 +27948,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:+12V")
-		(at 116.84 39.37 0)
+		(at 116.84 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27795,7 +27958,7 @@
 		(dnp no)
 		(uuid "f089f562-a55f-4dfd-9928-e8dde9a40026")
 		(property "Reference" "#PWR052"
-			(at 116.84 43.18 0)
+			(at 116.84 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27806,7 +27969,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 116.84 35.56 0)
+			(at 116.84 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27816,7 +27979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 39.37 0)
+			(at 116.84 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27827,7 +27990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 39.37 0)
+			(at 116.84 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27838,7 +28001,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 45.72 0)
+			(at 116.84 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
