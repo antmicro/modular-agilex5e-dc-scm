@@ -251,7 +251,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroCapacitors0402:C_1u_0402"
+		(symbol "antmicroCapacitors0402:C_1u_25V_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -275,7 +275,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "C_1u_0402"
+			(property "Value" "C_1u_25V_0402"
 				(at 20.32 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -301,7 +301,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 				(at 20.32 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -314,7 +314,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -326,7 +326,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "C1005X6S1A105K050BC"
+			(property "MPN" "GRM155R61E105KE11J"
 				(at 20.32 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -339,7 +339,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "TDK"
+			(property "Manufacturer" "Murata"
 				(at 20.32 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -390,7 +390,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Voltage" ""
+			(property "Voltage" "25V"
 				(at 20.32 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -402,7 +402,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Dielectric" ""
+			(property "Dielectric" "X5R"
 				(at 20.32 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -414,7 +414,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -425,7 +425,7 @@
 					)
 				)
 			)
-			(symbol "C_1u_0402_0_1"
+			(symbol "C_1u_25V_0402_0_1"
 				(polyline
 					(pts
 						(xy 2.032 -1.524) (xy 2.032 1.524)
@@ -451,7 +451,7 @@
 					)
 				)
 			)
-			(symbol "C_1u_0402_1_1"
+			(symbol "C_1u_25V_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.032)
@@ -6325,7 +6325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 232.41 106.68 270)
 		(mirror x)
 		(unit 1)
@@ -6348,7 +6348,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_1u_0402"
+		(property "Value" "C_1u_25V_0402"
 			(at 222.25 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6374,7 +6374,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 			(at 217.17 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6387,7 +6387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6399,7 +6399,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X6S1A105K050BC"
+		(property "MPN" "GRM155R61E105KE11J"
 			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6412,7 +6412,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata"
 			(at 212.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6463,7 +6463,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6475,7 +6475,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 201.93 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6503,7 +6503,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroCapacitors0402:C_1u_0402")
+		(lib_id "antmicroCapacitors0402:C_1u_25V_0402")
 		(at 232.41 55.88 270)
 		(mirror x)
 		(unit 1)
@@ -6526,7 +6526,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_1u_0402"
+		(property "Value" "C_1u_25V_0402"
 			(at 222.25 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6552,7 +6552,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61E105KE11%23"
 			(at 217.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6565,7 +6565,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 25 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
 			(at 199.39 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6577,7 +6577,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X6S1A105K050BC"
+		(property "MPN" "GRM155R61E105KE11J"
 			(at 214.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6590,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata"
 			(at 212.09 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6641,7 +6641,7 @@
 				(justify right)
 			)
 		)
-		(property "Voltage" ""
+		(property "Voltage" "25V"
 			(at 204.47 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6653,7 +6653,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 201.93 35.56 0)
 			(hide yes)
 			(show_name no)
