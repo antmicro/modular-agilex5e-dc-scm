@@ -274,7 +274,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1727200|1625600|24b16133-9e3d-42a8-b282-8facdc931132|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
+        ""
+      ],
+      [
+        "pin_to_pin|1727200|1676400|aa684bc2-08d4-4a5d-8516-7d21a27dc021|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
+        ""
+      ],
+      [
+        "pin_to_pin|901700|1397000|14d71aab-d01d-4b08-8321-7a23bfc6185f|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
+        ""
+      ],
+      [
+        "pin_to_pin|901700|1447800|438b24ad-3292-4cee-86d0-56283ca29b17|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -688,6 +705,12 @@
       "/CLK/USB_CLK{PCIeREFCLK}": [
         "85Ohm-diff"
       ],
+      "/DC-SCM 2.1 connector/CONN_ROOTPORT.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/CONN_ROOTPORT.TX0-": [
+        "85Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC-SCM_PCIE_HPMROOT.RX0+": [
         "85Ohm-diff"
       ],
@@ -904,6 +927,12 @@
       "/DC-SCM 2.1 connector/DC_SCM_TPM_SPI{SPI}": [
         "50Ohm-se"
       ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB.D-": [
+        "90Ohm-diff"
+      ],
       "/DC-SCM 2.1 connector/DC_SCM_USB2.D+": [
         "90Ohm-diff"
       ],
@@ -927,6 +956,87 @@
       ],
       "/DC-SCM 2.1 connector/DC_SCM_USB3_SCMHOST{USBSS}": [
         "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/DC_SCM_USB{USB}": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.RX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT.TX3-": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/ROOTPORT{PCIE}": [
+        "85Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/SOFT_USB.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/SOFT_USB.D-": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/SOFT_USB{USB}": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/USB1.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/USB1.D-": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/USB2.D+": [
+        "90Ohm-diff"
+      ],
+      "/DC-SCM 2.1 connector/USB2.D-": [
+        "90Ohm-diff"
+      ],
+      "/ETH PHY/DVDDH": [
+        "PWR"
+      ],
+      "/ETH PHY/DVDDL": [
+        "PWR"
       ],
       "/ETH PHY/ETHERNET.MDI0+": [
         "100Ohm-diff"
@@ -954,6 +1064,15 @@
       ],
       "/ETH PHY/ETHERNET{ETHERNET}": [
         "100Ohm-diff"
+      ],
+      "/ETH PHY/GBE_AVDDH": [
+        "PWR"
+      ],
+      "/ETH PHY/GBE_AVDDL": [
+        "PWR"
+      ],
+      "/ETH PHY/GBE_AVDDL_PLL": [
+        "PWR"
       ],
       "/ETH PHY/GbE.MDC": [
         "50Ohm-se"
@@ -1312,6 +1431,9 @@
       "/HS connector/DP{DP}": [
         "100Ohm-diff"
       ],
+      "/HS connector/HS_CONN_PWR": [
+        "PWR"
+      ],
       "/HS connector/ROOTPORT.CLK+": [
         "85Ohm-diff"
       ],
@@ -1465,6 +1587,60 @@
       "/MitySOM GTS/USBSS.TX-": [
         "90Ohm-diff"
       ],
+      "/MitySOM GTS/USBSS0.RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0.RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0.TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0.TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0_RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0_RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0_TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0_TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS0{USBSS}": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1.RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1.RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1.TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1.TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1_RX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1_RX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1_TX+": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1_TX-": [
+        "90Ohm-diff"
+      ],
+      "/MitySOM GTS/USBSS1{USBSS}": [
+        "90Ohm-diff"
+      ],
       "/MitySOM GTS/USBSS4.RX+": [
         "90Ohm-diff"
       ],
@@ -1532,6 +1708,90 @@
         "50Ohm-se"
       ],
       "/MitySOM HPS/ULPI.~{RST}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.CLK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT4": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT5": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT6": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DAT7": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.DIR": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.NXT": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.STP": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0.~{RST}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI0{ULPI}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.CLK": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT0": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT1": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT2": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT3": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT4": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT5": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT6": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DAT7": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.DIR": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.NXT": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.STP": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1.~{RST}": [
+        "50Ohm-se"
+      ],
+      "/MitySOM HPS/ULPI1{ULPI}": [
         "50Ohm-se"
       ],
       "/MitySOM HPS/ULPI{ULPI}": [
@@ -2398,6 +2658,15 @@
       "Net-(U2503-B)": [
         "100Ohm-diff"
       ],
+      "Net-(U48-AVDD33)": [
+        "PWR"
+      ],
+      "Net-(U48-PETXN)": [
+        "85Ohm-diff"
+      ],
+      "Net-(U48-PETXP)": [
+        "85Ohm-diff"
+      ],
       "Net-(U801-COM1)": [
         "50Ohm-se"
       ],
@@ -2754,7 +3023,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "TP1-29,C1-256,C601-604,U1-46,D1-16,R1-370,R701,R703-708,R754,#FLG1-19,Y1-6,T1-6,#PWR1-444,BT1,H1-5,F1-2,Q1-7,J1-12,FB1-3,L1-4,SW1-5",
+    "used_designators": "#FLG3",
     "variants": []
   },
   "sheets": [
