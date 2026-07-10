@@ -5445,9 +5445,9 @@
 				(justify left)
 			)
 		)
-		(pin "20MHz_CLK{+ -}" input
+		(pin "25MHz_CLK{+ -}" input
 			(at 165.1 92.71 180)
-			(uuid "32ca1ee5-a996-40ec-bf29-841490a9c3c3")
+			(uuid "4077e412-fad7-45bb-81da-4304df41537c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8421,16 +8421,6 @@
 				(justify right)
 			)
 		)
-		(pin "20MHz_CLK{+ -}" output
-			(at 139.7 76.2 0)
-			(uuid "463cd786-ce9b-49ce-942f-2c08fad54d65")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "150MHz_CLK{+ -}" output
 			(at 139.7 71.12 0)
 			(uuid "0b3b7bfa-7683-470f-b09b-5b19b4420d8c")
@@ -8474,6 +8464,16 @@
 		(pin "I3C{I3C}" bidirectional
 			(at 139.7 83.82 0)
 			(uuid "e8fd76f3-63da-498e-a3e6-a6fc3f1ba925")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "25MHz_CLK{+ -}" output
+			(at 139.7 76.2 0)
+			(uuid "80d865c7-2482-4294-821b-deba3c3e49b4")
 			(effects
 				(font
 					(size 1.27 1.27)
