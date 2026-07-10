@@ -1219,7 +1219,7 @@
 			(symbol "Plug_Samtec_SEAM-50-02.0-L-08-2-A-K-TR_CUSTOM_MitySOM-A5E_Mini_3_1"
 				(rectangle
 					(start 3.81 2.54)
-					(end 60.96 -107.95)
+					(end 54.61 -107.95)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -1230,100 +1230,100 @@
 					)
 				)
 				(text "GTSL1C is bank nearest HPS"
-					(at 25.4 -55.88 0)
+					(at 24.13 -55.118 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C is named GTSL1A on 85/138 KLE"
-					(at 25.4 -58.42 0)
+					(at 24.13 -57.658 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C is named GTSL1B on 282 KLE"
-					(at 25.4 -60.96 0)
+					(at 24.13 -60.198 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "PCIe placement :"
-					(at 25.4 -66.04 0)
+					(at 24.13 -64.008 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "Ethernet MAC Hard IP on CH3"
-					(at 25.4 -78.74 0)
+					(at 24.13 -72.898 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "Hardened USB3.1 IP on CH1 or CH2 of"
-					(at 25.4 -83.82 0)
+					(at 24.13 -76.708 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1C (GTSL1A 85/138 KLE)"
-					(at 25.4 -86.36 0)
+					(at 24.13 -79.248 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSL1B not available on 83,138"
-					(at 25.4 -91.44 0)
+					(at 24.13 -83.058 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "GTSR4C not available on 83,138"
-					(at 25.4 -93.98 0)
+					(at 24.13 -85.598 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "x2 : CH0+CH1"
-					(at 27.94 -71.12 0)
+					(at 25.4 -66.548 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
 				)
 				(text "x4 : CH0->CH3"
-					(at 27.94 -73.66 0)
+					(at 25.4 -69.088 0)
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.889 0.889)
 						)
 						(justify left bottom)
 					)
@@ -1401,7 +1401,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -29.21 180)
+					(at 58.42 -29.21 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH1_N"
 						(effects
@@ -1419,7 +1419,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -26.67 180)
+					(at 58.42 -26.67 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH1_P"
 						(effects
@@ -1437,7 +1437,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -39.37 180)
+					(at 58.42 -39.37 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH3_N"
 						(effects
@@ -1455,7 +1455,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -36.83 180)
+					(at 58.42 -36.83 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH3_P"
 						(effects
@@ -1473,7 +1473,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -7.62 180)
+					(at 58.42 -7.62 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH1_N"
 						(effects
@@ -1491,7 +1491,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -5.08 180)
+					(at 58.42 -5.08 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH1_P"
 						(effects
@@ -1509,7 +1509,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -12.7 180)
+					(at 58.42 -12.7 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH2_N"
 						(effects
@@ -1527,7 +1527,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -10.16 180)
+					(at 58.42 -10.16 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH2_P"
 						(effects
@@ -1545,7 +1545,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -17.78 180)
+					(at 58.42 -17.78 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH3_N"
 						(effects
@@ -1563,7 +1563,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -15.24 180)
+					(at 58.42 -15.24 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH3_P"
 						(effects
@@ -1581,7 +1581,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -34.29 180)
+					(at 58.42 -34.29 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH2_N"
 						(effects
@@ -1599,7 +1599,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -31.75 180)
+					(at 58.42 -31.75 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH2_P"
 						(effects
@@ -1653,7 +1653,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -43.18 180)
+					(at 58.42 -43.18 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_CH1_P"
 						(effects
@@ -1671,7 +1671,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -45.72 180)
+					(at 58.42 -45.72 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_CH1_N"
 						(effects
@@ -1797,7 +1797,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -48.26 180)
+					(at 58.42 -48.26 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_RX_P"
 						(effects
@@ -1815,7 +1815,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -50.8 180)
+					(at 58.42 -50.8 180)
 					(length 3.81)
 					(name "REFCLK_GTSL1C_RX_N"
 						(effects
@@ -1977,7 +1977,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 -2.54 180)
+					(at 58.42 -2.54 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH0_N"
 						(effects
@@ -1995,7 +1995,7 @@
 					)
 				)
 				(pin output line
-					(at 64.77 0 180)
+					(at 58.42 0 180)
 					(length 3.81)
 					(name "GTSL1C_TX_CH0_P"
 						(effects
@@ -2085,7 +2085,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -24.13 180)
+					(at 58.42 -24.13 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH0_N"
 						(effects
@@ -2103,7 +2103,7 @@
 					)
 				)
 				(pin input line
-					(at 64.77 -21.59 180)
+					(at 58.42 -21.59 180)
 					(length 3.81)
 					(name "GTSL1C_RX_CH0_P"
 						(effects
@@ -5060,7 +5060,7 @@
 			(symbol "Plug_Samtec_SEAM-50-02.0-L-08-2-A-K-TR_CUSTOM_MitySOM-A5E_Mini_8_1"
 				(rectangle
 					(start 3.81 2.54)
-					(end 21.59 -30.48)
+					(end 22.86 -30.48)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -5091,7 +5091,7 @@
 				(pin input line
 					(at 0 -22.86 0)
 					(length 3.81)
-					(name "HPS_COLD_nRESET"
+					(name "~{HPS_COLD_RESET}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 				(pin output line
 					(at 0 -19.05 0)
 					(length 3.81)
-					(name "nSTATUS"
+					(name "~{STATUS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5253,7 +5253,7 @@
 				(pin input line
 					(at 0 -11.43 0)
 					(length 3.81)
-					(name "nCONFIG"
+					(name "~{CONFIG}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8245,7 +8245,7 @@
 			(justify left bottom)
 		)
 		(uuid "8e8e6d99-9221-4adb-bf5e-ed4141b7d67f")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 166.878 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8280,7 +8280,7 @@
 			(justify right bottom)
 		)
 		(uuid "94cb55d0-5b80-46ff-9f25-62efdedf4406")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 254.762 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
