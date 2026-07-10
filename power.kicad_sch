@@ -1280,7 +1280,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroFixedInductors:L_2u2_1.5A_0806"
+		(symbol "antmicroFixedInductors:L_1u_2.6A_0806"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1304,7 +1304,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "L_2u2_1.5A_0806"
+			(property "Value" "L_1u_2.6A_0806"
 				(at 13.97 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1330,7 +1330,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0011.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP2010.pdf"
 				(at 13.97 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1343,7 +1343,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Power Inductor (SMD), 2.2 µH, 1.2 A, Shielded, 1.5 A, DFE201610C"
+			(property "Description" "Wirewound Inductor, 1 µH, 0.072 ohm, 2.6 A, SRP2010"
 				(at 13.97 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1355,18 +1355,19 @@
 					(justify left bottom)
 				)
 			)
-			(property "Val" "2u2/1.5A"
+			(property "Val" "1u/2.6A"
 				(at 13.97 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "Bourns"
 				(at 13.97 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1374,11 +1375,12 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "1285AS-H-2R2M=P2"
+			(property "MPN" "SRP2010-1R0M"
 				(at 13.97 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1386,11 +1388,12 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
 			)
-			(property "ISat" ""
+			(property "ISat" "2.9 A"
 				(at 13.97 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1402,19 +1405,7 @@
 					(justify left)
 				)
 			)
-			(property "Isat" "1.2A"
-				(at 13.97 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "IMax" ""
+			(property "IMax" "2.6 A"
 				(at 13.97 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1427,18 +1418,6 @@
 					(justify left bottom)
 				)
 			)
-			(property "Imax" "1.5A"
-				(at 13.97 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
 			(property "Size" "2.0x1.6"
 				(at 13.97 -22.86 0)
 				(show_name no)
@@ -1447,6 +1426,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
@@ -1459,6 +1439,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
@@ -1471,6 +1452,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
 					(justify left bottom)
 				)
@@ -1486,7 +1468,7 @@
 					)
 				)
 			)
-			(symbol "L_2u2_1.5A_0806_0_1"
+			(symbol "L_1u_2.6A_0806_0_1"
 				(arc
 					(start 0.508 0)
 					(mid 1.016 0.5058)
@@ -1536,7 +1518,7 @@
 					)
 				)
 			)
-			(symbol "L_2u2_1.5A_0806_1_1"
+			(symbol "L_1u_2.6A_0806_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.508)
@@ -4564,6 +4546,26 @@
 		)
 		(uuid "2ffea33e-7abb-4ad5-8816-672e9b3b7ed5")
 	)
+	(text "3V3 @ 1A"
+		(exclude_from_sim no)
+		(at 267.462 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "305bb9b8-56c9-457f-81b8-b70e054d9fda")
+	)
+	(text "5V @ 3.5A"
+		(exclude_from_sim no)
+		(at 268.986 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "309bc64e-a432-423f-8080-1ca329862001")
+	)
 	(text "V_{OUT} = 0.6 x (1 + R_{H}/R_{L}) [V]"
 		(exclude_from_sim no)
 		(at 89.154 246.38 0)
@@ -4595,6 +4597,16 @@
 			)
 		)
 		(uuid "4cdf2540-2463-446b-8bbc-e41e78d9c7cd")
+	)
+	(text "1V2 @ 0.5A"
+		(exclude_from_sim no)
+		(at 268.224 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c74a7d2-8317-4bd7-950c-7eba44eeb1c2")
 	)
 	(text "1V05 DC-DC"
 		(exclude_from_sim no)
@@ -4689,6 +4701,16 @@
 			)
 		)
 		(uuid "c08459f1-9a46-4bdf-b086-f7d12e6fcee6")
+	)
+	(text "1V05 @ 1A"
+		(exclude_from_sim no)
+		(at 266.954 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2d05408-8ca3-4ae4-8f61-dfd76de7f471")
 	)
 	(text "VCC_SCM_HPM_FRU \n+3V3 +/- 5%\n0.627W"
 		(exclude_from_sim no)
@@ -9762,7 +9784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroFixedInductors:L_2u2_1.5A_0806")
+		(lib_id "antmicroFixedInductors:L_1u_2.6A_0806")
 		(at 237.49 214.63 0)
 		(unit 1)
 		(body_style 1)
@@ -9784,7 +9806,7 @@
 				)
 			)
 		)
-		(property "Value" "L_2u2_1.5A_0806"
+		(property "Value" "L_1u_2.6A_0806"
 			(at 251.46 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -9810,7 +9832,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0011.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP2010.pdf"
 			(at 251.46 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -9823,7 +9845,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Power Inductor (SMD), 2.2 µH, 1.2 A, Shielded, 1.5 A, DFE201610C"
+		(property "Description" "Wirewound Inductor, 1 µH, 0.072 ohm, 2.6 A, SRP2010"
 			(at 251.46 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -9835,17 +9857,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "2u2/1.5A"
+		(property "Val" "1u/2.6A"
 			(at 240.03 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Bourns"
 			(at 251.46 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -9853,11 +9876,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "1285AS-H-2R2M=P2"
+		(property "MPN" "SRP2010-1R0M"
 			(at 251.46 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -9865,11 +9889,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "ISat" ""
+		(property "ISat" "2.9 A"
 			(at 251.46 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -9881,19 +9906,7 @@
 				(justify left)
 			)
 		)
-		(property "Isat" "1.2A"
-			(at 251.46 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "IMax" ""
+		(property "IMax" "2.6 A"
 			(at 251.46 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -9906,18 +9919,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Imax" "1.5A"
-			(at 251.46 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Size" "2.0x1.6"
 			(at 251.46 237.49 0)
 			(hide yes)
@@ -9926,6 +9927,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
@@ -9938,6 +9940,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
@@ -9950,6 +9953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
@@ -21003,7 +21007,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroFixedInductors:L_2u2_1.5A_0806")
+		(lib_id "antmicroFixedInductors:L_1u_2.6A_0806")
 		(at 237.49 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -21025,7 +21029,7 @@
 				)
 			)
 		)
-		(property "Value" "L_2u2_1.5A_0806"
+		(property "Value" "L_1u_2.6A_0806"
 			(at 251.46 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -21051,7 +21055,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0011.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP2010.pdf"
 			(at 251.46 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -21064,7 +21068,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Power Inductor (SMD), 2.2 µH, 1.2 A, Shielded, 1.5 A, DFE201610C"
+		(property "Description" "Wirewound Inductor, 1 µH, 0.072 ohm, 2.6 A, SRP2010"
 			(at 251.46 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -21076,17 +21080,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "2u2/1.5A"
+		(property "Val" "1u/2.6A"
 			(at 240.03 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Bourns"
 			(at 251.46 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -21094,11 +21099,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "1285AS-H-2R2M=P2"
+		(property "MPN" "SRP2010-1R0M"
 			(at 251.46 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -21106,11 +21112,12 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "ISat" ""
+		(property "ISat" "2.9 A"
 			(at 251.46 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -21122,19 +21129,7 @@
 				(justify left)
 			)
 		)
-		(property "Isat" "1.2A"
-			(at 251.46 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "IMax" ""
+		(property "IMax" "2.6 A"
 			(at 251.46 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21147,18 +21142,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Imax" "1.5A"
-			(at 251.46 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
 		(property "Size" "2.0x1.6"
 			(at 251.46 176.53 0)
 			(hide yes)
@@ -21167,6 +21150,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
@@ -21179,6 +21163,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
@@ -21191,6 +21176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
