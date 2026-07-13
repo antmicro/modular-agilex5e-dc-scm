@@ -7376,10 +7376,6 @@
 		(at 219.71 187.96)
 		(uuid "86c5c7e6-78a7-481c-b4c7-865d665697be")
 	)
-	(no_connect
-		(at 219.71 176.53)
-		(uuid "b80d2ad9-00a5-4e25-8f60-d470455a8145")
-	)
 	(bus_entry
 		(at 170.18 184.15)
 		(size -1.27 1.27)
@@ -8310,6 +8306,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 176.53) (xy 223.52 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d81bea68-edd3-402c-bb75-e23a5742fec1")
+	)
+	(wire
+		(pts
 			(xy 170.18 125.73) (xy 186.69 125.73)
 		)
 		(stroke
@@ -8899,6 +8905,17 @@
 		)
 		(uuid "003bb115-605d-4a9c-a140-b13f7eabf714")
 	)
+	(hierarchical_label "~{USER_BTN}"
+		(shape input)
+		(at 223.52 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27467de5-80ed-4c8f-9712-88511d362392")
+	)
 	(hierarchical_label "ULPI0{ULPI}"
 		(shape bidirectional)
 		(at 166.37 119.38 180)
@@ -9009,7 +9026,7 @@
 			(justify left bottom)
 		)
 		(uuid "6528387c-3982-4a91-9911-7f4f36bee692")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 165.1 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +9061,7 @@
 			(justify left bottom)
 		)
 		(uuid "89bd6584-1884-44ed-aa3c-bedada318a1b")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 165.1 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
