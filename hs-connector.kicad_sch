@@ -2291,15 +2291,6 @@
 		(uuid "047501f2-060f-4ae2-9cc5-7c2483292f7b")
 	)
 	(bus_entry
-		(at 215.9 140.97)
-		(size 1.27 1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "209f0b20-9b22-4211-a9a0-9ce3de4b8bc4")
-	)
-	(bus_entry
 		(at 176.53 146.05)
 		(size 1.27 1.27)
 		(stroke
@@ -2325,15 +2316,6 @@
 			(type default)
 		)
 		(uuid "62c8ef09-1d3d-42c0-a91b-7e3fd9241755")
-	)
-	(bus_entry
-		(at 215.9 138.43)
-		(size 1.27 1.27)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbd84881-ccfe-4d8a-8789-460055c48e71")
 	)
 	(wire
 		(pts
@@ -2407,16 +2389,6 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 138.43) (xy 215.9 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "439a19d6-8212-4292-80ab-6e4193d2c0ad")
-	)
-	(bus
-		(pts
 			(xy 175.26 143.51) (xy 176.53 144.78)
 		)
 		(stroke
@@ -2434,16 +2406,6 @@
 			(type default)
 		)
 		(uuid "4659dd5e-0c59-4b92-b67d-1b5652619565")
-	)
-	(bus
-		(pts
-			(xy 215.9 138.43) (xy 214.63 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f835fd4-02aa-44a3-8740-13f05a787a34")
 	)
 	(wire
 		(pts
@@ -2574,26 +2536,6 @@
 			(type default)
 		)
 		(uuid "719e0fc6-acac-4380-af1b-4a0674802da5")
-	)
-	(wire
-		(pts
-			(xy 217.17 139.7) (xy 248.92 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c35cc6-dadb-4fde-a0c3-a0a1bcc04b75")
-	)
-	(bus
-		(pts
-			(xy 213.36 137.16) (xy 214.63 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80635028-0ae9-446a-b2d2-9e8f5466a4c0")
 	)
 	(wire
 		(pts
@@ -2777,16 +2719,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 142.24) (xy 248.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2980fe0-9ef6-4d8c-a7f6-ed2ffc551e8d")
-	)
-	(wire
-		(pts
 			(xy 204.47 157.48) (xy 248.92 157.48)
 		)
 		(stroke
@@ -2885,26 +2817,6 @@
 		)
 		(uuid "bd1b8fc7-144b-4cf1-872a-ad434f235a8e")
 	)
-	(label "ROOTPORT.CLK-"
-		(at 228.6 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bedb71cf-1933-4c52-88d0-76797ba89e20")
-	)
-	(label "ROOTPORT.CLK+"
-		(at 228.6 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c54bb455-7851-4ae0-9205-3d699b12f4c7")
-	)
 	(label "SFP.RX-"
 		(at 179.07 149.86 0)
 		(effects
@@ -2924,17 +2836,6 @@
 			(justify left bottom)
 		)
 		(uuid "de89362f-5ca2-47f6-9c31-dc1c79bf0b70")
-	)
-	(hierarchical_label "ROOTPORT{PCIeREFCLK}"
-		(shape input)
-		(at 213.36 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f6ec358-4704-44fd-8970-af5bca1e3eaf")
 	)
 	(hierarchical_label "SFP{SFP}"
 		(shape bidirectional)
@@ -3111,41 +3012,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 215.9 139.7 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed37bf64-95f3-4494-b837-9cbb91494b85")
-		(property "Net Class" "85Ohm-diff"
-			(at 212.344 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Component Class" ""
-			(at 16.51 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)

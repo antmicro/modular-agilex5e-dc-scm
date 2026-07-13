@@ -4658,16 +4658,8 @@
 		(uuid "d647211d-16a4-4865-9db4-2b38b3cc61f7")
 	)
 	(no_connect
-		(at 313.69 142.24)
-		(uuid "7f8f914c-b3a4-4007-84f8-30708211d009")
-	)
-	(no_connect
 		(at 148.59 57.15)
 		(uuid "d9c7594c-84b8-476a-930a-41d72cb08f56")
-	)
-	(no_connect
-		(at 313.69 139.7)
-		(uuid "f6aac7cd-2dd8-4747-9186-298226ec68c3")
 	)
 	(bus_entry
 		(at 354.33 163.83)
@@ -5021,6 +5013,15 @@
 		(uuid "4bbcdb33-f98a-465b-83be-4e7265a5f61d")
 	)
 	(bus_entry
+		(at 354.33 138.43)
+		(size -1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1a5f52-4392-4a6f-86cd-e39f52d5d5f9")
+	)
+	(bus_entry
 		(at 354.33 181.61)
 		(size -1.27 1.27)
 		(stroke
@@ -5244,6 +5245,15 @@
 			(type default)
 		)
 		(uuid "786c6d23-ff88-44b6-9b0c-61a61947ee2c")
+	)
+	(bus_entry
+		(at 354.33 140.97)
+		(size -1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c01eae-a5e4-4617-85d7-74cc0688beb0")
 	)
 	(bus_entry
 		(at 354.33 212.09)
@@ -6753,6 +6763,16 @@
 		)
 		(uuid "412b7930-ec28-4298-9f5e-8971d624f4e8")
 	)
+	(wire
+		(pts
+			(xy 353.06 139.7) (xy 313.69 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b77e47-341c-4d0e-80a4-26a8ee124cbb")
+	)
 	(bus
 		(pts
 			(xy 354.33 132.08) (xy 354.33 134.62)
@@ -7885,6 +7905,16 @@
 	)
 	(bus
 		(pts
+			(xy 354.33 138.43) (xy 354.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c3f33d-f49a-4de9-b619-3ad90bdcb699")
+	)
+	(bus
+		(pts
 			(xy 189.23 167.64) (xy 187.96 168.91)
 		)
 		(stroke
@@ -8813,6 +8843,16 @@
 		)
 		(uuid "ccb6c5ad-fa57-4e6c-94f5-c25c820c5404")
 	)
+	(bus
+		(pts
+			(xy 356.87 137.16) (xy 355.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc3e8db-bb5b-4f7c-aac4-815e6ac3d140")
+	)
 	(wire
 		(pts
 			(xy 148.59 133.35) (xy 153.67 133.35)
@@ -9052,6 +9092,16 @@
 			(type default)
 		)
 		(uuid "dceb216c-385e-4601-8664-e92cca704d63")
+	)
+	(wire
+		(pts
+			(xy 353.06 142.24) (xy 313.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd17f7bf-09b5-4f96-8c8e-d806604e8771")
 	)
 	(bus
 		(pts
@@ -9393,6 +9443,16 @@
 		)
 		(uuid "ed1fd4f2-c655-47a0-b2b1-c2ba68dd8237")
 	)
+	(bus
+		(pts
+			(xy 354.33 138.43) (xy 355.6 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed272b39-14bf-4a7c-b77a-0ca6c5de6f63")
+	)
 	(wire
 		(pts
 			(xy 81.28 45.72) (xy 83.82 45.72)
@@ -9733,6 +9793,16 @@
 		)
 		(uuid "076950b0-aee7-441b-bee7-e8b916a7511e")
 	)
+	(label "ROOTPORT.CLK+"
+		(at 317.5 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c09503-0e64-494b-a005-3433e4551203")
+	)
 	(label "DC_SCM_PCIE.TX2-"
 		(at 317.5 179.07 0)
 		(effects
@@ -10002,6 +10072,16 @@
 			(justify left bottom)
 		)
 		(uuid "4913a688-a2ee-46de-82b0-155f9e64402a")
+	)
+	(label "ROOTPORT.CLK-"
+		(at 317.5 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a4c32c6-2a00-455a-8baf-f975c134ab01")
 	)
 	(label "SOFT_USB.D-"
 		(at 176.53 72.39 0)
@@ -11181,6 +11261,17 @@
 		)
 		(uuid "a2aa58a6-4217-4bfe-83d6-741dce0edd1f")
 	)
+	(hierarchical_label "ROOTPORT{PCIeREFCLK}"
+		(shape input)
+		(at 356.87 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae29a471-f298-4d8a-93ab-fd9eb4780be7")
+	)
 	(hierarchical_label "~{DC_SCM_INTRUSION}"
 		(shape output)
 		(at 71.12 81.28 180)
@@ -11776,6 +11867,41 @@
 		)
 		(property "Component Class" ""
 			(at 398.78 -53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 354.33 139.7 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aedcdd9d-ac0a-489b-9944-881382b7e8a1")
+		(property "Netclass" "85Ohm-diff"
+			(at 357.886 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 553.72 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
