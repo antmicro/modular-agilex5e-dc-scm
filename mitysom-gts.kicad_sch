@@ -7608,10 +7608,10 @@
 		)
 		(uuid "708d34e6-3359-4902-8a3b-4c3d85d74aed")
 	)
-	(text_box "USB SS and PCIe\nRX/TX cross below"
+	(text_box "PCIE:\n  RX named as DC-SCM connector RX = FPGA TX\n  TX named as DC-SCM connector TX = FPGA RX\nUSB:\n  RX named as controller RX = FPGA TX\n  TX named as controller TX = FPGA RX"
 		(exclude_from_sim no)
-		(at 256.54 96.8771 0)
-		(size 31.75 5.9929)
+		(at 250.19 176.53 0)
+		(size 62.23 18.2607)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -7624,8 +7624,9 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(uuid "219a0f5b-e126-42a7-bde1-4608d682f2bb")
+		(uuid "0e3ca13d-99ea-4e81-9903-8fa3e6a9b023")
 	)
 	(text_box "USB SuperSpeed and DisplayPort\nare not available at the same time"
 		(exclude_from_sim no)
@@ -7645,25 +7646,6 @@
 			)
 		)
 		(uuid "98b20315-e13b-43e4-b58a-b37847019d1c")
-	)
-	(text_box "PCIe RX/TX cross\non DC_SCM_PCIE"
-		(exclude_from_sim no)
-		(at 95.25 162.9171 0)
-		(size 31.75 5.9929)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f4ccfbf4-a7e6-4fc5-b5ce-de87885b7af5")
 	)
 	(no_connect
 		(at 184.15 138.43)
@@ -9165,6 +9147,16 @@
 		)
 		(uuid "27864f0c-c7f4-40d3-be5b-a702ec15dd66")
 	)
+	(label "ROOTPORT.RX0-"
+		(at 135.89 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27d55373-e141-4879-8772-24748a223155")
+	)
 	(label "156_25MHz_CLK.-"
 		(at 133.35 157.48 0)
 		(effects
@@ -9194,6 +9186,16 @@
 			(justify left bottom)
 		)
 		(uuid "34cef8c8-2516-4b74-9252-e600d88c8acb")
+	)
+	(label "ROOTPORT.TX0+"
+		(at 135.89 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35d07037-7443-4a7f-a1d1-b2d621f100c6")
 	)
 	(label "USBSS0.RX+"
 		(at 280.67 111.76 0)
@@ -9285,16 +9287,6 @@
 		)
 		(uuid "599cd034-ed35-4d36-a9b3-d3cf90342e32")
 	)
-	(label "ROOTPORT.TX0+"
-		(at 135.89 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c6ec3af-8fe6-44b8-8dc3-7c8ee675c079")
-	)
 	(label "USBSS0_TX+"
 		(at 246.38 111.76 0)
 		(effects
@@ -9304,16 +9296,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f539337-94f5-45a2-a766-59320193bab4")
-	)
-	(label "ROOTPORT.TX0-"
-		(at 135.89 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5fe4a2ce-fafb-416c-945c-c34f6c74dfa8")
 	)
 	(label "150MHz_CLK.-"
 		(at 245.11 157.48 0)
@@ -9404,6 +9386,16 @@
 			(justify left bottom)
 		)
 		(uuid "992d3548-5fdb-4a0c-a842-d5a444c3e536")
+	)
+	(label "ROOTPORT.TX0-"
+		(at 135.89 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ddc7c39-95d8-4c8e-88e1-32142100cd48")
 	)
 	(label "PCIEx4_CLK.CLK-"
 		(at 134.62 207.01 0)
@@ -9665,6 +9657,16 @@
 		)
 		(uuid "e8e254d5-96a6-403a-beb1-93ed7dc569df")
 	)
+	(label "ROOTPORT.RX0+"
+		(at 135.89 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed86355a-52be-429c-ac8f-cceac316ed11")
+	)
 	(label "DC_SCM_PCIE.RX1-"
 		(at 133.4076 168.91 0)
 		(effects
@@ -9685,16 +9687,6 @@
 		)
 		(uuid "f4ee6977-d8b8-462b-b8e7-25bf31dff3c0")
 	)
-	(label "ROOTPORT.RX0+"
-		(at 135.89 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5d8bcac-d706-43dc-a438-96d7aebfe11f")
-	)
 	(label "DC_SCM_PCIE.RX1+"
 		(at 133.4076 166.37 0)
 		(effects
@@ -9704,16 +9696,6 @@
 			(justify left bottom)
 		)
 		(uuid "fabdfd16-efd8-48ff-a856-9f8b5940c8c3")
-	)
-	(label "ROOTPORT.RX0-"
-		(at 135.8518 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc6e2090-1608-4ab1-acf6-f94e1a881e34")
 	)
 	(hierarchical_label "DP{DP}"
 		(shape output)
