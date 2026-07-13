@@ -1685,7 +1685,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroClockTimingClockGeneratorsPLLsFrequencySynthesizers:SY75604BTWL-TR_1"
+		(symbol "antmicroClockTimingClockGeneratorsPLLsFrequencySynthesizers:SY75604BTWL-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1828,7 +1828,7 @@
 					)
 				)
 			)
-			(symbol "SY75604BTWL-TR_1_1_1"
+			(symbol "SY75604BTWL-TR_1_1"
 				(rectangle
 					(start 2.54 2.54)
 					(end 17.78 -36.83)
@@ -8980,6 +8980,188 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroClockTimingClockGeneratorsPLLsFrequencySynthesizers:SY75604BTWL-TR")
+		(at 267.97 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3948fff4-b367-416b-a1d7-f852485b9903")
+		(property "Reference" "U7"
+			(at 278.13 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SY75604BTWL-TR"
+			(at 300.99 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 300.99 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/SY75602A-02B-03A-03B-04A-04B-2-4-Outputs-Ultra-Low-Additive-Jitter-PCIe-1-2-3-4-5-6-Clock-Buffer-DS20006508.pdf"
+			(at 300.99 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "PCIe CLK BUFFER 1:4 250MHZ, small package VQFN-16"
+			(at 300.99 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 300.99 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "SY75604BTWL-TR"
+			(at 278.13 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 300.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 300.99 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "6"
+			(uuid "c095275b-c902-47b7-81cc-4ff316658c40")
+		)
+		(pin "15"
+			(uuid "4e096ef3-8eaa-4431-867c-95b2b382ca05")
+		)
+		(pin "11"
+			(uuid "dad82751-efbd-485e-b85d-0fddf5e6f52c")
+		)
+		(pin "12"
+			(uuid "b0c56253-029a-429b-bc22-de2d3393885e")
+		)
+		(pin "10"
+			(uuid "1aa90253-e1ce-4142-8645-e0e84688c79c")
+		)
+		(pin "13"
+			(uuid "84005271-0fa9-4e31-a0a3-89fa41b803e5")
+		)
+		(pin "9"
+			(uuid "eee1835b-1c7a-46c4-956f-b71003f0586a")
+		)
+		(pin "7"
+			(uuid "381e7db4-b1d1-4614-8683-2bc9e37ef00c")
+		)
+		(pin "1"
+			(uuid "be58d453-729a-48ea-b2b4-ea878bf1dad4")
+		)
+		(pin "4"
+			(uuid "44877c1c-1d54-4af9-a129-ac4190cc2808")
+		)
+		(pin "8"
+			(uuid "122cd93c-cc74-4651-8b8b-3426820ff785")
+		)
+		(pin "5"
+			(uuid "78f87a88-2195-480f-9796-0e5362327f1b")
+		)
+		(pin "2"
+			(uuid "9584ffff-80bb-474a-b6cb-9560a9cce4be")
+		)
+		(pin "14"
+			(uuid "4ed076d6-692a-44d7-8570-f2baf90a9f97")
+		)
+		(pin "3"
+			(uuid "3c689fea-f676-4d00-b161-564d9a3eef09")
+		)
+		(pin "16"
+			(uuid "7fa17282-15ce-4775-8679-3401a581ead5")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/f9d49440-6457-44a6-96ad-733c78ac7b04"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 252.73 217.17 0)
 		(unit 1)
@@ -14844,188 +15026,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/f9d49440-6457-44a6-96ad-733c78ac7b04"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroClockTimingClockGeneratorsPLLsFrequencySynthesizers:SY75604BTWL-TR_1")
-		(at 267.97 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db75a44b-eb0f-4cc4-9340-c775b1e0abfc")
-		(property "Reference" "U7"
-			(at 278.13 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SY75604BTWL-TR"
-			(at 300.99 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
-			(at 300.99 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/SY75602A-02B-03A-03B-04A-04B-2-4-Outputs-Ultra-Low-Additive-Jitter-PCIe-1-2-3-4-5-6-Clock-Buffer-DS20006508.pdf"
-			(at 300.99 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "PCIe CLK BUFFER 1:4 250MHZ, small package VQFN-16"
-			(at 300.99 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Microchip Technology"
-			(at 300.99 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "SY75604BTWL-TR"
-			(at 278.13 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 300.99 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 300.99 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "9"
-			(uuid "22f3e434-5169-438e-bc82-4be55b04293a")
-		)
-		(pin "14"
-			(uuid "2341a929-f927-4ac5-a365-ca380ad492f9")
-		)
-		(pin "11"
-			(uuid "ed854777-e57e-4334-96fd-6e1bf4d1c988")
-		)
-		(pin "15"
-			(uuid "e4e77afa-6695-41b8-8e17-c2715e92aa4f")
-		)
-		(pin "10"
-			(uuid "c71d91bb-84bb-459a-a563-cfe26eb5a119")
-		)
-		(pin "12"
-			(uuid "14182c2c-13eb-450a-bc6f-8440a1c88eb1")
-		)
-		(pin "7"
-			(uuid "329afd09-2f74-452f-81e1-615e79dc8239")
-		)
-		(pin "2"
-			(uuid "152412bd-61e6-47e2-a912-dad9549ac6d2")
-		)
-		(pin "1"
-			(uuid "561aea70-72b3-49a8-b9cf-d7ece5719eba")
-		)
-		(pin "4"
-			(uuid "40354b11-35d5-4947-9ff5-903b5d39e996")
-		)
-		(pin "5"
-			(uuid "72625ee8-d4df-4012-aa0e-272458d1082c")
-		)
-		(pin "3"
-			(uuid "8441586e-9f49-4d1b-9b66-0d1654db67bd")
-		)
-		(pin "6"
-			(uuid "796c91c8-a6e6-43e2-a465-06bef184717a")
-		)
-		(pin "8"
-			(uuid "c9839c44-8938-40ff-ab37-c92502f772ae")
-		)
-		(pin "16"
-			(uuid "02a71d16-5166-4a2c-9792-c7996712e429")
-		)
-		(pin "13"
-			(uuid "9305ab8a-5e0f-44a9-af78-638bc3b126b0")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/f9d49440-6457-44a6-96ad-733c78ac7b04"
-					(reference "U7")
 					(unit 1)
 				)
 			)

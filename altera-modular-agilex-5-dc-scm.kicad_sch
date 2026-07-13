@@ -7963,16 +7963,6 @@
 				(justify right)
 			)
 		)
-		(pin "+12V" input
-			(at 88.9 257.81 180)
-			(uuid "bc827bad-d532-4ea7-b86e-4ff22600fdba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "1V05_PG" output
 			(at 127 262.89 0)
 			(uuid "389bab46-f85e-435b-9728-621dbd3c5b63")
@@ -7981,6 +7971,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "SOM_POWER" input
+			(at 88.9 257.81 180)
+			(uuid "0090031f-996e-4a93-90a2-afe3ad0da0cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
