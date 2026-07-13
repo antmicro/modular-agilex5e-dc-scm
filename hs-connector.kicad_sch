@@ -2317,6 +2317,24 @@
 		)
 		(uuid "62c8ef09-1d3d-42c0-a91b-7e3fd9241755")
 	)
+	(bus_entry
+		(at 176.53 140.97)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7c82fd-481d-4e00-a308-b204a8134081")
+	)
+	(bus_entry
+		(at 176.53 138.43)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07dc48f-d825-43d8-a34f-214e1b71eede")
+	)
 	(wire
 		(pts
 			(xy 242.57 165.1) (xy 248.92 165.1)
@@ -2336,6 +2354,16 @@
 			(type default)
 		)
 		(uuid "0d052248-4eeb-48f2-83a6-33e8c591c75b")
+	)
+	(bus
+		(pts
+			(xy 176.53 137.16) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1028656f-fc16-449e-b669-8167a0a59df3")
 	)
 	(wire
 		(pts
@@ -2387,6 +2415,16 @@
 		)
 		(uuid "3b9e26bd-5f88-4cac-ace4-d2447fcf79a7")
 	)
+	(wire
+		(pts
+			(xy 177.8 139.7) (xy 248.92 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfeb05a-3daa-4271-9423-70833301d706")
+	)
 	(bus
 		(pts
 			(xy 175.26 143.51) (xy 176.53 144.78)
@@ -2406,6 +2444,16 @@
 			(type default)
 		)
 		(uuid "4659dd5e-0c59-4b92-b67d-1b5652619565")
+	)
+	(bus
+		(pts
+			(xy 175.26 135.89) (xy 173.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecdb1bd-9bcb-4c02-bab5-55465b79c7d4")
 	)
 	(wire
 		(pts
@@ -2597,6 +2645,16 @@
 		)
 		(uuid "928f5702-c350-433b-8b55-981d4a420e12")
 	)
+	(bus
+		(pts
+			(xy 175.26 135.89) (xy 176.53 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e83f05-2a41-420a-9ec8-4a0f43060c36")
+	)
 	(wire
 		(pts
 			(xy 246.38 152.4) (xy 246.38 160.02)
@@ -2709,6 +2767,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 142.24) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce956678-40e8-4a47-85d2-808382f46970")
+	)
+	(wire
+		(pts
 			(xy 177.8 157.48) (xy 199.39 157.48)
 		)
 		(stroke
@@ -2757,6 +2825,16 @@
 		)
 		(uuid "274c6f30-e7fb-4c79-ad8b-697e4a5e57a3")
 	)
+	(label "ROOTPORT_HS.CLK+"
+		(at 198.12 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27618a6a-7e89-412f-ad6f-7327c5a842fe")
+	)
 	(label "HS_CONN_PWR"
 		(at 229.87 123.19 180)
 		(effects
@@ -2776,6 +2854,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c04724d-eb9b-4b8b-9d4c-46b53dee4ab2")
+	)
+	(label "ROOTPORT_HS.CLK-"
+		(at 198.12 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6214b1f2-5b0d-4ee3-abaf-02fe89f89551")
 	)
 	(label "SFP.RX+"
 		(at 179.07 147.32 0)
@@ -2836,6 +2924,17 @@
 			(justify left bottom)
 		)
 		(uuid "de89362f-5ca2-47f6-9c31-dc1c79bf0b70")
+	)
+	(hierarchical_label "ROOTPORT_HS{PCIeREFCLK}"
+		(shape input)
+		(at 173.99 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33290a8e-9c84-4fd9-a865-5d99948e17cf")
 	)
 	(hierarchical_label "SFP{SFP}"
 		(shape bidirectional)
@@ -2922,7 +3021,7 @@
 			(justify left bottom)
 		)
 		(uuid "6172531c-5210-4f0e-9b7c-43675d81f544")
-		(property "Net Class" "PWR"
+		(property "Netclass" "PWR"
 			(at 214.63 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +3055,7 @@
 			(justify left bottom)
 		)
 		(uuid "b380bccb-9170-46e5-a86d-625517b78a7f")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 172.974 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2991,7 +3090,7 @@
 			(justify left bottom)
 		)
 		(uuid "dcb278f0-e1b4-4e6a-b26b-9846163081f5")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 225.044 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)

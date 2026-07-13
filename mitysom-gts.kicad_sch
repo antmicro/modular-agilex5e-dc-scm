@@ -7675,16 +7675,8 @@
 		(uuid "7b91615a-16b6-47a6-93c4-0e805ce0e7d4")
 	)
 	(no_connect
-		(at 184.15 207.01)
-		(uuid "9b08940c-f1b7-4ff8-bad2-eccf6b9a0261")
-	)
-	(no_connect
 		(at 184.15 209.55)
 		(uuid "b92bb52a-ead6-4b04-a7cc-9dd6b46ec594")
-	)
-	(no_connect
-		(at 184.15 204.47)
-		(uuid "d7512fd4-9dbf-427f-a253-b2a91eb6a23c")
 	)
 	(no_connect
 		(at 184.15 116.84)
@@ -7738,6 +7730,15 @@
 			(type default)
 		)
 		(uuid "12cf04d7-7a00-4541-851b-1785d21c2c8f")
+	)
+	(bus_entry
+		(at 128.27 203.2)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172f5a98-beff-404b-96e6-a66618cfe630")
 	)
 	(bus_entry
 		(at 128.27 142.24)
@@ -7918,6 +7919,15 @@
 			(type default)
 		)
 		(uuid "704eebe3-7e27-4fcf-9d00-df2f9737f35b")
+	)
+	(bus_entry
+		(at 128.27 205.74)
+		(size 1.27 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bfdb5d8-6b71-4c2f-84fe-c713481ec411")
 	)
 	(bus_entry
 		(at 306.07 113.03)
@@ -8128,6 +8138,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 204.47) (xy 184.15 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006689c5-1ab2-4a01-8c66-249de8bc5382")
+	)
+	(wire
+		(pts
 			(xy 242.57 116.84) (xy 307.34 116.84)
 		)
 		(stroke
@@ -8248,6 +8268,16 @@
 	)
 	(bus
 		(pts
+			(xy 128.27 201.93) (xy 127 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e96066d-5484-4c10-866f-3ab18e42e55a")
+	)
+	(bus
+		(pts
 			(xy 128.27 148.59) (xy 127 147.32)
 		)
 		(stroke
@@ -8325,6 +8355,16 @@
 			(type default)
 		)
 		(uuid "2bbac42b-4a99-4993-a6f5-ebbafd99560d")
+	)
+	(bus
+		(pts
+			(xy 124.46 200.66) (xy 127 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c894f48-ee31-4365-84c9-d98341c2f44c")
 	)
 	(bus
 		(pts
@@ -8456,6 +8496,16 @@
 		)
 		(uuid "588df7ab-2777-400e-8a90-ae0bc9a4322c")
 	)
+	(wire
+		(pts
+			(xy 129.54 207.01) (xy 184.15 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5df29221-a4d3-4cbe-b0b5-8872e407af00")
+	)
 	(bus
 		(pts
 			(xy 312.42 104.14) (xy 313.69 104.14)
@@ -8475,6 +8525,16 @@
 			(type default)
 		)
 		(uuid "62b02f7a-4003-4ba4-9823-615b7567e82c")
+	)
+	(bus
+		(pts
+			(xy 128.27 201.93) (xy 128.27 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b009d8-374b-4de8-8a26-76b1972a9e58")
 	)
 	(wire
 		(pts
@@ -9326,6 +9386,16 @@
 		)
 		(uuid "992d3548-5fdb-4a0c-a842-d5a444c3e536")
 	)
+	(label "PCIEx4_CLK.CLK-"
+		(at 134.62 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f450a90-ec58-43da-9877-36a74253fb48")
+	)
 	(label "DP.TXD0+"
 		(at 280.67 116.84 0)
 		(effects
@@ -9385,6 +9455,16 @@
 			(justify left bottom)
 		)
 		(uuid "ad7a2d4d-3301-4f7c-8c59-6c848435a47b")
+	)
+	(label "PCIEx4_CLK.CLK+"
+		(at 134.62 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5f92f49-e05e-40d8-bc74-b73f20027327")
 	)
 	(label "DP.TXD1+"
 		(at 280.67 121.92 0)
@@ -9671,6 +9751,17 @@
 		)
 		(uuid "8e1d0e65-9aa6-462d-ae8b-41792faf6617")
 	)
+	(hierarchical_label "PCIEx4_CLK{PCIeREFCLK}"
+		(shape output)
+		(at 124.46 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a82954af-c0e7-401b-ae03-f616e1597385")
+	)
 	(hierarchical_label "DC_SCM_PCIE{PCIE}"
 		(shape bidirectional)
 		(at 125.73 158.75 180)
@@ -9825,7 +9916,7 @@
 			(justify right bottom)
 		)
 		(uuid "4896da98-3607-4163-99b9-1c0ff0459c70")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 179.6415 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9860,7 +9951,7 @@
 			(justify right bottom)
 		)
 		(uuid "64010f2d-2238-4113-bc3c-cbd017b67149")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 247.0785 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9895,7 +9986,7 @@
 			(justify right bottom)
 		)
 		(uuid "848c37c8-9cf3-4c10-bcbe-a984c6602c6d")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 247.0785 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9930,7 +10021,7 @@
 			(justify right bottom)
 		)
 		(uuid "e60a2a17-739f-43c6-9f29-924b4cc4faef")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 179.6415 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -11573,7 +11573,7 @@
 			(justify left bottom)
 		)
 		(uuid "00480853-3f5a-4f35-90b1-5a9624676aad")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 44.45 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11608,7 +11608,7 @@
 			(justify right bottom)
 		)
 		(uuid "16e25038-322b-4bf9-b459-1ffe89ef4a1f")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 383.54 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11643,7 +11643,7 @@
 			(justify right bottom)
 		)
 		(uuid "3d947559-5509-4f66-8abf-7b1b7ac636ec")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 358.14 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11679,7 +11679,7 @@
 			(justify right bottom)
 		)
 		(uuid "442a9875-1b57-43c3-966e-676df6ae48bb")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 319.4685 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11714,7 +11714,7 @@
 			(justify right bottom)
 		)
 		(uuid "5259857e-cb28-4c10-995a-ef789ea123f6")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 150.622 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +11749,7 @@
 			(justify right bottom)
 		)
 		(uuid "591fcfe3-1e50-4da5-9e78-8d4b3048564a")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 358.14 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11784,7 +11784,7 @@
 			(justify left bottom)
 		)
 		(uuid "6f06d7c8-9ee2-406f-b3c7-2fc655feec41")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 274.828 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11819,7 +11819,7 @@
 			(justify right bottom)
 		)
 		(uuid "871c0317-d9fe-433c-b3aa-009cab71219e")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 195.58 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +11854,7 @@
 			(justify right bottom)
 		)
 		(uuid "932a9c80-59c3-412c-8dfd-8659510eea8b")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 203.2 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11916,6 +11916,41 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 354.33 148.59 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6611fcf-ee46-45f2-812d-ce4b66abfa2d")
+		(property "Netclass" "85Ohm-diff"
+			(at 358.14 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 553.72 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 242.57 48.26 90)
 		(effects
 			(font
@@ -11924,7 +11959,7 @@
 			(justify left bottom)
 		)
 		(uuid "bad80c03-4182-4928-b660-f6d40fd8d91c")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 238.76 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +11994,7 @@
 			(justify right bottom)
 		)
 		(uuid "ce406787-d22d-4517-adbf-a606ef725440")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 203.2 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11994,7 +12029,7 @@
 			(justify left bottom)
 		)
 		(uuid "f3a49a72-b5d1-42c0-b1be-8aa8656247bb")
-		(property "Net Class" "100Ohm-diff"
+		(property "Netclass" "100Ohm-diff"
 			(at 239.268 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12029,7 +12064,7 @@
 			(justify left bottom)
 		)
 		(uuid "f4025f67-6b5b-4952-86cc-f3051711de8f")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 341.122 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12065,7 +12100,7 @@
 			(justify right bottom)
 		)
 		(uuid "f67a3e40-c8ad-425b-a0b6-6a46f1f968e7")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 84.5185 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +12135,7 @@
 			(justify right bottom)
 		)
 		(uuid "fac43c1c-6a91-4408-a584-f6a6540a0d2e")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 389.636 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,7 +12171,7 @@
 			(justify right bottom)
 		)
 		(uuid "fc21d06c-0f8f-469d-bf13-560784868ac2")
-		(property "Net Class" "50Ohm-se"
+		(property "Netclass" "50Ohm-se"
 			(at 149.2885 204.47 0)
 			(show_name no)
 			(do_not_autoplace no)
