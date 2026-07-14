@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.3,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,10 +63,10 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "pad_connection": 2,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -280,7 +280,12 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.7,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -675,7 +680,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(72, 72, 72)",
         "priority": 0,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": "",
@@ -685,7 +690,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
         "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "tuning_profile": "",
@@ -746,11 +751,9 @@
         "50Ohm-se"
       ],
       "/CLK/100MHz_CLK+": [
-        "100Ohm-diff",
         "85Ohm-diff"
       ],
       "/CLK/100MHz_CLK-": [
-        "100Ohm-diff",
         "85Ohm-diff"
       ],
       "/CLK/100MHz_CLK.+": [
