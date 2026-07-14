@@ -2128,6 +2128,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -31.75 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -4072,6 +4090,12 @@
 		(uuid "499c4be6-69b0-4d94-9827-f4f238fa26b9")
 	)
 	(junction
+		(at 266.7 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55802c80-39e4-43c4-abdf-26a87adb2ec2")
+	)
+	(junction
 		(at 167.64 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5801,6 +5825,16 @@
 		)
 		(uuid "a0a0b1ec-eaa3-405f-a83d-0fc6b0cae89d")
 	)
+	(wire
+		(pts
+			(xy 266.7 109.22) (xy 266.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bc922b-0bde-49a1-8024-fd1e563f5232")
+	)
 	(bus
 		(pts
 			(xy 283.21 212.09) (xy 281.94 210.82)
@@ -6360,6 +6394,16 @@
 			(type default)
 		)
 		(uuid "e798fee7-7b8c-4404-8ae0-d72889485ce4")
+	)
+	(wire
+		(pts
+			(xy 267.97 109.22) (xy 266.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9e8144-0c14-47fd-9f32-216163099deb")
 	)
 	(wire
 		(pts
@@ -7084,7 +7128,7 @@
 			(justify right bottom)
 		)
 		(uuid "8397dc2b-b043-4655-b13a-e212aca44e53")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 294.0685 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7162,7 @@
 			(justify left bottom)
 		)
 		(uuid "bd62e3ea-c53a-4c8c-9ede-077f87c701c5")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 240.03 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7196,7 @@
 			(justify left bottom)
 		)
 		(uuid "f174d8b8-2fa6-40d7-81fb-12953e0762e4")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 72.39 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7230,7 @@
 			(justify right bottom)
 		)
 		(uuid "f1a04904-8fcb-44dd-bc2d-cb03b63a0d72")
-		(property "Net Class" "85Ohm-diff"
+		(property "Netclass" "85Ohm-diff"
 			(at 120.0785 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,6 +9195,9 @@
 		)
 		(pin "16"
 			(uuid "7fa17282-15ce-4775-8679-3401a581ead5")
+		)
+		(pin "17"
+			(uuid "e35d3b2f-b8d1-4e7a-b628-41a730f09eef")
 		)
 		(instances
 			(project "altera-modular-agilex-5-dc-scm"
