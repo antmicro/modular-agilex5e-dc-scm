@@ -745,6 +745,71 @@
       "/BIOS/QSPI_HPMCNTRL{QSPI}": [
         "50Ohm-se"
       ],
+      "/CLK/100MHz_CLK+": [
+        "100Ohm-diff",
+        "85Ohm-diff"
+      ],
+      "/CLK/100MHz_CLK-": [
+        "100Ohm-diff",
+        "85Ohm-diff"
+      ],
+      "/CLK/100MHz_CLK.+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/100MHz_CLK.-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/150MHz_CLK+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/150MHz_CLK-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/150MHz_CLK.+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/150MHz_CLK.-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/150MHz_CLK{+ -}": [
+        "100Ohm-diff"
+      ],
+      "/CLK/156_25MHz_CLK+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/156_25MHz_CLK-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/156_25MHz_CLK.+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/156_25MHz_CLK.-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/156_25MHz_CLK{+ -}": [
+        "100Ohm-diff"
+      ],
+      "/CLK/25MHz_CLK.+": [
+        "100Ohm-diff"
+      ],
+      "/CLK/25MHz_CLK.-": [
+        "100Ohm-diff"
+      ],
+      "/CLK/25MHz_CLK{+ -}": [
+        "100Ohm-diff"
+      ],
+      "/CLK/BUFF0_CLK+": [
+        "85Ohm-diff"
+      ],
+      "/CLK/BUFF0_CLK-": [
+        "85Ohm-diff"
+      ],
+      "/CLK/BUFF1_CLK+": [
+        "85Ohm-diff"
+      ],
+      "/CLK/BUFF1_CLK-": [
+        "85Ohm-diff"
+      ],
       "/CLK/DC_SCM_CLK.CLK+": [
         "85Ohm-diff"
       ],
@@ -752,6 +817,18 @@
         "85Ohm-diff"
       ],
       "/CLK/DC_SCM_CLK{PCIeREFCLK}": [
+        "85Ohm-diff"
+      ],
+      "/CLK/GEN0_CLK+": [
+        "85Ohm-diff"
+      ],
+      "/CLK/GEN0_CLK-": [
+        "85Ohm-diff"
+      ],
+      "/CLK/GEN1_CLK+": [
+        "85Ohm-diff"
+      ],
+      "/CLK/GEN1_CLK-": [
         "85Ohm-diff"
       ],
       "/CLK/PCIEx4_CLK.CLK+": [
@@ -1771,6 +1848,66 @@
       "/LTPI bias/SOM_LTPI{LTPI}": [
         "100Ohm-diff"
       ],
+      "/MitySOM GTS/PCIe.RX0+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX0-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX1+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX1-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX2+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX2-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX3+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.RX3-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX0+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX0-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX1+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX1-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX2+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX2-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX3+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe.TX3-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe_DEVICE_TX0+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/PCIe_DEVICE_TX0-": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/ROOTPORT_TX0+": [
+        "85Ohm-diff"
+      ],
+      "/MitySOM GTS/ROOTPORT_TX0-": [
+        "85Ohm-diff"
+      ],
       "/MitySOM GTS/USBSS.RX+": [
         "90Ohm-diff"
       ],
@@ -2413,6 +2550,12 @@
       "/USB Controller/PCIe_CLK{PCIeREFCLK}": [
         "85Ohm-diff"
       ],
+      "/USB Controller/PETX+": [
+        "85Ohm-diff"
+      ],
+      "/USB Controller/PETX-": [
+        "85Ohm-diff"
+      ],
       "/USB Controller/USB1.D+": [
         "90Ohm-diff"
       ],
@@ -2508,6 +2651,9 @@
       ],
       "/USB Controller/USBSS4{USBSS}": [
         "90Ohm-diff"
+      ],
+      "GND": [
+        "100Ohm-diff"
       ],
       "Net-(C1105-Pad2)": [
         "100Ohm-diff"
@@ -3294,7 +3440,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R601-608,C601-610,C711-712",
     "variants": []
   },
   "sheets": [
