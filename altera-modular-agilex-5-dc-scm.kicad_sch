@@ -997,6 +997,16 @@
 		)
 		(uuid "0134e9ea-91ed-4391-a7b4-a3c67f6ad6ab")
 	)
+	(bus
+		(pts
+			(xy 85.09 113.03) (xy 162.56 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0195f1b5-6b87-4368-a5ea-47525e1c34b5")
+	)
 	(wire
 		(pts
 			(xy 251.46 246.38) (xy 251.46 238.76)
@@ -1757,6 +1767,16 @@
 		)
 		(uuid "4ed4808b-95ad-4f49-a03e-356d9b4c5e74")
 	)
+	(bus
+		(pts
+			(xy 85.09 107.95) (xy 85.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c40529-0e56-4a50-bd9d-9091ba39e0f7")
+	)
 	(wire
 		(pts
 			(xy 297.18 127) (xy 297.18 60.96)
@@ -2307,6 +2327,16 @@
 		)
 		(uuid "97ca3cd4-a051-4c98-ad08-8e2b052993a0")
 	)
+	(bus
+		(pts
+			(xy 76.2 107.95) (xy 85.09 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d4639-df18-4f45-b8a1-d6f447c50287")
+	)
 	(wire
 		(pts
 			(xy 76.2 134.62) (xy 162.56 134.62)
@@ -2519,7 +2549,7 @@
 	)
 	(bus
 		(pts
-			(xy 162.56 114.3) (xy 81.28 114.3)
+			(xy 162.56 115.57) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2869,16 +2899,6 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 107.95) (xy 222.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8692ac2-162c-4c78-81d7-91d4420056f4")
-	)
-	(bus
-		(pts
 			(xy 215.9 163.83) (xy 222.25 163.83)
 		)
 		(stroke
@@ -3129,7 +3149,7 @@
 	)
 	(bus
 		(pts
-			(xy 81.28 114.3) (xy 81.28 30.48)
+			(xy 81.28 115.57) (xy 81.28 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5263,16 +5283,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "DC_SCM_JTAG{JTAG}" bidirectional
-			(at 222.25 107.95 180)
-			(uuid "d9b68239-2815-499d-8cff-620df2a813bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "ULPI0{ULPI}" bidirectional
@@ -7716,7 +7726,7 @@
 			)
 		)
 		(pin "SOFT_USB{USB}" bidirectional
-			(at 162.56 114.3 180)
+			(at 162.56 115.57 180)
 			(uuid "1e0ae007-30b6-4a1a-a77a-90c4b2102a78")
 			(effects
 				(font
@@ -7763,6 +7773,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DC_SCM_JTAG{JTAG}" bidirectional
+			(at 162.56 113.03 180)
+			(uuid "d36766a5-d2f1-4bd0-bb7c-2a7ffaf82856")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

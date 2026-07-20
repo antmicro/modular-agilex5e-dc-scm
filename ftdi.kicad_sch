@@ -7613,6 +7613,12 @@
 		(uuid "26ba0a14-0ef9-45c7-b47c-0b30a9b0a2d4")
 	)
 	(junction
+		(at 109.22 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a05e856-be78-47ce-8c2a-09f74b9af390")
+	)
+	(junction
 		(at 270.51 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7623,6 +7629,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f4e9d2f-2051-4d04-b2c4-63624cbef0d1")
+	)
+	(junction
+		(at 109.22 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "310a83fd-4c54-466d-a0b4-521ff4113462")
 	)
 	(junction
 		(at 279.4 207.01)
@@ -8290,16 +8302,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 158.75) (xy 104.14 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a37ea3-4ed5-4e55-86ad-ad81ef9427dd")
-	)
-	(wire
-		(pts
 			(xy 279.4 193.04) (xy 265.43 193.04)
 		)
 		(stroke
@@ -8547,6 +8549,16 @@
 			(type default)
 		)
 		(uuid "37777350-e0ed-49ff-b2da-3c525ba133cd")
+	)
+	(wire
+		(pts
+			(xy 109.22 158.75) (xy 109.22 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37cc9e8a-3418-4919-a15d-d3cac9491b7d")
 	)
 	(wire
 		(pts
@@ -9830,16 +9842,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 97.79) (xy 104.14 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8b3404b-57a9-4fd3-b82e-704af5bc25db")
-	)
-	(wire
-		(pts
 			(xy 76.2 245.11) (xy 82.55 245.11)
 		)
 		(stroke
@@ -9907,6 +9909,16 @@
 			(type default)
 		)
 		(uuid "be7b22f3-5714-4c1c-b56e-33b47abe8558")
+	)
+	(wire
+		(pts
+			(xy 114.3 158.75) (xy 109.22 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2d2d27-eb6b-47e4-9a4b-88b9e56ad354")
 	)
 	(bus
 		(pts
@@ -10260,6 +10272,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 97.79) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10643af-b643-4e5d-be21-f4d59798e40d")
+	)
+	(wire
+		(pts
 			(xy 134.62 95.25) (xy 132.08 95.25)
 		)
 		(stroke
@@ -10377,6 +10399,16 @@
 			(type default)
 		)
 		(uuid "ec0adbf5-e701-4940-94c3-a1d774401b11")
+	)
+	(wire
+		(pts
+			(xy 114.3 97.79) (xy 109.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2016868-2ac6-46b8-831c-a12c22cc6701")
 	)
 	(wire
 		(pts
@@ -10559,7 +10591,7 @@
 		(uuid "0d2ba2d3-9cd1-401d-83a3-ea8dc0636871")
 	)
 	(label "JTAG.TDI"
-		(at 97.79 105.41 0)
+		(at 97.79 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10569,7 +10601,7 @@
 		(uuid "0fa853fb-6741-400d-a1ac-e8efa093ada2")
 	)
 	(label "FTDI_JTAG.TDI"
-		(at 134.62 105.41 0)
+		(at 134.62 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10658,16 +10690,6 @@
 		)
 		(uuid "4e2c12c1-3f61-46b2-a13d-90481f463f89")
 	)
-	(label "+3V3_FTDI"
-		(at 104.14 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50deb370-3961-4d18-b538-cfbb7293cbec")
-	)
 	(label "LED_TX1"
 		(at 101.6 254 0)
 		(effects
@@ -10739,7 +10761,7 @@
 		(uuid "6f48c0c8-3f90-4b9b-8558-8e7796f0a342")
 	)
 	(label "FTDI_JTAG.TCK"
-		(at 134.62 102.87 0)
+		(at 134.62 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10789,7 +10811,7 @@
 		(uuid "9178c6e9-292d-4537-b710-538dbb619e87")
 	)
 	(label "JTAG.TCK"
-		(at 97.79 102.87 0)
+		(at 97.79 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10998,16 +11020,6 @@
 		)
 		(uuid "efa141bb-1ee6-4f55-bde0-4d4cb5987ae3")
 	)
-	(label "+3V3_FTDI"
-		(at 104.14 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff290c72-def9-4e5a-9a87-d1cc5ecc673b")
-	)
 	(hierarchical_label "JTAG{JTAG}"
 		(shape bidirectional)
 		(at 92.71 96.52 180)
@@ -11093,7 +11105,7 @@
 			(justify right bottom)
 		)
 		(uuid "3b4eceab-d547-4ca0-8a29-9d9e8be0acb8")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 322.58 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11128,7 +11140,7 @@
 			(justify left bottom)
 		)
 		(uuid "495f9db8-90fb-4011-9019-840c8c48f848")
-		(property "Net Class" "90Ohm-diff"
+		(property "Netclass" "90Ohm-diff"
 			(at 281.94 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)

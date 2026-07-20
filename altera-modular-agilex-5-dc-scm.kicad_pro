@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.3,
-          "corner_smoothing": 2,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -63,10 +63,10 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
-          "remove_islands": 1,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.3
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -1611,6 +1611,18 @@
       "/Front panel USB/USBC1_TX2-": [
         "90Ohm-diff"
       ],
+      "/Front panel USB/USBSS1_C_RX+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBSS1_C_RX-": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBSS1_C_TX+": [
+        "90Ohm-diff"
+      ],
+      "/Front panel USB/USBSS1_C_TX-": [
+        "90Ohm-diff"
+      ],
       "/Front panel USB/USB_DBG.D+": [
         "90Ohm-diff"
       ],
@@ -2748,6 +2760,9 @@
       "Net-(J1G-HVIO_6C_18)": [
         "50Ohm-se"
       ],
+      "Net-(J1G-HVIO_6C_19)": [
+        "50Ohm-se"
+      ],
       "Net-(J2001-Pad10)": [
         "100Ohm-diff"
       ],
@@ -3443,7 +3458,7 @@
         "uuid": "6bb9d978-a328-4b30-874b-55170a976185"
       }
     ],
-    "used_designators": "R601-608,C601-610,C711-712",
+    "used_designators": "J301-302,U301,U401,U501,#PWR451-455,#PWR501-505,#PWR2301,R601-608,D301,C301-302,C501-502,C601-610,C711-712",
     "variants": []
   },
   "sheets": [
