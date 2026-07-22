@@ -5452,7 +5452,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_4k3_0402"
+		(symbol "antmicroResistors0402:R_4k7_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5476,7 +5476,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_4k3_0402"
+			(property "Value" "R_4k7_0402"
 				(at 20.32 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5502,7 +5502,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://www.farnell.com/datasheets/3795017.pdf"
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
 				(at 20.32 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5515,7 +5515,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 3.24 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 				(at 20.32 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5527,7 +5527,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "RMCF0402FT4K30"
+			(property "MPN" "CR0402-FX-4701GLF"
 				(at 20.32 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5540,7 +5540,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "Stackpole Electronics"
+			(property "Manufacturer" "Bourns"
 				(at 20.32 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5579,7 +5579,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Val" "4k3"
+			(property "Val" "4k7"
 				(at 20.32 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5603,7 +5603,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5614,7 +5614,7 @@
 					)
 				)
 			)
-			(symbol "R_4k3_0402_0_1"
+			(symbol "R_4k7_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -5627,7 +5627,7 @@
 					)
 				)
 			)
-			(symbol "R_4k3_0402_1_1"
+			(symbol "R_4k7_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -9266,7 +9266,7 @@
 		)
 		(uuid "37952820-b3d3-45fc-a043-3bf79bb6b1be")
 	)
-	(text "I_{LIM} = 6800/R\nI_{LIM} = 1.58 A"
+	(text "I_{LIM} = 6800/R\nI_{LIM} = 1.45 A"
 		(exclude_from_sim no)
 		(at 279.4 38.1 0)
 		(effects
@@ -9408,7 +9408,7 @@
 		)
 		(uuid "e5e896da-21e3-466c-b0d2-8c4413458d5d")
 	)
-	(text "I_{LIM} = 6800/R\nI_{LIM} = 1.58 A"
+	(text "I_{LIM} = 6800/R\nI_{LIM} = 1.45 A"
 		(exclude_from_sim no)
 		(at 306.07 144.78 0)
 		(effects
@@ -30069,7 +30069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_4k3_0402")
+		(lib_id "antmicroResistors0402:R_4k7_0402")
 		(at 290.83 35.56 90)
 		(unit 1)
 		(body_style 1)
@@ -30091,7 +30091,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_4k3_0402"
+		(property "Value" "R_4k7_0402"
 			(at 303.53 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -30117,7 +30117,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3795017.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
 			(at 308.61 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -30130,7 +30130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 3.24 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 321.31 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -30142,7 +30142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0402FT4K30"
+		(property "MPN" "CR0402-FX-4701GLF"
 			(at 311.15 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -30155,7 +30155,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics"
+		(property "Manufacturer" "Bourns"
 			(at 313.69 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -30194,7 +30194,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "4k3"
+		(property "Val" "4k7"
 			(at 292.1 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34426,7 +34426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_4k3_0402")
+		(lib_id "antmicroResistors0402:R_4k7_0402")
 		(at 317.5 142.24 90)
 		(unit 1)
 		(body_style 1)
@@ -34448,7 +34448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_4k3_0402"
+		(property "Value" "R_4k7_0402"
 			(at 330.2 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -34474,7 +34474,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.farnell.com/datasheets/3795017.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
 			(at 335.28 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -34487,7 +34487,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 3.24 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 347.98 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -34499,7 +34499,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "RMCF0402FT4K30"
+		(property "MPN" "CR0402-FX-4701GLF"
 			(at 337.82 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -34512,7 +34512,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Stackpole Electronics"
+		(property "Manufacturer" "Bourns"
 			(at 340.36 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -34551,7 +34551,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "4k3"
+		(property "Val" "4k7"
 			(at 318.77 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
