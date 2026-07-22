@@ -1659,7 +1659,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroDiodesRectifiersSingle:RB521S30T1G"
+		(symbol "antmicroDiodesRectifiersSingle:PMEG3010CEJ,115"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1683,7 +1683,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "RB521S30T1G"
+			(property "Value" "PMEG3010CEJ,115"
 				(at 22.86 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1696,7 +1696,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "antmicro-footprints:SOD-523"
+			(property "Footprint" "antmicro-footprints:D_SOD-323F"
 				(at 22.86 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1709,7 +1709,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010CEH_PMEG3010CEJ.pdf"
 				(at 22.86 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1722,7 +1722,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
+			(property "Description" "Schottky Rectifier, 30 V, 1 A, Single, SOD-323F, 2 Pins, 520 mV"
 				(at 22.86 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1734,7 +1734,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "MPN" "RB521S30T1G"
+			(property "MPN" "PMEG3010CEJ,115"
 				(at 22.86 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1746,7 +1746,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Manufacturer" "ON Semiconductor"
+			(property "Manufacturer" "Nexperia"
 				(at 22.86 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1785,7 +1785,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "SMT, SEMICONDUCTOR, DIODE, SCHOTTKY, RoHS"
+			(property "ki_keywords" "SMT, DIODE, SEMICONDUCTOR, RECTIFIER, SCHOTTKY, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1796,7 +1796,7 @@
 					)
 				)
 			)
-			(symbol "RB521S30T1G_0_1"
+			(symbol "PMEG3010CEJ,115_0_1"
 				(polyline
 					(pts
 						(xy 1.905 0) (xy 0.635 0)
@@ -1822,7 +1822,7 @@
 					)
 				)
 			)
-			(symbol "RB521S30T1G_1_1"
+			(symbol "PMEG3010CEJ,115_1_1"
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.778 -1.016)
@@ -11635,7 +11635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G")
+		(lib_id "antmicroDiodesRectifiersSingle:PMEG3010CEJ,115")
 		(at 240.03 138.43 180)
 		(unit 1)
 		(body_style 1)
@@ -11644,9 +11644,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "931733ee-5ca4-4c09-94da-f249d2ed0117")
 		(property "Reference" "D26"
-			(at 237.49 135.89 0)
+			(at 237.49 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11656,7 +11657,7 @@
 				)
 			)
 		)
-		(property "Value" "RB521S30T1G"
+		(property "Value" "PMEG3010CEJ,115"
 			(at 217.17 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -11669,7 +11670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:SOD-523"
+		(property "Footprint" "antmicro-footprints:D_SOD-323F"
 			(at 217.17 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11682,7 +11683,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/rb521s30t1-d.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG3010CEH_PMEG3010CEJ.pdf"
 			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -11695,7 +11696,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Small Signal Schottky Diode, Single, 30 V, 200 mA, 500 mV, 1 A, 125 °C"
+		(property "Description" "Schottky Rectifier, 30 V, 1 A, Single, SOD-323F, 2 Pins, 520 mV"
 			(at 240.03 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11704,10 +11705,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "MPN" "RB521S30T1G"
-			(at 237.49 140.97 0)
+		(property "MPN" "PMEG3010CEJ,115"
+			(at 237.49 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11717,7 +11719,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ON Semiconductor"
+		(property "Manufacturer" "Nexperia"
 			(at 217.17 120.65 0)
 			(hide yes)
 			(show_name no)
