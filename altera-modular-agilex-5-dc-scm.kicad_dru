@@ -59,3 +59,13 @@
 	(condition "(A.NetClass == '50Ohm-se')")
 	(constraint track_width (opt 0.21mm))
 )
+
+(rule "ULPI1_skew"
+	(condition "(A.NetName  == '*ULPI1*')")
+	(constraint length ( min 320ps)( opt 370ps) ( max 420ps))
+)
+
+(rule "ULPI0_skew"
+	(condition "(A.NetName  == '*ULPI0*')")
+	(constraint length ( min 150ps)( opt 200ps) ( max 250ps))
+)

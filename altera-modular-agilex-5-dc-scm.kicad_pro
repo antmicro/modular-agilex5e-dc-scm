@@ -106,43 +106,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|215460000|56850000|907b96a3-7f55-4e37-8486-94fe95907314|4b215646-9c55-470b-974c-bcc616cc0a15",
-          ""
-        ],
-        [
           "silk_edge_clearance|215460000|93810000|22f763f4-d56b-4608-b4c5-0dc10c7baa0e|73e03d07-021d-402a-9be9-d5abaa8bbd41",
-          ""
-        ],
-        [
-          "silk_overlap|0|0|3e08a732-561c-4677-ab1c-b1954d650957|51debefd-dc61-4164-a05a-d7a7604d5773",
-          ""
-        ],
-        [
-          "silk_overlap|0|0|41a10d0b-2480-484b-9ae8-ad2df9a8577c|b5132a7c-68f1-466c-b6ec-7c91d5c07bc0",
-          ""
-        ],
-        [
-          "silk_overlap|0|0|41a10d0b-2480-484b-9ae8-ad2df9a8577c|c612eb82-5e67-49a8-a8b6-526a9edfb366",
-          ""
-        ],
-        [
-          "silk_overlap|0|0|51debefd-dc61-4164-a05a-d7a7604d5773|65d67fd4-d93c-4837-ab57-f30ea767933a",
-          ""
-        ],
-        [
-          "silk_overlap|137394605|68658667|45272466-775b-42e4-81c2-c2dc95bae0d6|91f1dfe3-f867-4943-80b6-d6650bf53baf",
-          ""
-        ],
-        [
-          "silk_overlap|137470643|68551372|91f1dfe3-f867-4943-80b6-d6650bf53baf|cb63c70a-021f-4f3c-9f27-87f7ba2cd717",
-          ""
-        ],
-        [
-          "silk_overlap|196994605|64858667|01c7b8c9-ea7e-4e09-acc3-19483c60baec|0341f907-a6f5-4f37-85a7-b2b9fd3c8171",
-          ""
-        ],
-        [
-          "silk_overlap|197070643|64751372|0341f907-a6f5-4f37-85a7-b2b9fd3c8171|300bdc78-4b65-4d67-a8c9-7e459af3a254",
           ""
         ]
       ],
@@ -643,7 +607,7 @@
         "priority": 5,
         "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.18,
-        "tuning_profile": "",
+        "tuning_profile": "50Ohm-se",
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -3572,6 +3536,49 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 6018000,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 210000
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 7156000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 195000
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 7156000,
+            "diff_pair_gap": 0,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 195000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 6018000,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 0
+          }
+        ],
+        "profile_name": "50Ohm-se",
+        "target_impedance": 50.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 7000000
+      }
+    ]
   }
 }
