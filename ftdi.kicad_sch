@@ -5704,221 +5704,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_470R_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_470R_0402"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "CR0402-FX-4700GLF"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "470R"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_470R_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_470R_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroResonators:Resonator_12MHz_ABM8G"
 			(pin_names
 				(hide yes)
@@ -12652,7 +12437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 95.25 254 180)
 		(unit 1)
 		(body_style 1)
@@ -12674,7 +12459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_10k_0402"
+		(property "Value" "R_1k_0402"
 			(at 74.93 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12713,7 +12498,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -12725,7 +12510,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 74.93 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -12777,7 +12562,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "10k"
+		(property "Val" "1k"
 			(at 95.25 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,7 +12767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 95.25 248.92 180)
 		(unit 1)
 		(body_style 1)
@@ -13004,7 +12789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_10k_0402"
+		(property "Value" "R_1k_0402"
 			(at 74.93 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13043,7 +12828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -13055,7 +12840,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 74.93 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -13107,7 +12892,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "10k"
+		(property "Val" "1k"
 			(at 95.25 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13753,7 +13538,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 95.25 251.46 180)
 		(unit 1)
 		(body_style 1)
@@ -13775,7 +13560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_10k_0402"
+		(property "Value" "R_1k_0402"
 			(at 74.93 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13599,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -13826,7 +13611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 74.93 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -13878,7 +13663,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "10k"
+		(property "Val" "1k"
 			(at 95.25 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19072,7 +18857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_10k_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 95.25 256.54 180)
 		(unit 1)
 		(body_style 1)
@@ -19094,7 +18879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_10k_0402"
+		(property "Value" "R_1k_0402"
 			(at 74.93 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -19133,7 +18918,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 74.93 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -19145,7 +18930,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 74.93 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -19197,7 +18982,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "10k"
+		(property "Val" "1k"
 			(at 95.25 255.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23065,7 +22850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_470R_0402")
+		(lib_id "antmicroResistors0402:R_1k_0402")
 		(at 243.84 71.12 270)
 		(mirror x)
 		(unit 1)
@@ -23088,7 +22873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_470R_0402"
+		(property "Value" "R_1k_0402"
 			(at 231.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23127,7 +22912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Chip Resistor, 470 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 213.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23139,7 +22924,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4700GLF"
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 223.52 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -23191,7 +22976,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "470R"
+		(property "Val" "1k"
 			(at 237.49 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
