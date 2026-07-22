@@ -6312,221 +6312,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistors0402:R_910k_0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 20.32 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_910k_0402"
-				(at 20.32 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-				(at 20.32 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 20.32 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "SMD Chip Resistor"
-				(at 20.32 -30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "CR0402-FX-9103GLF"
-				(at 20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 20.32 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 20.32 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 20.32 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "910k"
-				(at 20.32 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 20.32 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_910k_0402_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_910k_0402_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroTVSDiodes:PESD5V0X1UB"
 			(pin_numbers
 				(hide yes)
@@ -26093,7 +25878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_910k_0402")
+		(lib_id "antmicroResistors0402:R_887k_0402")
 		(at 254 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -26115,7 +25900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_910k_0402"
+		(property "Value" "R_887k_0402"
 			(at 266.7 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26141,7 +25926,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf"
 			(at 271.78 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26165,7 +25950,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-9103GLF"
+		(property "MPN" "ERJ-2RKF8873X"
 			(at 274.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26178,7 +25963,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Panasonic"
 			(at 276.86 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -26217,7 +26002,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "910k"
+		(property "Val" "887k"
 			(at 252.73 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34477,7 +34262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistors0402:R_910k_0402")
+		(lib_id "antmicroResistors0402:R_887k_0402")
 		(at 254 92.71 90)
 		(mirror x)
 		(unit 1)
@@ -34500,7 +34285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_910k_0402"
+		(property "Value" "R_887k_0402"
 			(at 266.7 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -34526,7 +34311,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf"
 			(at 271.78 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -34550,7 +34335,7 @@
 				)
 			)
 		)
-		(property "MPN" "CR0402-FX-9103GLF"
+		(property "MPN" "ERJ-2RKF8873X"
 			(at 274.32 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -34563,7 +34348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "Panasonic"
 			(at 276.86 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -34602,7 +34387,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "910k"
+		(property "Val" "887k"
 			(at 252.73 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
