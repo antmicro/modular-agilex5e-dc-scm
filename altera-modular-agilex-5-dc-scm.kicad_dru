@@ -36,7 +36,7 @@
 (rule "100_Ohm_inner"
 	(layer inner)
 	(condition "(A.NetClass == '100Ohm-diff')")
-	(constraint track_width (opt 0.12mm))
+	(constraint track_width (opt 0.125mm))
 	(constraint diff_pair_gap  (opt 0.235mm))
 #	(constraint diff_pair_uncoupled (max 2mm))
 )
