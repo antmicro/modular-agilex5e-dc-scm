@@ -702,7 +702,7 @@
         "pcb_color": "rgb(204, 102, 0)",
         "priority": 3,
         "schematic_color": "rgb(204, 102, 0)",
-        "tuning_profile": "",
+        "tuning_profile": "100Ohm-diff",
         "via_diameter": 0.45,
         "via_drill": 0.1,
         "wire_width": 6
@@ -3720,6 +3720,48 @@
         "profile_name": "50Ohm-se",
         "target_impedance": 50.0,
         "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 7000000
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5758000,
+            "diff_pair_gap": 240000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 160000
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6959000,
+            "diff_pair_gap": 235000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 120000
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6959000,
+            "diff_pair_gap": 235000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 120000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5758000,
+            "diff_pair_gap": 240000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 160000
+          }
+        ],
+        "profile_name": "100Ohm-diff",
+        "target_impedance": 100.0,
+        "type": 1,
         "via_overrides": [],
         "via_prop_delay": 7000000
       }
