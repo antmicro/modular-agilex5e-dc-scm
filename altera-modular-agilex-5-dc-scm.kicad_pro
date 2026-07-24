@@ -79,23 +79,23 @@
       "drc_exclusions": [
         [
           "copper_edge_clearance|208380000|77700000|0d541a4b-2b4c-48f4-843d-97805de1ce75|78a9d9e9-3bca-4668-89a2-3e9a2bce035c",
-          ""
+          "Required by the footprint"
         ],
         [
           "copper_edge_clearance|208380000|94300000|27886011-2298-44ea-adfd-a15838972ffd|0c9a5cfc-0c46-4a93-9cb7-89072b3cafa6",
-          ""
+          "Required by the footprint"
         ],
         [
           "courtyards_overlap|107398536|47070000|2369d708-9137-489e-b37e-9c9e9b563ca3|8fc73879-696a-46cc-9683-909680cf4339",
-          "co-layout"
+          "Caused by colayout"
         ],
         [
           "courtyards_overlap|113065000|114855838|0f202891-c691-4054-8ae0-8788b5a94747|f0365bd7-45e2-430b-99a9-130def2ea6ee",
-          ""
+          "Non issue - validated mechanically"
         ],
         [
           "courtyards_overlap|126088536|47080000|7c16f74c-7e73-4368-a723-2d0c006fe107|8acc3cdd-76cb-48e6-8488-ea7a5873dfdd",
-          "co-layout"
+          "Caused by colayout"
         ],
         [
           "items_not_allowed|104155000|126225000|1f58af3c-703c-4b9d-941a-7bfffd7b2d8d|00000000-0000-0000-0000-000000000000",
@@ -108,54 +108,6 @@
         [
           "items_not_allowed|197050000|46120792|db289e79-a8b1-455d-a560-228b69d421e7|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "shorting_items|106650000|51580000|f5da8bbb-662a-439f-90ba-cf41e0612268|42a387e2-28fa-464b-97a9-4edf76b6af11",
-          "co-layout"
-        ],
-        [
-          "shorting_items|106650000|52850000|718b5f5c-9c29-40b9-9c25-5807ea985837|a77bb65a-d525-4ba5-b542-a638c148f334",
-          "co-layout"
-        ],
-        [
-          "shorting_items|106650000|54120000|0872ff85-cc61-4f7c-8398-e56d35708a48|f39b7977-68ac-4645-b0fe-86aca2afb789",
-          "co-layout"
-        ],
-        [
-          "shorting_items|116030000|51580000|e094abb3-dafd-464e-a87a-554e59ccfc0f|1798f293-8f64-4246-85e1-197ac7b27d94",
-          "co-layout"
-        ],
-        [
-          "shorting_items|116030000|52850000|96427feb-3b34-4357-9c41-68826bc8e44e|105e0c7d-45d6-4b1c-9b4f-d22c19e3a007",
-          "co-layout"
-        ],
-        [
-          "shorting_items|116030000|54120000|2f6a9759-7d6f-4de5-9e1f-5bb8f5f6ab2a|8cabb2bb-c922-41c2-8e14-4616031af1a3",
-          "co-layout"
-        ],
-        [
-          "shorting_items|125340000|51590000|c62d6c1b-bf89-4176-802d-b05df1130c19|3e22e483-98f8-48ac-ba69-b00fead45666",
-          "co-layout"
-        ],
-        [
-          "shorting_items|125340000|52860000|6e3b0dd2-8657-4a86-add5-a79469c7f731|00237b94-6b90-48b5-9b8e-fc12b4f8ee06",
-          "co-layout"
-        ],
-        [
-          "shorting_items|125340000|54130000|6feeedcc-96a8-4ab0-b40e-af8f8ddcc6b5|cd685daa-93d5-43aa-9616-b5da6b3eed0e",
-          "co-layout"
-        ],
-        [
-          "shorting_items|134720000|51590000|07e18728-b09c-4143-a5a3-e3b81fc442c0|7f3ae980-a4b6-4954-8716-41a3a2257089",
-          "co-layout"
-        ],
-        [
-          "shorting_items|134720000|52860000|9de8d01d-094c-4eae-adaa-ae4274af8c34|279734d4-8436-49da-a3ee-80bb5774378d",
-          "co-layout"
-        ],
-        [
-          "shorting_items|134720000|54130000|4681e091-9afc-4645-a088-3060ebe1d5cf|e9e7fcde-2bd9-409c-aab8-38384b4f8a64",
-          "co-layout"
         ],
         [
           "silk_edge_clearance|203749000|78190000|04880b00-50e0-40f7-b6ae-bffa5baa6e52|ad228d86-dd03-4429-8663-71d048fcfb07",
@@ -186,100 +138,52 @@
           ""
         ],
         [
-          "solder_mask_bridge|106650000|51580000|42a387e2-28fa-464b-97a9-4edf76b6af11|f5da8bbb-662a-439f-90ba-cf41e0612268",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|106650000|52850000|a77bb65a-d525-4ba5-b542-a638c148f334|718b5f5c-9c29-40b9-9c25-5807ea985837",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|106650000|54120000|f39b7977-68ac-4645-b0fe-86aca2afb789|0872ff85-cc61-4f7c-8398-e56d35708a48",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|116030000|51580000|1798f293-8f64-4246-85e1-197ac7b27d94|e094abb3-dafd-464e-a87a-554e59ccfc0f",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|116030000|52850000|105e0c7d-45d6-4b1c-9b4f-d22c19e3a007|96427feb-3b34-4357-9c41-68826bc8e44e",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|116030000|54120000|8cabb2bb-c922-41c2-8e14-4616031af1a3|2f6a9759-7d6f-4de5-9e1f-5bb8f5f6ab2a",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|125340000|51590000|3e22e483-98f8-48ac-ba69-b00fead45666|c62d6c1b-bf89-4176-802d-b05df1130c19",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|125340000|52860000|00237b94-6b90-48b5-9b8e-fc12b4f8ee06|6e3b0dd2-8657-4a86-add5-a79469c7f731",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|125340000|54130000|cd685daa-93d5-43aa-9616-b5da6b3eed0e|6feeedcc-96a8-4ab0-b40e-af8f8ddcc6b5",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|134720000|51590000|7f3ae980-a4b6-4954-8716-41a3a2257089|07e18728-b09c-4143-a5a3-e3b81fc442c0",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|134720000|52860000|279734d4-8436-49da-a3ee-80bb5774378d|9de8d01d-094c-4eae-adaa-ae4274af8c34",
-          "co-layout"
-        ],
-        [
-          "solder_mask_bridge|134720000|54130000|e9e7fcde-2bd9-409c-aab8-38384b4f8a64|4681e091-9afc-4645-a088-3060ebe1d5cf",
-          "co-layout"
-        ],
-        [
           "track_width|208153727|99988822|e71ac613-969d-41e8-908d-cbb035989e81|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208154990|108564233|cbee9d98-8165-49bd-b40a-530f9c72c221|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208159282|117141358|264d916e-f4d6-4594-b3d2-eb8b6e4ef50c|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208210000|100206331|178eb2b8-fd92-4982-8f03-f9cfc3859556|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208219601|117338757|57ba35eb-c108-4a7a-a7bf-38f014147f95|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208224601|108789451|4d896acb-fb01-4473-a5e0-baf3bd2cd0cb|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208264573|108985029|e253f8ca-f8f2-44f3-8990-7eef04d02885|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208285609|100443175|fd116258-0aac-4306-ad4b-7ec497744226|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208290742|117546978|8b6e380d-9e68-4f86-8824-885d05d815b7|00000000-0000-0000-0000-000000000000",
-          ""
+          "USB-C connector fanout"
         ],
         [
           "track_width|208433281|55288281|0bdcad52-c72e-49a8-b493-30d0c8430683|00000000-0000-0000-0000-000000000000",
-          ""
+          "DP connector fanout"
         ],
         [
           "track_width|208582500|55137500|f048c7b4-44e8-4fca-9091-6ac19a65b282|00000000-0000-0000-0000-000000000000",
-          ""
+          "DP connector fanout"
         ],
         [
           "track_width|208759547|54958892|9a37244e-30e4-4b45-87b1-a0528f93fac0|00000000-0000-0000-0000-000000000000",
-          ""
+          "DP connector fanout"
         ]
       ],
       "meta": {
@@ -486,24 +390,36 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|889000|406400|aa9a04ed-0425-4602-a922-fd6d01c56f33|ed11c57c-7528-45f0-a095-9df88e72f6d5|/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa|/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa|/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa",
-        ""
+        "lib_symbol_mismatch|2425700|1104900|319ce7df-3ff5-4615-aefb-3d9b8ddca2d7|00000000-0000-0000-0000-000000000000|||",
+        "Local modification for colayout"
+      ],
+      [
+        "lib_symbol_mismatch|2425700|1409700|60eb569d-f6b7-4d11-9ddc-0a9af5adcbb9|00000000-0000-0000-0000-000000000000|||",
+        "Local modification for colayout"
+      ],
+      [
+        "lib_symbol_mismatch|2425700|469900|4996c17e-9ef8-425c-bf6b-353f2b613a22|00000000-0000-0000-0000-000000000000|||",
+        "Local modification for colayout"
+      ],
+      [
+        "lib_symbol_mismatch|2425700|774700|5694ff6c-4749-4283-b15b-0dd710e828b8|00000000-0000-0000-0000-000000000000|||",
+        "Local modification for colayout"
       ],
       [
         "pin_to_pin|1727200|1625600|24b16133-9e3d-42a8-b282-8facdc931132|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
-        ""
+        "The TMUX1574 unused logic control pins should be tied to GND or VDD"
       ],
       [
         "pin_to_pin|1727200|1676400|aa684bc2-08d4-4a5d-8516-7d21a27dc021|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/af45e011-8332-484c-9b46-08bd6b2c8877|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
-        ""
+        "The TMUX1574 unused logic control pins should be tied to GND or VDD"
       ],
       [
         "pin_to_pin|901700|1397000|14d71aab-d01d-4b08-8321-7a23bfc6185f|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
-        ""
+        "The TMUX1574 unused logic control pins should be tied to GND or VDD"
       ],
       [
         "pin_to_pin|901700|1447800|438b24ad-3292-4cee-86d0-56283ca29b17|a00c4a46-03fe-4fc9-b441-003b456a5599|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195|/6bb9d978-a328-4b30-874b-55170a976185/724a50b6-0cc3-4337-8510-a63a9adaa031",
-        ""
+        "The TMUX1574 unused logic control pins should be tied to GND or VDD"
       ]
     ],
     "meta": {

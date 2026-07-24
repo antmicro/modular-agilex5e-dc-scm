@@ -4525,132 +4525,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicropower:+12V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicropower:+1V05"
 			(power global)
 			(pin_names
@@ -5749,12 +5623,6 @@
 		(uuid "208248c2-ba65-4af4-bb42-2abe667961d8")
 	)
 	(junction
-		(at 128.27 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2347243b-0757-4ec3-a442-08e68c44e09c")
-	)
-	(junction
 		(at 119.38 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5855,18 +5723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60536dd4-656f-456a-8e63-caaa53cddbdd")
-	)
-	(junction
-		(at 116.84 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61bc478a-52e6-4b7b-ab16-3aed2f17ff26")
-	)
-	(junction
-		(at 128.27 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "629b4fca-e076-4151-95d4-71f9cdc871d2")
 	)
 	(junction
 		(at 226.06 100.33)
@@ -6035,12 +5891,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd3b1c92-3c49-4cc0-b783-977ee2808b2d")
-	)
-	(junction
-		(at 128.27 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cde080ff-2650-431e-bab6-e39278a92586")
 	)
 	(junction
 		(at 254 40.64)
@@ -6490,23 +6340,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 116.84 40.64)
+			(xy 88.9 40.64) (xy 119.38 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ffb103e-6d01-41dc-93ae-933d53aaf119")
-	)
-	(wire
-		(pts
-			(xy 116.84 40.64) (xy 119.38 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20e78374-810f-4628-b0e3-0c7bafecf2e0")
 	)
 	(wire
 		(pts
@@ -7550,16 +7390,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 38.1) (xy 116.84 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86717b01-6f44-469e-8e3a-025769ec792e")
-	)
-	(wire
-		(pts
 			(xy 325.12 36.83) (xy 325.12 40.64)
 		)
 		(stroke
@@ -7790,16 +7620,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 97.79) (xy 128.27 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94b310b8-bf1a-4ccd-a79e-93cb61f14c1a")
-	)
-	(wire
-		(pts
 			(xy 322.58 214.63) (xy 331.47 214.63)
 		)
 		(stroke
@@ -7907,16 +7727,6 @@
 			(type default)
 		)
 		(uuid "a100a088-5358-49a3-a96f-e22e76f7a2ff")
-	)
-	(wire
-		(pts
-			(xy 128.27 151.13) (xy 128.27 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2efad1a-4905-4918-8605-0c91bf060d07")
 	)
 	(wire
 		(pts
@@ -8137,16 +7947,6 @@
 			(type default)
 		)
 		(uuid "ba8527a5-e71b-4abf-8c87-e6af73942e64")
-	)
-	(wire
-		(pts
-			(xy 128.27 212.09) (xy 128.27 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf510b0-b821-4913-9d42-62ffbb89ce03")
 	)
 	(wire
 		(pts
@@ -8970,6 +8770,16 @@
 		)
 		(uuid "820e81f2-abe9-43e1-b670-9edf01a59cff")
 	)
+	(label "DC_SCM_12V_AUX"
+		(at 128.27 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d499248-45a6-4295-9a91-8809f626c98f")
+	)
 	(label "3V3_FB"
 		(at 214.63 110.49 0)
 		(effects
@@ -8999,6 +8809,26 @@
 			(justify left bottom)
 		)
 		(uuid "99e85102-cc7a-43f3-b5a9-d23d4378fd03")
+	)
+	(label "DC_SCM_12V_AUX"
+		(at 120.65 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c2a7134-0613-4a58-ab6c-ef03856f4426")
+	)
+	(label "DC_SCM_12V_AUX"
+		(at 128.27 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0d2001a-40e8-4269-9f1a-ce909d85af05")
 	)
 	(label "+1V2_OUT"
 		(at 88.9 273.05 0)
@@ -9130,6 +8960,16 @@
 		)
 		(uuid "e0dd3387-f0da-4304-ada2-27d88e669a95")
 	)
+	(label "DC_SCM_12V_AUX"
+		(at 128.27 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e23484b8-e870-404b-aecd-db9d1dbd5972")
+	)
 	(label "+1V05_OUT"
 		(at 53.34 273.05 0)
 		(effects
@@ -9193,7 +9033,7 @@
 		)
 		(uuid "cef6bb5a-7688-4969-bac6-b97990a41a88")
 	)
-	(hierarchical_label "SOM_12V"
+	(hierarchical_label "DC_SCM_12V_AUX"
 		(shape input)
 		(at 88.9 40.64 180)
 		(effects
@@ -12880,84 +12720,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+12V")
-		(at 128.27 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22e9ab2a-fd8b-4e75-ba4c-606be6695ede")
-		(property "Reference" "#PWR077"
-			(at 128.27 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 128.27 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "aa9a04ed-0425-4602-a922-fd6d01c56f33")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
-					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -21799,84 +21561,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+12V")
-		(at 128.27 212.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8bfdc090-1d52-4642-a08f-0f663ed179a0")
-		(property "Reference" "#PWR089"
-			(at 128.27 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 128.27 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "188d9586-6db0-47cf-b444-7bca7a9155fe")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:PWR_FLAG")
 		(at 322.58 210.82 0)
 		(unit 1)
@@ -28678,84 +28362,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:+12V")
-		(at 116.84 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f089f562-a55f-4dfd-9928-e8dde9a40026")
-		(property "Reference" "#PWR052"
-			(at 116.84 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 116.84 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d39644db-6aa7-4c54-bccd-a2e5e2761e69")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroFixedInductors:L_2u2_4A_Bourns-SRP3212A")
 		(at 234.95 100.33 0)
 		(unit 1)
@@ -29216,84 +28822,6 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicropower:+12V")
-		(at 128.27 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9fd3a19-8c23-4363-a1b0-1ba0018c3ce8")
-		(property "Reference" "#PWR065"
-			(at 128.27 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 128.27 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "19d08523-8879-43f1-b550-c74ec199f073")
-		)
-		(instances
-			(project "altera-modular-agilex-5-dc-scm"
-				(path "/6bb9d978-a328-4b30-874b-55170a976185/ec2bc394-f073-4549-a45a-609fd3c852aa"
-					(reference "#PWR065")
 					(unit 1)
 				)
 			)
