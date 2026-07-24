@@ -101,7 +101,7 @@
 )
 
 (rule "BIOS._skew"
-	(condition "(A.NetName  == '*BIOS.*')")
+	(condition "(A.NetName  == '*BIOS.*') && (A.NetName  != '*CS*')")
 	(constraint length ( min 190ps)( opt 200ps) ( max 210ps))
 )
 
@@ -111,11 +111,11 @@
 )
 
 (rule "Net-(J1201_skew"
-	(condition "(A.NetName  == '*Net-(J1201*')")
+	(condition "(A.NetName  == '*Net-(J1201*') && (A.NetClass == '90Ohm-diff')")
 	(constraint length ( min 77ps)( opt 87ps) ( max 97ps))
 )
 
 (rule "Net-(J1202_skew"
-	(condition "(A.NetName  == '*Net-(J1202*')")
+	(condition "(A.NetName  == '*Net-(J1202*') && (A.NetClass == '90Ohm-diff')")
 	(constraint length ( min 77ps)( opt 87ps) ( max 97ps))
 )
