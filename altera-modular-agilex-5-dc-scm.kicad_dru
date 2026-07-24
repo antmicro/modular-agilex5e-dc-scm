@@ -69,3 +69,53 @@
 	(condition "(A.NetName  == '*ULPI0*')")
 	(constraint length ( min 150ps)( opt 200ps) ( max 250ps))
 )
+
+(rule "DC_SCM_ESPI_skew"
+	(condition "(A.NetName  == '*DC_SCM_ESPI*')")
+	(constraint length ( min 500ps)( opt 525ps) ( max 550ps))
+)
+
+(rule "QSPI_HPMCNTRL._skew"
+	(condition "(A.NetName  == '*QSPI_HPMCNTRL.*')")
+	(constraint length ( min 290ps)( opt 300ps) ( max 310ps))
+)
+
+(rule "QSPI_HPMCNTRL__skew"
+	(condition "(A.NetName  == '*QSPI_HPMCNTRL_*')")
+	(constraint length ( min 35ps)( opt 45ps) ( max 55ps))
+)
+
+(rule "uSD_skew"
+	(condition "(A.NetName  == '*uSD*')")
+	(constraint length ( min 440ps)( opt 450ps) ( max 460ps))
+)
+
+(rule "GbE.TX_skew"
+	(condition "(A.NetName  == '*GbE.TX*')")
+	(constraint length ( min 315ps)( opt 340ps) ( max 365ps))
+)
+
+(rule "GbE.RX_skew"
+	(condition "(A.NetName  == '*GbE.RX*')")
+	(constraint length ( min 400ps)( opt 425ps) ( max 450ps))
+)
+
+(rule "BIOS._skew"
+	(condition "(A.NetName  == '*BIOS.*')")
+	(constraint length ( min 190ps)( opt 200ps) ( max 210ps))
+)
+
+(rule "Net-(J1G-HVIO_6C_skew"
+	(condition "(A.NetName  == '*Net-(J1G-HVIO_6C*')")
+	(constraint length ( min 510ps)( opt 520ps) ( max 530ps))
+)
+
+(rule "Net-(J1201_skew"
+	(condition "(A.NetName  == '*Net-(J1201*')")
+	(constraint length ( min 77ps)( opt 87ps) ( max 97ps))
+)
+
+(rule "Net-(J1202_skew"
+	(condition "(A.NetName  == '*Net-(J1202*')")
+	(constraint length ( min 77ps)( opt 87ps) ( max 97ps))
+)
