@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains design files for a DC-SCM compliant Agilex 5 Modular DC-SCM Baseboard that supports [Critical Link MitySOM-A5E Mini](https://www.criticallink.com/product/mitysom-a5e-mini/) System on Module based on [Altera Agilex A5E](https://www.altera.com/products/fpga/agilex/5) SoC family. The DC-SCM follows the interface and mechanical outline described in the 2.1 revision of the [DC-SCM standard](https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view) specified by the Open Compute Project community.
+This repository contains design files for a DC-SCM compliant Agilex 5 Modular DC-SCM Carrier Board that supports the [Critical Link MitySOM-A5E Mini](https://www.criticallink.com/product/mitysom-a5e-mini/) System on Module based on the [Altera Agilex A5E](https://www.altera.com/products/fpga/agilex/5) SoC family. The DC-SCM follows the interface and mechanical outline described in the 2.1 revision of the [DC-SCM standard](https://drive.google.com/file/d/1-SdSQvSWy5pNN_kBiyztblxE4jdyUe9W/view) specified by the Open Compute Project community.
 
 The PCB design files were prepared in [KiCad](https://www.kicad.org/) 10.x
 
