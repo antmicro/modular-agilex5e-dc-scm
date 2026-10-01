@@ -1,5 +1,7 @@
 # Agilex 5 DC-SCM Carrier Board
 
+[![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Hardware%20Portal-332d37?style=flat-square)](https://openhardware.antmicro.com/boards/altera-modular-agilex-5-dc-scm/?tab=features)
+
 ![](./img/modular-agilex-5-dc-scm.png)
 
 ## Overview
