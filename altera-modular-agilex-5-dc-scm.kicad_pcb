@@ -1579767,7 +1579767,7 @@
 		(descr "Resistor SMD 0402")
 		(tags "resistor SMD 0402")
 		(property "Reference" "R361"
-			(at -1.122484 0.772697 0)
+			(at -1.275 0.575 0)
 			(layer "B.SilkS")
 			(uuid "61352925-d127-4add-a094-2920fbe9aba4")
 			(effects
@@ -2373535,6 +2373535,199 @@
 			)
 		)
 	)
+	(footprint "antmicro-footprints:TP_SMD_0.75mm"
+		(layer "B.Cu")
+		(uuid "de30b263-c353-46af-9693-9071c8974447")
+		(at 157.055 75.425 180)
+		(property "Reference" "TP110"
+			(at 0 0.6 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e52e054c-2426-4b35-b9d7-dc8469b682d9")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 0 -1.2 0)
+			(layer "B.Fab")
+			(uuid "e7b0e096-ed8c-4944-bdd6-e0bfe37e7378")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84d914f4-7994-473f-9983-321b8c7d25da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12123fb8-cce4-4c44-a84b-75eb29661ae0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4fce532e-fb9d-4ff6-b5b2-7a34177ce953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d5403fc4-bd9e-4286-b0b6-ad3b10d77965")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61a3b49b-7c73-4d60-b789-07db456b1ad3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3668e32-e889-41c0-b97c-9cb623892718")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/7cc444a1-5e93-455b-8cec-0f51c02bdc24/9b6dca03-b771-45e5-8c6e-4e623e5273f4/28e8b178-6bfe-4c60-bfbf-a828bd6481d1")
+		(sheetname "/Front panel USB/FTDI/")
+		(sheetfile "ftdi.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(stackup
+			(layer "F.Cu")
+			(layer "B.Cu")
+			(layer "User.1")
+			(layer "User.2")
+			(layer "User.3")
+			(layer "User.4")
+			(layer "User.5")
+			(layer "User.6")
+			(layer "User.7")
+			(layer "User.8")
+			(layer "User.9")
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0.475 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "d4210e98-a33b-4919-b2eb-e76df5fc514c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.4 -2.7 0)
+			(layer "B.Fab")
+			(uuid "c6faa395-e5f8-4e2b-a070-5aececb243be")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(fp_text user "Author: Antmicro"
+			(at -0.4 -3.901 0)
+			(layer "B.Fab")
+			(uuid "d63078fc-7ecd-4fc9-a6af-04247ce1cc5e")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -0.4 -5.101 0)
+			(layer "B.Fab")
+			(uuid "5401c31d-e233-4276-a672-66a39feefa8b")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 180)
+			(size 0.75 0.75)
+			(layers "B.Cu" "B.Mask")
+			(net "/Front panel USB/FTDI/JTAG_EN")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "d1bdf8c8-bca4-42ef-8b56-e0ab68edfd8d")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "de3687fd-26eb-43c8-83a4-7ffaf6efa4f2")
@@ -2495755,7 +2495948,7 @@
 		)
 	)
 	(gr_text "SCLK"
-		(at 153.755 77.775 0)
+		(at 153.755 77.35 0)
 		(layer "B.SilkS" knockout)
 		(uuid "0467e880-e35f-4ee0-97e1-4838d4d55ac3")
 		(effects
@@ -2495768,9 +2495961,22 @@
 		)
 	)
 	(gr_text "FTDI_EEPROM"
-		(at 154.055 76.35 0)
+		(at 153.855 75.95 0)
 		(layer "B.SilkS" knockout)
 		(uuid "cb8915f6-0311-43a8-9f9a-13fcd4feb5da")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JTAG_EN"
+		(at 157.955 74.725 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d080b25c-81ac-4d42-a4e5-47a94b87dc4f")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -2632070,12 +2632276,28 @@
 		(uuid "9a40786a-8bbc-4742-bd79-63b2a4a35620")
 	)
 	(segment
+		(start 156.38 76.7)
+		(end 157.055 76.025)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/Front panel USB/FTDI/JTAG_EN")
+		(uuid "9e51e131-ef59-4245-977d-3bf60afb3782")
+	)
+	(segment
 		(start 159.0855 79.4055)
 		(end 159.705 80.025)
 		(width 0.2)
 		(layer "B.Cu")
 		(net "/Front panel USB/FTDI/JTAG_EN")
 		(uuid "dc9c4e04-9315-47a3-b4ae-962450f5f54b")
+	)
+	(segment
+		(start 157.055 76.025)
+		(end 157.055 75.425)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/Front panel USB/FTDI/JTAG_EN")
+		(uuid "eeecf4cc-5e73-480b-adb9-2fc74a6f4528")
 	)
 	(segment
 		(start 156.38 76.7)
