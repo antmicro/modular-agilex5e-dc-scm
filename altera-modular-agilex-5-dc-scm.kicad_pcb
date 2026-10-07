@@ -1578829,6 +1578829,198 @@
 			)
 		)
 	)
+	(footprint "antmicro-footprints:TP_SMD_0.75mm"
+		(layer "B.Cu")
+		(uuid "40a5c430-0d7d-4185-bc67-98e5a62b7607")
+		(at 139.205 60.575 180)
+		(property "Reference" "TP111"
+			(at 0.5 -0.5 0)
+			(layer "B.SilkS")
+			(uuid "e5eec645-5020-4524-a979-1b237c5d4968")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 0 -1.2 0)
+			(layer "B.Fab")
+			(uuid "673bc21f-7c4c-4257-88e6-4084df8e26f8")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "647a7f8d-611b-4a77-a109-a17cd7cccc1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0d26e03-7e6d-4e15-b9cd-38913ef322e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ab07662-f683-47f1-93da-69e6003eb115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52d8840f-23e5-481c-9829-1bfb4c5468b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "030a3ccc-9206-4e6c-9cef-6ff93a7ee3a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1d821e66-45d5-472a-849b-7cf25a2d809b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195/dc2fdaaf-6419-4760-83f6-b6f3c10461d7")
+		(sheetname "/BIOS/")
+		(sheetfile "bios.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr exclude_from_bom)
+		(stackup
+			(layer "F.Cu")
+			(layer "B.Cu")
+			(layer "User.1")
+			(layer "User.2")
+			(layer "User.3")
+			(layer "User.4")
+			(layer "User.5")
+			(layer "User.6")
+			(layer "User.7")
+			(layer "User.8")
+			(layer "User.9")
+		)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0.475 0)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "7740e705-9526-428b-8b5c-eac194138b8e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.4 -2.7 0)
+			(layer "B.Fab")
+			(uuid "50eb5dd0-7e23-48f6-a920-0ed8a7979901")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(fp_text user "Author: Antmicro"
+			(at -0.4 -3.901 0)
+			(layer "B.Fab")
+			(uuid "4175bdcb-cb68-40b1-bb95-b5c82d8cecf9")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(fp_text user "License: Apache-2.0"
+			(at -0.4 -5.101 0)
+			(layer "B.Fab")
+			(uuid "08cf9dd1-ca13-41f5-b6ac-a6c36799a188")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 180)
+			(size 0.75 0.75)
+			(layers "B.Cu" "B.Mask")
+			(net "/BIOS/~{BIOS_RESET}")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "5300d321-8fd7-4e37-9838-bc0f13a258f2")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "antmicro-footprints:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "418210db-163b-4b91-9d69-ae3f0fd90c22")
@@ -2496487,6 +2496679,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "~{QSPI_RST}"
+		(at 139.955 59.825 0)
+		(layer "B.SilkS" knockout)
+		(uuid "774cee50-4718-48c7-b62d-094200525d35")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "SCLK"
 		(at 149.955 76.975 0)
 		(layer "B.SilkS" knockout)
@@ -2609289,6 +2609494,22 @@
 		(layers "F.Cu" "B.Cu")
 		(net "/BIOS/~{BIOS_RESET}")
 		(uuid "944446c9-3524-4cf8-b7f1-73aa4e58bb87")
+	)
+	(segment
+		(start 139.205 60.575)
+		(end 137.71 62.07)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/BIOS/~{BIOS_RESET}")
+		(uuid "9386b737-b511-4a9e-9660-5468092bc23b")
+	)
+	(segment
+		(start 137.71 62.07)
+		(end 134.66 62.07)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "/BIOS/~{BIOS_RESET}")
+		(uuid "c179c1cd-6ffc-4360-a36e-67d590390991")
 	)
 	(segment
 		(start 129.25 62.07)

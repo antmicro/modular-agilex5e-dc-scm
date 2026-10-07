@@ -4519,6 +4519,12 @@
 		(uuid "b995493c-77ef-41b8-a78f-fde3a107231e")
 	)
 	(junction
+		(at 116.84 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9891f83-0736-4cfd-8927-1ed495e3577c")
+	)
+	(junction
 		(at 228.6 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4928,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 177.8) (xy 165.1 177.8)
+			(xy 66.04 177.8) (xy 116.84 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5245,6 +5251,16 @@
 			(type default)
 		)
 		(uuid "2c74bd2c-29ac-46c5-a2fb-b71e72d51712")
+	)
+	(wire
+		(pts
+			(xy 116.84 177.8) (xy 165.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eac8489-94d9-4fc6-8a37-0d9ced0dd777")
 	)
 	(wire
 		(pts
@@ -6645,6 +6661,16 @@
 			(type default)
 		)
 		(uuid "e4af6d83-137f-40e2-9039-5b282c06793c")
+	)
+	(wire
+		(pts
+			(xy 116.84 177.8) (xy 116.84 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ba2550-a5ca-4de7-83d5-3c240dbecab9")
 	)
 	(wire
 		(pts
@@ -16518,6 +16544,144 @@
 			(project "altera-modular-agilex-5-dc-scm"
 				(path "/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195"
 					(reference "R149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_0.75mm_SMD")
+		(at 116.84 179.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc2fdaaf-6419-4760-83f6-b6f3c10461d7")
+		(property "Reference" "TP111"
+			(at 115.57 182.372 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_0.75mm_SMD"
+			(at 113.03 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_0.75mm"
+			(at 110.49 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT test point"
+			(at 102.87 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 105.41 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 189.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 107.95 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 105.41 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "e54b2ce7-c691-4197-a9d8-3e4056f5e680")
+		)
+		(instances
+			(project "altera-modular-agilex-5-dc-scm"
+				(path "/6bb9d978-a328-4b30-874b-55170a976185/4ecdc7ad-7ebd-4c98-ab1a-1da8128f1195"
+					(reference "TP111")
 					(unit 1)
 				)
 			)
