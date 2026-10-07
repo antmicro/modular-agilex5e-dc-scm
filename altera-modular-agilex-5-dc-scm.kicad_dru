@@ -77,7 +77,7 @@
 
 (rule "QSPI_HPMCNTRL._skew"
 	(condition "(A.NetName  == '*QSPI_HPMCNTRL.*')")
-	(constraint length ( min 290ps)( opt 300ps) ( max 310ps))
+	(constraint length ( min 280ps)( opt 300ps) ( max 320ps))
 )
 
 (rule "QSPI_HPMCNTRL__skew"
@@ -118,4 +118,9 @@
 (rule "Net-(J1202_skew"
 	(condition "(A.NetName  == '*Net-(J1202*') && (A.NetClass == '90Ohm-diff')")
 	(constraint length ( min 77ps)( opt 87ps) ( max 97ps))
+)
+
+(rule "Allow Testpoints in Keepout"
+    (constraint disallow footprint)
+    (condition "(A.intersectsArea('B.Cu Case keepout') || A.intersectsArea('F.Cu/B.Cu footprint keepout')) && !(A.Type == 'footprint' && A.Reference == 'TP*' || A.Reference == 'FD*')")
 )
