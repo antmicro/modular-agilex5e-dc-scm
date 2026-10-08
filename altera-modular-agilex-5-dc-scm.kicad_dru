@@ -86,7 +86,7 @@
 )
 
 (rule "uSD_skew"
-	(condition "(A.NetName  == '*uSD*')")
+	(condition "(A.NetName  == '*uSD*' && A.NetName != '*CD*')")
 	(constraint length ( min 440ps)( opt 450ps) ( max 460ps))
 )
 
